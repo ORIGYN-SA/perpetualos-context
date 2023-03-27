@@ -1,11 +1,17 @@
 {
   "name": "@origyn/perpetualos-context",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Parses ORIGYN PerpetualOS URLs which access resources in an Internet Computer canister implementing the ORIGYN NFT Standard.",
-  "keywords": [],
+  "keywords": [
+    "parser",
+    "origyn",
+    "perpetualos",
+    "context"
+  ],
   "author": "ORIGYN Foundation",
   "license": "Apache-2.0",
-  "main": "index.js",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
     "build": "npm run clean && tsc",
     "clean": "rm -rf ./dist",
