@@ -44,6 +44,50 @@
     }
   },
   {
+    "url": "http://localhost:8080/-/brain-matters/collection/-/info",
+    "expectedResult": {
+      "fullUrl": "http://localhost:8080/-/brain-matters/collection/-/info",
+      "canisterUrl": "http://localhost:8080/-/brain-matters",
+      "canisterId": "fghij-biaaa-aaaal-qbhwa-cai",
+      "collectionId": "brain-matters",
+      "canisterRelativeUrl": "/collection/-/info",
+      "canisterRelativePath": "/collection/-/info",
+      "queryStringParams": [],
+      "fragment": "",
+      "isLocal": true,
+      "isDirect": false,
+      "isRaw": true,
+      "resourceLevel": 2,
+      "resourceLevelText": "Token",
+      "resourceType": 10,
+      "resourceTypeText": "LibraryAsset",
+      "tokenId": "info",
+      "libraryId": "info"
+    }
+  },
+  {
+    "url": "http://localhost:8080/-/brain-matters/-/some-token-id/info",
+    "expectedResult": {
+      "fullUrl": "http://localhost:8080/-/brain-matters/-/some-token-id/info",
+      "canisterUrl": "http://localhost:8080/-/brain-matters",
+      "canisterId": "fghij-biaaa-aaaal-qbhwa-cai",
+      "collectionId": "brain-matters",
+      "canisterRelativeUrl": "/-/some-token-id/info",
+      "canisterRelativePath": "/-/some-token-id/info",
+      "queryStringParams": [],
+      "fragment": "",
+      "isLocal": true,
+      "isDirect": false,
+      "isRaw": true,
+      "resourceLevel": 2,
+      "resourceLevelText": "Token",
+      "resourceType": 2,
+      "resourceTypeText": "Info",
+      "tokenId": "some-token-id",
+      "libraryId": ""
+    }
+  },
+  {
     "url": "https://abcde-biaaa-aaaal-qbhwa-cai.raw.ic0.app/collection/info",
     "expectedResult": {
       "fullUrl": "https://abcde-biaaa-aaaal-qbhwa-cai.raw.ic0.app/collection/info",
@@ -519,6 +563,50 @@
       "isLocal": true,
       "isDirect": true,
       "isRaw": false,
+      "resourceLevel": 2,
+      "resourceLevelText": "Token",
+      "resourceType": 3,
+      "resourceTypeText": "LedgerInfo",
+      "tokenId": "some-token-id",
+      "libraryId": ""
+    }
+  },
+  {
+    "url": "http://localhost:8080/-/brain-matters/collection/-/ledger_info",
+    "expectedResult": {
+      "fullUrl": "http://localhost:8080/-/brain-matters/collection/-/ledger_info",
+      "canisterUrl": "http://localhost:8080/-/brain-matters",
+      "canisterId": "fghij-biaaa-aaaal-qbhwa-cai",
+      "collectionId": "brain-matters",
+      "canisterRelativeUrl": "/collection/-/ledger_info",
+      "canisterRelativePath": "/collection/-/ledger_info",
+      "queryStringParams": [],
+      "fragment": "",
+      "isLocal": true,
+      "isDirect": false,
+      "isRaw": true,
+      "resourceLevel": 2,
+      "resourceLevelText": "Token",
+      "resourceType": 10,
+      "resourceTypeText": "LibraryAsset",
+      "tokenId": "ledger_info",
+      "libraryId": "ledger_info"
+    }
+  },
+  {
+    "url": "http://localhost:8080/-/brain-matters/-/some-token-id/ledger_info",
+    "expectedResult": {
+      "fullUrl": "http://localhost:8080/-/brain-matters/-/some-token-id/ledger_info",
+      "canisterUrl": "http://localhost:8080/-/brain-matters",
+      "canisterId": "fghij-biaaa-aaaal-qbhwa-cai",
+      "collectionId": "brain-matters",
+      "canisterRelativeUrl": "/-/some-token-id/ledger_info",
+      "canisterRelativePath": "/-/some-token-id/ledger_info",
+      "queryStringParams": [],
+      "fragment": "",
+      "isLocal": true,
+      "isDirect": false,
+      "isRaw": true,
       "resourceLevel": 2,
       "resourceLevelText": "Token",
       "resourceType": 3,
@@ -1012,6 +1100,50 @@
     }
   },
   {
+    "url": "http://localhost:8080/-/brain-matters/collection/-/translate",
+    "expectedResult": {
+      "fullUrl": "http://localhost:8080/-/brain-matters/collection/-/translate",
+      "canisterUrl": "http://localhost:8080/-/brain-matters",
+      "canisterId": "fghij-biaaa-aaaal-qbhwa-cai",
+      "collectionId": "brain-matters",
+      "canisterRelativeUrl": "/collection/-/translate",
+      "canisterRelativePath": "/collection/-/translate",
+      "queryStringParams": [],
+      "fragment": "",
+      "isLocal": true,
+      "isDirect": false,
+      "isRaw": true,
+      "resourceLevel": 2,
+      "resourceLevelText": "Token",
+      "resourceType": 10,
+      "resourceTypeText": "LibraryAsset",
+      "tokenId": "translate",
+      "libraryId": "translate"
+    }
+  },
+  {
+    "url": "http://localhost:8080/-/brain-matters/-/some-token-id/translate",
+    "expectedResult": {
+      "fullUrl": "http://localhost:8080/-/brain-matters/-/some-token-id/translate",
+      "canisterUrl": "http://localhost:8080/-/brain-matters",
+      "canisterId": "fghij-biaaa-aaaal-qbhwa-cai",
+      "collectionId": "brain-matters",
+      "canisterRelativeUrl": "/-/some-token-id/translate",
+      "canisterRelativePath": "/-/some-token-id/translate",
+      "queryStringParams": [],
+      "fragment": "",
+      "isLocal": true,
+      "isDirect": false,
+      "isRaw": true,
+      "resourceLevel": 2,
+      "resourceLevelText": "Token",
+      "resourceType": 4,
+      "resourceTypeText": "Translate",
+      "tokenId": "some-token-id",
+      "libraryId": ""
+    }
+  },
+  {
     "url": "https://abcde-biaaa-aaaal-qbhwa-cai.raw.ic0.app/collection/translate",
     "expectedResult": {
       "fullUrl": "https://abcde-biaaa-aaaal-qbhwa-cai.raw.ic0.app/collection/translate",
@@ -1487,6 +1619,50 @@
       "isLocal": true,
       "isDirect": true,
       "isRaw": false,
+      "resourceLevel": 2,
+      "resourceLevelText": "Token",
+      "resourceType": 5,
+      "resourceTypeText": "Library",
+      "tokenId": "some-token-id",
+      "libraryId": ""
+    }
+  },
+  {
+    "url": "http://localhost:8080/-/brain-matters/collection/-/library",
+    "expectedResult": {
+      "fullUrl": "http://localhost:8080/-/brain-matters/collection/-/library",
+      "canisterUrl": "http://localhost:8080/-/brain-matters",
+      "canisterId": "fghij-biaaa-aaaal-qbhwa-cai",
+      "collectionId": "brain-matters",
+      "canisterRelativeUrl": "/collection/-/library",
+      "canisterRelativePath": "/collection/-/library",
+      "queryStringParams": [],
+      "fragment": "",
+      "isLocal": true,
+      "isDirect": false,
+      "isRaw": true,
+      "resourceLevel": 2,
+      "resourceLevelText": "Token",
+      "resourceType": 10,
+      "resourceTypeText": "LibraryAsset",
+      "tokenId": "library",
+      "libraryId": "library"
+    }
+  },
+  {
+    "url": "http://localhost:8080/-/brain-matters/-/some-token-id/library",
+    "expectedResult": {
+      "fullUrl": "http://localhost:8080/-/brain-matters/-/some-token-id/library",
+      "canisterUrl": "http://localhost:8080/-/brain-matters",
+      "canisterId": "fghij-biaaa-aaaal-qbhwa-cai",
+      "collectionId": "brain-matters",
+      "canisterRelativeUrl": "/-/some-token-id/library",
+      "canisterRelativePath": "/-/some-token-id/library",
+      "queryStringParams": [],
+      "fragment": "",
+      "isLocal": true,
+      "isDirect": false,
+      "isRaw": true,
       "resourceLevel": 2,
       "resourceLevelText": "Token",
       "resourceType": 5,
@@ -1980,6 +2156,50 @@
     }
   },
   {
+    "url": "http://localhost:8080/-/brain-matters/collection/-/primary",
+    "expectedResult": {
+      "fullUrl": "http://localhost:8080/-/brain-matters/collection/-/primary",
+      "canisterUrl": "http://localhost:8080/-/brain-matters",
+      "canisterId": "fghij-biaaa-aaaal-qbhwa-cai",
+      "collectionId": "brain-matters",
+      "canisterRelativeUrl": "/collection/-/primary",
+      "canisterRelativePath": "/collection/-/primary",
+      "queryStringParams": [],
+      "fragment": "",
+      "isLocal": true,
+      "isDirect": false,
+      "isRaw": true,
+      "resourceLevel": 2,
+      "resourceLevelText": "Token",
+      "resourceType": 10,
+      "resourceTypeText": "LibraryAsset",
+      "tokenId": "primary",
+      "libraryId": "primary"
+    }
+  },
+  {
+    "url": "http://localhost:8080/-/brain-matters/-/some-token-id/primary",
+    "expectedResult": {
+      "fullUrl": "http://localhost:8080/-/brain-matters/-/some-token-id/primary",
+      "canisterUrl": "http://localhost:8080/-/brain-matters",
+      "canisterId": "fghij-biaaa-aaaal-qbhwa-cai",
+      "collectionId": "brain-matters",
+      "canisterRelativeUrl": "/-/some-token-id/primary",
+      "canisterRelativePath": "/-/some-token-id/primary",
+      "queryStringParams": [],
+      "fragment": "",
+      "isLocal": true,
+      "isDirect": false,
+      "isRaw": true,
+      "resourceLevel": 2,
+      "resourceLevelText": "Token",
+      "resourceType": 6,
+      "resourceTypeText": "PrimaryAsset",
+      "tokenId": "some-token-id",
+      "libraryId": ""
+    }
+  },
+  {
     "url": "https://abcde-biaaa-aaaal-qbhwa-cai.raw.ic0.app/collection/primary",
     "expectedResult": {
       "fullUrl": "https://abcde-biaaa-aaaal-qbhwa-cai.raw.ic0.app/collection/primary",
@@ -2455,6 +2675,50 @@
       "isLocal": true,
       "isDirect": true,
       "isRaw": false,
+      "resourceLevel": 2,
+      "resourceLevelText": "Token",
+      "resourceType": 7,
+      "resourceTypeText": "PreviewAsset",
+      "tokenId": "some-token-id",
+      "libraryId": ""
+    }
+  },
+  {
+    "url": "http://localhost:8080/-/brain-matters/collection/-/preview",
+    "expectedResult": {
+      "fullUrl": "http://localhost:8080/-/brain-matters/collection/-/preview",
+      "canisterUrl": "http://localhost:8080/-/brain-matters",
+      "canisterId": "fghij-biaaa-aaaal-qbhwa-cai",
+      "collectionId": "brain-matters",
+      "canisterRelativeUrl": "/collection/-/preview",
+      "canisterRelativePath": "/collection/-/preview",
+      "queryStringParams": [],
+      "fragment": "",
+      "isLocal": true,
+      "isDirect": false,
+      "isRaw": true,
+      "resourceLevel": 2,
+      "resourceLevelText": "Token",
+      "resourceType": 10,
+      "resourceTypeText": "LibraryAsset",
+      "tokenId": "preview",
+      "libraryId": "preview"
+    }
+  },
+  {
+    "url": "http://localhost:8080/-/brain-matters/-/some-token-id/preview",
+    "expectedResult": {
+      "fullUrl": "http://localhost:8080/-/brain-matters/-/some-token-id/preview",
+      "canisterUrl": "http://localhost:8080/-/brain-matters",
+      "canisterId": "fghij-biaaa-aaaal-qbhwa-cai",
+      "collectionId": "brain-matters",
+      "canisterRelativeUrl": "/-/some-token-id/preview",
+      "canisterRelativePath": "/-/some-token-id/preview",
+      "queryStringParams": [],
+      "fragment": "",
+      "isLocal": true,
+      "isDirect": false,
+      "isRaw": true,
       "resourceLevel": 2,
       "resourceLevelText": "Token",
       "resourceType": 7,
@@ -2948,6 +3212,50 @@
     }
   },
   {
+    "url": "http://localhost:8080/-/brain-matters/collection/-/hidden",
+    "expectedResult": {
+      "fullUrl": "http://localhost:8080/-/brain-matters/collection/-/hidden",
+      "canisterUrl": "http://localhost:8080/-/brain-matters",
+      "canisterId": "fghij-biaaa-aaaal-qbhwa-cai",
+      "collectionId": "brain-matters",
+      "canisterRelativeUrl": "/collection/-/hidden",
+      "canisterRelativePath": "/collection/-/hidden",
+      "queryStringParams": [],
+      "fragment": "",
+      "isLocal": true,
+      "isDirect": false,
+      "isRaw": true,
+      "resourceLevel": 2,
+      "resourceLevelText": "Token",
+      "resourceType": 10,
+      "resourceTypeText": "LibraryAsset",
+      "tokenId": "hidden",
+      "libraryId": "hidden"
+    }
+  },
+  {
+    "url": "http://localhost:8080/-/brain-matters/-/some-token-id/hidden",
+    "expectedResult": {
+      "fullUrl": "http://localhost:8080/-/brain-matters/-/some-token-id/hidden",
+      "canisterUrl": "http://localhost:8080/-/brain-matters",
+      "canisterId": "fghij-biaaa-aaaal-qbhwa-cai",
+      "collectionId": "brain-matters",
+      "canisterRelativeUrl": "/-/some-token-id/hidden",
+      "canisterRelativePath": "/-/some-token-id/hidden",
+      "queryStringParams": [],
+      "fragment": "",
+      "isLocal": true,
+      "isDirect": false,
+      "isRaw": true,
+      "resourceLevel": 2,
+      "resourceLevelText": "Token",
+      "resourceType": 8,
+      "resourceTypeText": "HiddenAsset",
+      "tokenId": "some-token-id",
+      "libraryId": ""
+    }
+  },
+  {
     "url": "https://abcde-biaaa-aaaal-qbhwa-cai.raw.ic0.app/collection/hidden",
     "expectedResult": {
       "fullUrl": "https://abcde-biaaa-aaaal-qbhwa-cai.raw.ic0.app/collection/hidden",
@@ -3423,6 +3731,50 @@
       "isLocal": true,
       "isDirect": true,
       "isRaw": false,
+      "resourceLevel": 2,
+      "resourceLevelText": "Token",
+      "resourceType": 9,
+      "resourceTypeText": "ExperienceAsset",
+      "tokenId": "some-token-id",
+      "libraryId": ""
+    }
+  },
+  {
+    "url": "http://localhost:8080/-/brain-matters/collection/-/ex",
+    "expectedResult": {
+      "fullUrl": "http://localhost:8080/-/brain-matters/collection/-/ex",
+      "canisterUrl": "http://localhost:8080/-/brain-matters",
+      "canisterId": "fghij-biaaa-aaaal-qbhwa-cai",
+      "collectionId": "brain-matters",
+      "canisterRelativeUrl": "/collection/-/ex",
+      "canisterRelativePath": "/collection/-/ex",
+      "queryStringParams": [],
+      "fragment": "",
+      "isLocal": true,
+      "isDirect": false,
+      "isRaw": true,
+      "resourceLevel": 2,
+      "resourceLevelText": "Token",
+      "resourceType": 10,
+      "resourceTypeText": "LibraryAsset",
+      "tokenId": "ex",
+      "libraryId": "ex"
+    }
+  },
+  {
+    "url": "http://localhost:8080/-/brain-matters/-/some-token-id/ex",
+    "expectedResult": {
+      "fullUrl": "http://localhost:8080/-/brain-matters/-/some-token-id/ex",
+      "canisterUrl": "http://localhost:8080/-/brain-matters",
+      "canisterId": "fghij-biaaa-aaaal-qbhwa-cai",
+      "collectionId": "brain-matters",
+      "canisterRelativeUrl": "/-/some-token-id/ex",
+      "canisterRelativePath": "/-/some-token-id/ex",
+      "queryStringParams": [],
+      "fragment": "",
+      "isLocal": true,
+      "isDirect": false,
+      "isRaw": true,
       "resourceLevel": 2,
       "resourceLevelText": "Token",
       "resourceType": 9,
@@ -3916,6 +4268,50 @@
     }
   },
   {
+    "url": "http://localhost:8080/-/brain-matters/collection/-/-/file-name.png",
+    "expectedResult": {
+      "fullUrl": "http://localhost:8080/-/brain-matters/collection/-/-/file-name.png",
+      "canisterUrl": "http://localhost:8080/-/brain-matters",
+      "canisterId": "fghij-biaaa-aaaal-qbhwa-cai",
+      "collectionId": "brain-matters",
+      "canisterRelativeUrl": "/collection/-/-/file-name.png",
+      "canisterRelativePath": "/collection/-/-/file-name.png",
+      "queryStringParams": [],
+      "fragment": "",
+      "isLocal": true,
+      "isDirect": false,
+      "isRaw": true,
+      "resourceLevel": 2,
+      "resourceLevelText": "Token",
+      "resourceType": 0,
+      "resourceTypeText": "Unknown",
+      "tokenId": "-",
+      "libraryId": "-"
+    }
+  },
+  {
+    "url": "http://localhost:8080/-/brain-matters/-/some-token-id/-/file-name.png",
+    "expectedResult": {
+      "fullUrl": "http://localhost:8080/-/brain-matters/-/some-token-id/-/file-name.png",
+      "canisterUrl": "http://localhost:8080/-/brain-matters",
+      "canisterId": "fghij-biaaa-aaaal-qbhwa-cai",
+      "collectionId": "brain-matters",
+      "canisterRelativeUrl": "/-/some-token-id/-/file-name.png",
+      "canisterRelativePath": "/-/some-token-id/-/file-name.png",
+      "queryStringParams": [],
+      "fragment": "",
+      "isLocal": true,
+      "isDirect": false,
+      "isRaw": true,
+      "resourceLevel": 2,
+      "resourceLevelText": "Token",
+      "resourceType": 10,
+      "resourceTypeText": "LibraryAsset",
+      "tokenId": "some-token-id",
+      "libraryId": "file-name.png"
+    }
+  },
+  {
     "url": "https://abcde-biaaa-aaaal-qbhwa-cai.raw.ic0.app/collection/-/file-name.png",
     "expectedResult": {
       "fullUrl": "https://abcde-biaaa-aaaal-qbhwa-cai.raw.ic0.app/collection/-/file-name.png",
@@ -4391,6 +4787,50 @@
       "isLocal": true,
       "isDirect": true,
       "isRaw": false,
+      "resourceLevel": 2,
+      "resourceLevelText": "Token",
+      "resourceType": 2,
+      "resourceTypeText": "Info",
+      "tokenId": "some-token-id",
+      "libraryId": ""
+    }
+  },
+  {
+    "url": "http://localhost:8080/-/brain-matters/collection/-/info#/some-fragment",
+    "expectedResult": {
+      "fullUrl": "http://localhost:8080/-/brain-matters/collection/-/info#/some-fragment",
+      "canisterUrl": "http://localhost:8080/-/brain-matters",
+      "canisterId": "fghij-biaaa-aaaal-qbhwa-cai",
+      "collectionId": "brain-matters",
+      "canisterRelativeUrl": "/collection/-/info#/some-fragment",
+      "canisterRelativePath": "/collection/-/info#/some-fragment",
+      "queryStringParams": [],
+      "fragment": "/some-fragment",
+      "isLocal": true,
+      "isDirect": false,
+      "isRaw": true,
+      "resourceLevel": 2,
+      "resourceLevelText": "Token",
+      "resourceType": 10,
+      "resourceTypeText": "LibraryAsset",
+      "tokenId": "info",
+      "libraryId": "info"
+    }
+  },
+  {
+    "url": "http://localhost:8080/-/brain-matters/-/some-token-id/info#/some-fragment",
+    "expectedResult": {
+      "fullUrl": "http://localhost:8080/-/brain-matters/-/some-token-id/info#/some-fragment",
+      "canisterUrl": "http://localhost:8080/-/brain-matters",
+      "canisterId": "fghij-biaaa-aaaal-qbhwa-cai",
+      "collectionId": "brain-matters",
+      "canisterRelativeUrl": "/-/some-token-id/info#/some-fragment",
+      "canisterRelativePath": "/-/some-token-id/info#/some-fragment",
+      "queryStringParams": [],
+      "fragment": "/some-fragment",
+      "isLocal": true,
+      "isDirect": false,
+      "isRaw": true,
       "resourceLevel": 2,
       "resourceLevelText": "Token",
       "resourceType": 2,
@@ -4884,6 +5324,50 @@
     }
   },
   {
+    "url": "http://localhost:8080/-/brain-matters/collection/-/ledger_info#/some-fragment",
+    "expectedResult": {
+      "fullUrl": "http://localhost:8080/-/brain-matters/collection/-/ledger_info#/some-fragment",
+      "canisterUrl": "http://localhost:8080/-/brain-matters",
+      "canisterId": "fghij-biaaa-aaaal-qbhwa-cai",
+      "collectionId": "brain-matters",
+      "canisterRelativeUrl": "/collection/-/ledger_info#/some-fragment",
+      "canisterRelativePath": "/collection/-/ledger_info#/some-fragment",
+      "queryStringParams": [],
+      "fragment": "/some-fragment",
+      "isLocal": true,
+      "isDirect": false,
+      "isRaw": true,
+      "resourceLevel": 2,
+      "resourceLevelText": "Token",
+      "resourceType": 10,
+      "resourceTypeText": "LibraryAsset",
+      "tokenId": "ledger_info",
+      "libraryId": "ledger_info"
+    }
+  },
+  {
+    "url": "http://localhost:8080/-/brain-matters/-/some-token-id/ledger_info#/some-fragment",
+    "expectedResult": {
+      "fullUrl": "http://localhost:8080/-/brain-matters/-/some-token-id/ledger_info#/some-fragment",
+      "canisterUrl": "http://localhost:8080/-/brain-matters",
+      "canisterId": "fghij-biaaa-aaaal-qbhwa-cai",
+      "collectionId": "brain-matters",
+      "canisterRelativeUrl": "/-/some-token-id/ledger_info#/some-fragment",
+      "canisterRelativePath": "/-/some-token-id/ledger_info#/some-fragment",
+      "queryStringParams": [],
+      "fragment": "/some-fragment",
+      "isLocal": true,
+      "isDirect": false,
+      "isRaw": true,
+      "resourceLevel": 2,
+      "resourceLevelText": "Token",
+      "resourceType": 3,
+      "resourceTypeText": "LedgerInfo",
+      "tokenId": "some-token-id",
+      "libraryId": ""
+    }
+  },
+  {
     "url": "https://abcde-biaaa-aaaal-qbhwa-cai.raw.ic0.app/collection/ledger_info#/some-fragment",
     "expectedResult": {
       "fullUrl": "https://abcde-biaaa-aaaal-qbhwa-cai.raw.ic0.app/collection/ledger_info#/some-fragment",
@@ -5359,6 +5843,50 @@
       "isLocal": true,
       "isDirect": true,
       "isRaw": false,
+      "resourceLevel": 2,
+      "resourceLevelText": "Token",
+      "resourceType": 4,
+      "resourceTypeText": "Translate",
+      "tokenId": "some-token-id",
+      "libraryId": ""
+    }
+  },
+  {
+    "url": "http://localhost:8080/-/brain-matters/collection/-/translate#/some-fragment",
+    "expectedResult": {
+      "fullUrl": "http://localhost:8080/-/brain-matters/collection/-/translate#/some-fragment",
+      "canisterUrl": "http://localhost:8080/-/brain-matters",
+      "canisterId": "fghij-biaaa-aaaal-qbhwa-cai",
+      "collectionId": "brain-matters",
+      "canisterRelativeUrl": "/collection/-/translate#/some-fragment",
+      "canisterRelativePath": "/collection/-/translate#/some-fragment",
+      "queryStringParams": [],
+      "fragment": "/some-fragment",
+      "isLocal": true,
+      "isDirect": false,
+      "isRaw": true,
+      "resourceLevel": 2,
+      "resourceLevelText": "Token",
+      "resourceType": 10,
+      "resourceTypeText": "LibraryAsset",
+      "tokenId": "translate",
+      "libraryId": "translate"
+    }
+  },
+  {
+    "url": "http://localhost:8080/-/brain-matters/-/some-token-id/translate#/some-fragment",
+    "expectedResult": {
+      "fullUrl": "http://localhost:8080/-/brain-matters/-/some-token-id/translate#/some-fragment",
+      "canisterUrl": "http://localhost:8080/-/brain-matters",
+      "canisterId": "fghij-biaaa-aaaal-qbhwa-cai",
+      "collectionId": "brain-matters",
+      "canisterRelativeUrl": "/-/some-token-id/translate#/some-fragment",
+      "canisterRelativePath": "/-/some-token-id/translate#/some-fragment",
+      "queryStringParams": [],
+      "fragment": "/some-fragment",
+      "isLocal": true,
+      "isDirect": false,
+      "isRaw": true,
       "resourceLevel": 2,
       "resourceLevelText": "Token",
       "resourceType": 4,
@@ -5852,6 +6380,50 @@
     }
   },
   {
+    "url": "http://localhost:8080/-/brain-matters/collection/-/library#/some-fragment",
+    "expectedResult": {
+      "fullUrl": "http://localhost:8080/-/brain-matters/collection/-/library#/some-fragment",
+      "canisterUrl": "http://localhost:8080/-/brain-matters",
+      "canisterId": "fghij-biaaa-aaaal-qbhwa-cai",
+      "collectionId": "brain-matters",
+      "canisterRelativeUrl": "/collection/-/library#/some-fragment",
+      "canisterRelativePath": "/collection/-/library#/some-fragment",
+      "queryStringParams": [],
+      "fragment": "/some-fragment",
+      "isLocal": true,
+      "isDirect": false,
+      "isRaw": true,
+      "resourceLevel": 2,
+      "resourceLevelText": "Token",
+      "resourceType": 10,
+      "resourceTypeText": "LibraryAsset",
+      "tokenId": "library",
+      "libraryId": "library"
+    }
+  },
+  {
+    "url": "http://localhost:8080/-/brain-matters/-/some-token-id/library#/some-fragment",
+    "expectedResult": {
+      "fullUrl": "http://localhost:8080/-/brain-matters/-/some-token-id/library#/some-fragment",
+      "canisterUrl": "http://localhost:8080/-/brain-matters",
+      "canisterId": "fghij-biaaa-aaaal-qbhwa-cai",
+      "collectionId": "brain-matters",
+      "canisterRelativeUrl": "/-/some-token-id/library#/some-fragment",
+      "canisterRelativePath": "/-/some-token-id/library#/some-fragment",
+      "queryStringParams": [],
+      "fragment": "/some-fragment",
+      "isLocal": true,
+      "isDirect": false,
+      "isRaw": true,
+      "resourceLevel": 2,
+      "resourceLevelText": "Token",
+      "resourceType": 5,
+      "resourceTypeText": "Library",
+      "tokenId": "some-token-id",
+      "libraryId": ""
+    }
+  },
+  {
     "url": "https://abcde-biaaa-aaaal-qbhwa-cai.raw.ic0.app/collection/library#/some-fragment",
     "expectedResult": {
       "fullUrl": "https://abcde-biaaa-aaaal-qbhwa-cai.raw.ic0.app/collection/library#/some-fragment",
@@ -6327,6 +6899,50 @@
       "isLocal": true,
       "isDirect": true,
       "isRaw": false,
+      "resourceLevel": 2,
+      "resourceLevelText": "Token",
+      "resourceType": 6,
+      "resourceTypeText": "PrimaryAsset",
+      "tokenId": "some-token-id",
+      "libraryId": ""
+    }
+  },
+  {
+    "url": "http://localhost:8080/-/brain-matters/collection/-/primary#/some-fragment",
+    "expectedResult": {
+      "fullUrl": "http://localhost:8080/-/brain-matters/collection/-/primary#/some-fragment",
+      "canisterUrl": "http://localhost:8080/-/brain-matters",
+      "canisterId": "fghij-biaaa-aaaal-qbhwa-cai",
+      "collectionId": "brain-matters",
+      "canisterRelativeUrl": "/collection/-/primary#/some-fragment",
+      "canisterRelativePath": "/collection/-/primary#/some-fragment",
+      "queryStringParams": [],
+      "fragment": "/some-fragment",
+      "isLocal": true,
+      "isDirect": false,
+      "isRaw": true,
+      "resourceLevel": 2,
+      "resourceLevelText": "Token",
+      "resourceType": 10,
+      "resourceTypeText": "LibraryAsset",
+      "tokenId": "primary",
+      "libraryId": "primary"
+    }
+  },
+  {
+    "url": "http://localhost:8080/-/brain-matters/-/some-token-id/primary#/some-fragment",
+    "expectedResult": {
+      "fullUrl": "http://localhost:8080/-/brain-matters/-/some-token-id/primary#/some-fragment",
+      "canisterUrl": "http://localhost:8080/-/brain-matters",
+      "canisterId": "fghij-biaaa-aaaal-qbhwa-cai",
+      "collectionId": "brain-matters",
+      "canisterRelativeUrl": "/-/some-token-id/primary#/some-fragment",
+      "canisterRelativePath": "/-/some-token-id/primary#/some-fragment",
+      "queryStringParams": [],
+      "fragment": "/some-fragment",
+      "isLocal": true,
+      "isDirect": false,
+      "isRaw": true,
       "resourceLevel": 2,
       "resourceLevelText": "Token",
       "resourceType": 6,
@@ -6820,6 +7436,50 @@
     }
   },
   {
+    "url": "http://localhost:8080/-/brain-matters/collection/-/preview#/some-fragment",
+    "expectedResult": {
+      "fullUrl": "http://localhost:8080/-/brain-matters/collection/-/preview#/some-fragment",
+      "canisterUrl": "http://localhost:8080/-/brain-matters",
+      "canisterId": "fghij-biaaa-aaaal-qbhwa-cai",
+      "collectionId": "brain-matters",
+      "canisterRelativeUrl": "/collection/-/preview#/some-fragment",
+      "canisterRelativePath": "/collection/-/preview#/some-fragment",
+      "queryStringParams": [],
+      "fragment": "/some-fragment",
+      "isLocal": true,
+      "isDirect": false,
+      "isRaw": true,
+      "resourceLevel": 2,
+      "resourceLevelText": "Token",
+      "resourceType": 10,
+      "resourceTypeText": "LibraryAsset",
+      "tokenId": "preview",
+      "libraryId": "preview"
+    }
+  },
+  {
+    "url": "http://localhost:8080/-/brain-matters/-/some-token-id/preview#/some-fragment",
+    "expectedResult": {
+      "fullUrl": "http://localhost:8080/-/brain-matters/-/some-token-id/preview#/some-fragment",
+      "canisterUrl": "http://localhost:8080/-/brain-matters",
+      "canisterId": "fghij-biaaa-aaaal-qbhwa-cai",
+      "collectionId": "brain-matters",
+      "canisterRelativeUrl": "/-/some-token-id/preview#/some-fragment",
+      "canisterRelativePath": "/-/some-token-id/preview#/some-fragment",
+      "queryStringParams": [],
+      "fragment": "/some-fragment",
+      "isLocal": true,
+      "isDirect": false,
+      "isRaw": true,
+      "resourceLevel": 2,
+      "resourceLevelText": "Token",
+      "resourceType": 7,
+      "resourceTypeText": "PreviewAsset",
+      "tokenId": "some-token-id",
+      "libraryId": ""
+    }
+  },
+  {
     "url": "https://abcde-biaaa-aaaal-qbhwa-cai.raw.ic0.app/collection/preview#/some-fragment",
     "expectedResult": {
       "fullUrl": "https://abcde-biaaa-aaaal-qbhwa-cai.raw.ic0.app/collection/preview#/some-fragment",
@@ -7295,6 +7955,50 @@
       "isLocal": true,
       "isDirect": true,
       "isRaw": false,
+      "resourceLevel": 2,
+      "resourceLevelText": "Token",
+      "resourceType": 8,
+      "resourceTypeText": "HiddenAsset",
+      "tokenId": "some-token-id",
+      "libraryId": ""
+    }
+  },
+  {
+    "url": "http://localhost:8080/-/brain-matters/collection/-/hidden#/some-fragment",
+    "expectedResult": {
+      "fullUrl": "http://localhost:8080/-/brain-matters/collection/-/hidden#/some-fragment",
+      "canisterUrl": "http://localhost:8080/-/brain-matters",
+      "canisterId": "fghij-biaaa-aaaal-qbhwa-cai",
+      "collectionId": "brain-matters",
+      "canisterRelativeUrl": "/collection/-/hidden#/some-fragment",
+      "canisterRelativePath": "/collection/-/hidden#/some-fragment",
+      "queryStringParams": [],
+      "fragment": "/some-fragment",
+      "isLocal": true,
+      "isDirect": false,
+      "isRaw": true,
+      "resourceLevel": 2,
+      "resourceLevelText": "Token",
+      "resourceType": 10,
+      "resourceTypeText": "LibraryAsset",
+      "tokenId": "hidden",
+      "libraryId": "hidden"
+    }
+  },
+  {
+    "url": "http://localhost:8080/-/brain-matters/-/some-token-id/hidden#/some-fragment",
+    "expectedResult": {
+      "fullUrl": "http://localhost:8080/-/brain-matters/-/some-token-id/hidden#/some-fragment",
+      "canisterUrl": "http://localhost:8080/-/brain-matters",
+      "canisterId": "fghij-biaaa-aaaal-qbhwa-cai",
+      "collectionId": "brain-matters",
+      "canisterRelativeUrl": "/-/some-token-id/hidden#/some-fragment",
+      "canisterRelativePath": "/-/some-token-id/hidden#/some-fragment",
+      "queryStringParams": [],
+      "fragment": "/some-fragment",
+      "isLocal": true,
+      "isDirect": false,
+      "isRaw": true,
       "resourceLevel": 2,
       "resourceLevelText": "Token",
       "resourceType": 8,
@@ -7788,6 +8492,50 @@
     }
   },
   {
+    "url": "http://localhost:8080/-/brain-matters/collection/-/ex#/some-fragment",
+    "expectedResult": {
+      "fullUrl": "http://localhost:8080/-/brain-matters/collection/-/ex#/some-fragment",
+      "canisterUrl": "http://localhost:8080/-/brain-matters",
+      "canisterId": "fghij-biaaa-aaaal-qbhwa-cai",
+      "collectionId": "brain-matters",
+      "canisterRelativeUrl": "/collection/-/ex#/some-fragment",
+      "canisterRelativePath": "/collection/-/ex#/some-fragment",
+      "queryStringParams": [],
+      "fragment": "/some-fragment",
+      "isLocal": true,
+      "isDirect": false,
+      "isRaw": true,
+      "resourceLevel": 2,
+      "resourceLevelText": "Token",
+      "resourceType": 10,
+      "resourceTypeText": "LibraryAsset",
+      "tokenId": "ex",
+      "libraryId": "ex"
+    }
+  },
+  {
+    "url": "http://localhost:8080/-/brain-matters/-/some-token-id/ex#/some-fragment",
+    "expectedResult": {
+      "fullUrl": "http://localhost:8080/-/brain-matters/-/some-token-id/ex#/some-fragment",
+      "canisterUrl": "http://localhost:8080/-/brain-matters",
+      "canisterId": "fghij-biaaa-aaaal-qbhwa-cai",
+      "collectionId": "brain-matters",
+      "canisterRelativeUrl": "/-/some-token-id/ex#/some-fragment",
+      "canisterRelativePath": "/-/some-token-id/ex#/some-fragment",
+      "queryStringParams": [],
+      "fragment": "/some-fragment",
+      "isLocal": true,
+      "isDirect": false,
+      "isRaw": true,
+      "resourceLevel": 2,
+      "resourceLevelText": "Token",
+      "resourceType": 9,
+      "resourceTypeText": "ExperienceAsset",
+      "tokenId": "some-token-id",
+      "libraryId": ""
+    }
+  },
+  {
     "url": "https://abcde-biaaa-aaaal-qbhwa-cai.raw.ic0.app/collection/ex#/some-fragment",
     "expectedResult": {
       "fullUrl": "https://abcde-biaaa-aaaal-qbhwa-cai.raw.ic0.app/collection/ex#/some-fragment",
@@ -8263,6 +9011,50 @@
       "isLocal": true,
       "isDirect": true,
       "isRaw": false,
+      "resourceLevel": 2,
+      "resourceLevelText": "Token",
+      "resourceType": 10,
+      "resourceTypeText": "LibraryAsset",
+      "tokenId": "some-token-id",
+      "libraryId": "file-name.png"
+    }
+  },
+  {
+    "url": "http://localhost:8080/-/brain-matters/collection/-/-/file-name.png#/some-fragment",
+    "expectedResult": {
+      "fullUrl": "http://localhost:8080/-/brain-matters/collection/-/-/file-name.png#/some-fragment",
+      "canisterUrl": "http://localhost:8080/-/brain-matters",
+      "canisterId": "fghij-biaaa-aaaal-qbhwa-cai",
+      "collectionId": "brain-matters",
+      "canisterRelativeUrl": "/collection/-/-/file-name.png#/some-fragment",
+      "canisterRelativePath": "/collection/-/-/file-name.png#/some-fragment",
+      "queryStringParams": [],
+      "fragment": "/some-fragment",
+      "isLocal": true,
+      "isDirect": false,
+      "isRaw": true,
+      "resourceLevel": 2,
+      "resourceLevelText": "Token",
+      "resourceType": 0,
+      "resourceTypeText": "Unknown",
+      "tokenId": "-",
+      "libraryId": "-"
+    }
+  },
+  {
+    "url": "http://localhost:8080/-/brain-matters/-/some-token-id/-/file-name.png#/some-fragment",
+    "expectedResult": {
+      "fullUrl": "http://localhost:8080/-/brain-matters/-/some-token-id/-/file-name.png#/some-fragment",
+      "canisterUrl": "http://localhost:8080/-/brain-matters",
+      "canisterId": "fghij-biaaa-aaaal-qbhwa-cai",
+      "collectionId": "brain-matters",
+      "canisterRelativeUrl": "/-/some-token-id/-/file-name.png#/some-fragment",
+      "canisterRelativePath": "/-/some-token-id/-/file-name.png#/some-fragment",
+      "queryStringParams": [],
+      "fragment": "/some-fragment",
+      "isLocal": true,
+      "isDirect": false,
+      "isRaw": true,
       "resourceLevel": 2,
       "resourceLevelText": "Token",
       "resourceType": 10,
@@ -8773,6 +9565,76 @@
       "isLocal": true,
       "isDirect": true,
       "isRaw": false,
+      "resourceLevel": 2,
+      "resourceLevelText": "Token",
+      "resourceType": 2,
+      "resourceTypeText": "Info",
+      "tokenId": "some-token-id",
+      "libraryId": ""
+    }
+  },
+  {
+    "url": "http://localhost:8080/-/brain-matters/collection/-/info?page=home&nav=3&connected=true",
+    "expectedResult": {
+      "fullUrl": "http://localhost:8080/-/brain-matters/collection/-/info?page=home&nav=3&connected=true",
+      "canisterUrl": "http://localhost:8080/-/brain-matters",
+      "canisterId": "fghij-biaaa-aaaal-qbhwa-cai",
+      "collectionId": "brain-matters",
+      "canisterRelativeUrl": "/collection/-/info?page=home&nav=3&connected=true",
+      "canisterRelativePath": "/collection/-/info",
+      "queryStringParams": [
+        {
+          "name": "page",
+          "value": "home"
+        },
+        {
+          "name": "nav",
+          "value": "3"
+        },
+        {
+          "name": "connected",
+          "value": "true"
+        }
+      ],
+      "fragment": "",
+      "isLocal": true,
+      "isDirect": false,
+      "isRaw": true,
+      "resourceLevel": 2,
+      "resourceLevelText": "Token",
+      "resourceType": 10,
+      "resourceTypeText": "LibraryAsset",
+      "tokenId": "info",
+      "libraryId": "info"
+    }
+  },
+  {
+    "url": "http://localhost:8080/-/brain-matters/-/some-token-id/info?page=home&nav=3&connected=true",
+    "expectedResult": {
+      "fullUrl": "http://localhost:8080/-/brain-matters/-/some-token-id/info?page=home&nav=3&connected=true",
+      "canisterUrl": "http://localhost:8080/-/brain-matters",
+      "canisterId": "fghij-biaaa-aaaal-qbhwa-cai",
+      "collectionId": "brain-matters",
+      "canisterRelativeUrl": "/-/some-token-id/info?page=home&nav=3&connected=true",
+      "canisterRelativePath": "/-/some-token-id/info",
+      "queryStringParams": [
+        {
+          "name": "page",
+          "value": "home"
+        },
+        {
+          "name": "nav",
+          "value": "3"
+        },
+        {
+          "name": "connected",
+          "value": "true"
+        }
+      ],
+      "fragment": "",
+      "isLocal": true,
+      "isDirect": false,
+      "isRaw": true,
       "resourceLevel": 2,
       "resourceLevelText": "Token",
       "resourceType": 2,
@@ -9552,6 +10414,76 @@
     }
   },
   {
+    "url": "http://localhost:8080/-/brain-matters/collection/-/ledger_info?page=home&nav=3&connected=true",
+    "expectedResult": {
+      "fullUrl": "http://localhost:8080/-/brain-matters/collection/-/ledger_info?page=home&nav=3&connected=true",
+      "canisterUrl": "http://localhost:8080/-/brain-matters",
+      "canisterId": "fghij-biaaa-aaaal-qbhwa-cai",
+      "collectionId": "brain-matters",
+      "canisterRelativeUrl": "/collection/-/ledger_info?page=home&nav=3&connected=true",
+      "canisterRelativePath": "/collection/-/ledger_info",
+      "queryStringParams": [
+        {
+          "name": "page",
+          "value": "home"
+        },
+        {
+          "name": "nav",
+          "value": "3"
+        },
+        {
+          "name": "connected",
+          "value": "true"
+        }
+      ],
+      "fragment": "",
+      "isLocal": true,
+      "isDirect": false,
+      "isRaw": true,
+      "resourceLevel": 2,
+      "resourceLevelText": "Token",
+      "resourceType": 10,
+      "resourceTypeText": "LibraryAsset",
+      "tokenId": "ledger_info",
+      "libraryId": "ledger_info"
+    }
+  },
+  {
+    "url": "http://localhost:8080/-/brain-matters/-/some-token-id/ledger_info?page=home&nav=3&connected=true",
+    "expectedResult": {
+      "fullUrl": "http://localhost:8080/-/brain-matters/-/some-token-id/ledger_info?page=home&nav=3&connected=true",
+      "canisterUrl": "http://localhost:8080/-/brain-matters",
+      "canisterId": "fghij-biaaa-aaaal-qbhwa-cai",
+      "collectionId": "brain-matters",
+      "canisterRelativeUrl": "/-/some-token-id/ledger_info?page=home&nav=3&connected=true",
+      "canisterRelativePath": "/-/some-token-id/ledger_info",
+      "queryStringParams": [
+        {
+          "name": "page",
+          "value": "home"
+        },
+        {
+          "name": "nav",
+          "value": "3"
+        },
+        {
+          "name": "connected",
+          "value": "true"
+        }
+      ],
+      "fragment": "",
+      "isLocal": true,
+      "isDirect": false,
+      "isRaw": true,
+      "resourceLevel": 2,
+      "resourceLevelText": "Token",
+      "resourceType": 3,
+      "resourceTypeText": "LedgerInfo",
+      "tokenId": "some-token-id",
+      "libraryId": ""
+    }
+  },
+  {
     "url": "https://abcde-biaaa-aaaal-qbhwa-cai.raw.ic0.app/collection/ledger_info?page=home&nav=3&connected=true",
     "expectedResult": {
       "fullUrl": "https://abcde-biaaa-aaaal-qbhwa-cai.raw.ic0.app/collection/ledger_info?page=home&nav=3&connected=true",
@@ -10313,6 +11245,76 @@
       "isLocal": true,
       "isDirect": true,
       "isRaw": false,
+      "resourceLevel": 2,
+      "resourceLevelText": "Token",
+      "resourceType": 4,
+      "resourceTypeText": "Translate",
+      "tokenId": "some-token-id",
+      "libraryId": ""
+    }
+  },
+  {
+    "url": "http://localhost:8080/-/brain-matters/collection/-/translate?page=home&nav=3&connected=true",
+    "expectedResult": {
+      "fullUrl": "http://localhost:8080/-/brain-matters/collection/-/translate?page=home&nav=3&connected=true",
+      "canisterUrl": "http://localhost:8080/-/brain-matters",
+      "canisterId": "fghij-biaaa-aaaal-qbhwa-cai",
+      "collectionId": "brain-matters",
+      "canisterRelativeUrl": "/collection/-/translate?page=home&nav=3&connected=true",
+      "canisterRelativePath": "/collection/-/translate",
+      "queryStringParams": [
+        {
+          "name": "page",
+          "value": "home"
+        },
+        {
+          "name": "nav",
+          "value": "3"
+        },
+        {
+          "name": "connected",
+          "value": "true"
+        }
+      ],
+      "fragment": "",
+      "isLocal": true,
+      "isDirect": false,
+      "isRaw": true,
+      "resourceLevel": 2,
+      "resourceLevelText": "Token",
+      "resourceType": 10,
+      "resourceTypeText": "LibraryAsset",
+      "tokenId": "translate",
+      "libraryId": "translate"
+    }
+  },
+  {
+    "url": "http://localhost:8080/-/brain-matters/-/some-token-id/translate?page=home&nav=3&connected=true",
+    "expectedResult": {
+      "fullUrl": "http://localhost:8080/-/brain-matters/-/some-token-id/translate?page=home&nav=3&connected=true",
+      "canisterUrl": "http://localhost:8080/-/brain-matters",
+      "canisterId": "fghij-biaaa-aaaal-qbhwa-cai",
+      "collectionId": "brain-matters",
+      "canisterRelativeUrl": "/-/some-token-id/translate?page=home&nav=3&connected=true",
+      "canisterRelativePath": "/-/some-token-id/translate",
+      "queryStringParams": [
+        {
+          "name": "page",
+          "value": "home"
+        },
+        {
+          "name": "nav",
+          "value": "3"
+        },
+        {
+          "name": "connected",
+          "value": "true"
+        }
+      ],
+      "fragment": "",
+      "isLocal": true,
+      "isDirect": false,
+      "isRaw": true,
       "resourceLevel": 2,
       "resourceLevelText": "Token",
       "resourceType": 4,
@@ -11092,6 +12094,76 @@
     }
   },
   {
+    "url": "http://localhost:8080/-/brain-matters/collection/-/library?page=home&nav=3&connected=true",
+    "expectedResult": {
+      "fullUrl": "http://localhost:8080/-/brain-matters/collection/-/library?page=home&nav=3&connected=true",
+      "canisterUrl": "http://localhost:8080/-/brain-matters",
+      "canisterId": "fghij-biaaa-aaaal-qbhwa-cai",
+      "collectionId": "brain-matters",
+      "canisterRelativeUrl": "/collection/-/library?page=home&nav=3&connected=true",
+      "canisterRelativePath": "/collection/-/library",
+      "queryStringParams": [
+        {
+          "name": "page",
+          "value": "home"
+        },
+        {
+          "name": "nav",
+          "value": "3"
+        },
+        {
+          "name": "connected",
+          "value": "true"
+        }
+      ],
+      "fragment": "",
+      "isLocal": true,
+      "isDirect": false,
+      "isRaw": true,
+      "resourceLevel": 2,
+      "resourceLevelText": "Token",
+      "resourceType": 10,
+      "resourceTypeText": "LibraryAsset",
+      "tokenId": "library",
+      "libraryId": "library"
+    }
+  },
+  {
+    "url": "http://localhost:8080/-/brain-matters/-/some-token-id/library?page=home&nav=3&connected=true",
+    "expectedResult": {
+      "fullUrl": "http://localhost:8080/-/brain-matters/-/some-token-id/library?page=home&nav=3&connected=true",
+      "canisterUrl": "http://localhost:8080/-/brain-matters",
+      "canisterId": "fghij-biaaa-aaaal-qbhwa-cai",
+      "collectionId": "brain-matters",
+      "canisterRelativeUrl": "/-/some-token-id/library?page=home&nav=3&connected=true",
+      "canisterRelativePath": "/-/some-token-id/library",
+      "queryStringParams": [
+        {
+          "name": "page",
+          "value": "home"
+        },
+        {
+          "name": "nav",
+          "value": "3"
+        },
+        {
+          "name": "connected",
+          "value": "true"
+        }
+      ],
+      "fragment": "",
+      "isLocal": true,
+      "isDirect": false,
+      "isRaw": true,
+      "resourceLevel": 2,
+      "resourceLevelText": "Token",
+      "resourceType": 5,
+      "resourceTypeText": "Library",
+      "tokenId": "some-token-id",
+      "libraryId": ""
+    }
+  },
+  {
     "url": "https://abcde-biaaa-aaaal-qbhwa-cai.raw.ic0.app/collection/library?page=home&nav=3&connected=true",
     "expectedResult": {
       "fullUrl": "https://abcde-biaaa-aaaal-qbhwa-cai.raw.ic0.app/collection/library?page=home&nav=3&connected=true",
@@ -11853,6 +12925,76 @@
       "isLocal": true,
       "isDirect": true,
       "isRaw": false,
+      "resourceLevel": 2,
+      "resourceLevelText": "Token",
+      "resourceType": 6,
+      "resourceTypeText": "PrimaryAsset",
+      "tokenId": "some-token-id",
+      "libraryId": ""
+    }
+  },
+  {
+    "url": "http://localhost:8080/-/brain-matters/collection/-/primary?page=home&nav=3&connected=true",
+    "expectedResult": {
+      "fullUrl": "http://localhost:8080/-/brain-matters/collection/-/primary?page=home&nav=3&connected=true",
+      "canisterUrl": "http://localhost:8080/-/brain-matters",
+      "canisterId": "fghij-biaaa-aaaal-qbhwa-cai",
+      "collectionId": "brain-matters",
+      "canisterRelativeUrl": "/collection/-/primary?page=home&nav=3&connected=true",
+      "canisterRelativePath": "/collection/-/primary",
+      "queryStringParams": [
+        {
+          "name": "page",
+          "value": "home"
+        },
+        {
+          "name": "nav",
+          "value": "3"
+        },
+        {
+          "name": "connected",
+          "value": "true"
+        }
+      ],
+      "fragment": "",
+      "isLocal": true,
+      "isDirect": false,
+      "isRaw": true,
+      "resourceLevel": 2,
+      "resourceLevelText": "Token",
+      "resourceType": 10,
+      "resourceTypeText": "LibraryAsset",
+      "tokenId": "primary",
+      "libraryId": "primary"
+    }
+  },
+  {
+    "url": "http://localhost:8080/-/brain-matters/-/some-token-id/primary?page=home&nav=3&connected=true",
+    "expectedResult": {
+      "fullUrl": "http://localhost:8080/-/brain-matters/-/some-token-id/primary?page=home&nav=3&connected=true",
+      "canisterUrl": "http://localhost:8080/-/brain-matters",
+      "canisterId": "fghij-biaaa-aaaal-qbhwa-cai",
+      "collectionId": "brain-matters",
+      "canisterRelativeUrl": "/-/some-token-id/primary?page=home&nav=3&connected=true",
+      "canisterRelativePath": "/-/some-token-id/primary",
+      "queryStringParams": [
+        {
+          "name": "page",
+          "value": "home"
+        },
+        {
+          "name": "nav",
+          "value": "3"
+        },
+        {
+          "name": "connected",
+          "value": "true"
+        }
+      ],
+      "fragment": "",
+      "isLocal": true,
+      "isDirect": false,
+      "isRaw": true,
       "resourceLevel": 2,
       "resourceLevelText": "Token",
       "resourceType": 6,
@@ -12632,6 +13774,76 @@
     }
   },
   {
+    "url": "http://localhost:8080/-/brain-matters/collection/-/preview?page=home&nav=3&connected=true",
+    "expectedResult": {
+      "fullUrl": "http://localhost:8080/-/brain-matters/collection/-/preview?page=home&nav=3&connected=true",
+      "canisterUrl": "http://localhost:8080/-/brain-matters",
+      "canisterId": "fghij-biaaa-aaaal-qbhwa-cai",
+      "collectionId": "brain-matters",
+      "canisterRelativeUrl": "/collection/-/preview?page=home&nav=3&connected=true",
+      "canisterRelativePath": "/collection/-/preview",
+      "queryStringParams": [
+        {
+          "name": "page",
+          "value": "home"
+        },
+        {
+          "name": "nav",
+          "value": "3"
+        },
+        {
+          "name": "connected",
+          "value": "true"
+        }
+      ],
+      "fragment": "",
+      "isLocal": true,
+      "isDirect": false,
+      "isRaw": true,
+      "resourceLevel": 2,
+      "resourceLevelText": "Token",
+      "resourceType": 10,
+      "resourceTypeText": "LibraryAsset",
+      "tokenId": "preview",
+      "libraryId": "preview"
+    }
+  },
+  {
+    "url": "http://localhost:8080/-/brain-matters/-/some-token-id/preview?page=home&nav=3&connected=true",
+    "expectedResult": {
+      "fullUrl": "http://localhost:8080/-/brain-matters/-/some-token-id/preview?page=home&nav=3&connected=true",
+      "canisterUrl": "http://localhost:8080/-/brain-matters",
+      "canisterId": "fghij-biaaa-aaaal-qbhwa-cai",
+      "collectionId": "brain-matters",
+      "canisterRelativeUrl": "/-/some-token-id/preview?page=home&nav=3&connected=true",
+      "canisterRelativePath": "/-/some-token-id/preview",
+      "queryStringParams": [
+        {
+          "name": "page",
+          "value": "home"
+        },
+        {
+          "name": "nav",
+          "value": "3"
+        },
+        {
+          "name": "connected",
+          "value": "true"
+        }
+      ],
+      "fragment": "",
+      "isLocal": true,
+      "isDirect": false,
+      "isRaw": true,
+      "resourceLevel": 2,
+      "resourceLevelText": "Token",
+      "resourceType": 7,
+      "resourceTypeText": "PreviewAsset",
+      "tokenId": "some-token-id",
+      "libraryId": ""
+    }
+  },
+  {
     "url": "https://abcde-biaaa-aaaal-qbhwa-cai.raw.ic0.app/collection/preview?page=home&nav=3&connected=true",
     "expectedResult": {
       "fullUrl": "https://abcde-biaaa-aaaal-qbhwa-cai.raw.ic0.app/collection/preview?page=home&nav=3&connected=true",
@@ -13393,6 +14605,76 @@
       "isLocal": true,
       "isDirect": true,
       "isRaw": false,
+      "resourceLevel": 2,
+      "resourceLevelText": "Token",
+      "resourceType": 8,
+      "resourceTypeText": "HiddenAsset",
+      "tokenId": "some-token-id",
+      "libraryId": ""
+    }
+  },
+  {
+    "url": "http://localhost:8080/-/brain-matters/collection/-/hidden?page=home&nav=3&connected=true",
+    "expectedResult": {
+      "fullUrl": "http://localhost:8080/-/brain-matters/collection/-/hidden?page=home&nav=3&connected=true",
+      "canisterUrl": "http://localhost:8080/-/brain-matters",
+      "canisterId": "fghij-biaaa-aaaal-qbhwa-cai",
+      "collectionId": "brain-matters",
+      "canisterRelativeUrl": "/collection/-/hidden?page=home&nav=3&connected=true",
+      "canisterRelativePath": "/collection/-/hidden",
+      "queryStringParams": [
+        {
+          "name": "page",
+          "value": "home"
+        },
+        {
+          "name": "nav",
+          "value": "3"
+        },
+        {
+          "name": "connected",
+          "value": "true"
+        }
+      ],
+      "fragment": "",
+      "isLocal": true,
+      "isDirect": false,
+      "isRaw": true,
+      "resourceLevel": 2,
+      "resourceLevelText": "Token",
+      "resourceType": 10,
+      "resourceTypeText": "LibraryAsset",
+      "tokenId": "hidden",
+      "libraryId": "hidden"
+    }
+  },
+  {
+    "url": "http://localhost:8080/-/brain-matters/-/some-token-id/hidden?page=home&nav=3&connected=true",
+    "expectedResult": {
+      "fullUrl": "http://localhost:8080/-/brain-matters/-/some-token-id/hidden?page=home&nav=3&connected=true",
+      "canisterUrl": "http://localhost:8080/-/brain-matters",
+      "canisterId": "fghij-biaaa-aaaal-qbhwa-cai",
+      "collectionId": "brain-matters",
+      "canisterRelativeUrl": "/-/some-token-id/hidden?page=home&nav=3&connected=true",
+      "canisterRelativePath": "/-/some-token-id/hidden",
+      "queryStringParams": [
+        {
+          "name": "page",
+          "value": "home"
+        },
+        {
+          "name": "nav",
+          "value": "3"
+        },
+        {
+          "name": "connected",
+          "value": "true"
+        }
+      ],
+      "fragment": "",
+      "isLocal": true,
+      "isDirect": false,
+      "isRaw": true,
       "resourceLevel": 2,
       "resourceLevelText": "Token",
       "resourceType": 8,
@@ -14172,6 +15454,76 @@
     }
   },
   {
+    "url": "http://localhost:8080/-/brain-matters/collection/-/ex?page=home&nav=3&connected=true",
+    "expectedResult": {
+      "fullUrl": "http://localhost:8080/-/brain-matters/collection/-/ex?page=home&nav=3&connected=true",
+      "canisterUrl": "http://localhost:8080/-/brain-matters",
+      "canisterId": "fghij-biaaa-aaaal-qbhwa-cai",
+      "collectionId": "brain-matters",
+      "canisterRelativeUrl": "/collection/-/ex?page=home&nav=3&connected=true",
+      "canisterRelativePath": "/collection/-/ex",
+      "queryStringParams": [
+        {
+          "name": "page",
+          "value": "home"
+        },
+        {
+          "name": "nav",
+          "value": "3"
+        },
+        {
+          "name": "connected",
+          "value": "true"
+        }
+      ],
+      "fragment": "",
+      "isLocal": true,
+      "isDirect": false,
+      "isRaw": true,
+      "resourceLevel": 2,
+      "resourceLevelText": "Token",
+      "resourceType": 10,
+      "resourceTypeText": "LibraryAsset",
+      "tokenId": "ex",
+      "libraryId": "ex"
+    }
+  },
+  {
+    "url": "http://localhost:8080/-/brain-matters/-/some-token-id/ex?page=home&nav=3&connected=true",
+    "expectedResult": {
+      "fullUrl": "http://localhost:8080/-/brain-matters/-/some-token-id/ex?page=home&nav=3&connected=true",
+      "canisterUrl": "http://localhost:8080/-/brain-matters",
+      "canisterId": "fghij-biaaa-aaaal-qbhwa-cai",
+      "collectionId": "brain-matters",
+      "canisterRelativeUrl": "/-/some-token-id/ex?page=home&nav=3&connected=true",
+      "canisterRelativePath": "/-/some-token-id/ex",
+      "queryStringParams": [
+        {
+          "name": "page",
+          "value": "home"
+        },
+        {
+          "name": "nav",
+          "value": "3"
+        },
+        {
+          "name": "connected",
+          "value": "true"
+        }
+      ],
+      "fragment": "",
+      "isLocal": true,
+      "isDirect": false,
+      "isRaw": true,
+      "resourceLevel": 2,
+      "resourceLevelText": "Token",
+      "resourceType": 9,
+      "resourceTypeText": "ExperienceAsset",
+      "tokenId": "some-token-id",
+      "libraryId": ""
+    }
+  },
+  {
     "url": "https://abcde-biaaa-aaaal-qbhwa-cai.raw.ic0.app/collection/ex?page=home&nav=3&connected=true",
     "expectedResult": {
       "fullUrl": "https://abcde-biaaa-aaaal-qbhwa-cai.raw.ic0.app/collection/ex?page=home&nav=3&connected=true",
@@ -14933,6 +16285,76 @@
       "isLocal": true,
       "isDirect": true,
       "isRaw": false,
+      "resourceLevel": 2,
+      "resourceLevelText": "Token",
+      "resourceType": 10,
+      "resourceTypeText": "LibraryAsset",
+      "tokenId": "some-token-id",
+      "libraryId": "file-name.png"
+    }
+  },
+  {
+    "url": "http://localhost:8080/-/brain-matters/collection/-/-/file-name.png?page=home&nav=3&connected=true",
+    "expectedResult": {
+      "fullUrl": "http://localhost:8080/-/brain-matters/collection/-/-/file-name.png?page=home&nav=3&connected=true",
+      "canisterUrl": "http://localhost:8080/-/brain-matters",
+      "canisterId": "fghij-biaaa-aaaal-qbhwa-cai",
+      "collectionId": "brain-matters",
+      "canisterRelativeUrl": "/collection/-/-/file-name.png?page=home&nav=3&connected=true",
+      "canisterRelativePath": "/collection/-/-/file-name.png",
+      "queryStringParams": [
+        {
+          "name": "page",
+          "value": "home"
+        },
+        {
+          "name": "nav",
+          "value": "3"
+        },
+        {
+          "name": "connected",
+          "value": "true"
+        }
+      ],
+      "fragment": "",
+      "isLocal": true,
+      "isDirect": false,
+      "isRaw": true,
+      "resourceLevel": 2,
+      "resourceLevelText": "Token",
+      "resourceType": 0,
+      "resourceTypeText": "Unknown",
+      "tokenId": "-",
+      "libraryId": "-"
+    }
+  },
+  {
+    "url": "http://localhost:8080/-/brain-matters/-/some-token-id/-/file-name.png?page=home&nav=3&connected=true",
+    "expectedResult": {
+      "fullUrl": "http://localhost:8080/-/brain-matters/-/some-token-id/-/file-name.png?page=home&nav=3&connected=true",
+      "canisterUrl": "http://localhost:8080/-/brain-matters",
+      "canisterId": "fghij-biaaa-aaaal-qbhwa-cai",
+      "collectionId": "brain-matters",
+      "canisterRelativeUrl": "/-/some-token-id/-/file-name.png?page=home&nav=3&connected=true",
+      "canisterRelativePath": "/-/some-token-id/-/file-name.png",
+      "queryStringParams": [
+        {
+          "name": "page",
+          "value": "home"
+        },
+        {
+          "name": "nav",
+          "value": "3"
+        },
+        {
+          "name": "connected",
+          "value": "true"
+        }
+      ],
+      "fragment": "",
+      "isLocal": true,
+      "isDirect": false,
+      "isRaw": true,
       "resourceLevel": 2,
       "resourceLevelText": "Token",
       "resourceType": 10,

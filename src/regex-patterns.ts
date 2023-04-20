@@ -32,7 +32,7 @@ export const PATTERNS = {
    *   - If it's not a canister ID, it's invalid.
    */
   DirectCanisterUrl:
-    /https?:\/\/(?<id>[^\.]*)\.(?<domain>(?:(?:raw\.)?(?:ic0\.app|icp0\.io))|(?:localhost:8000))/i,
+    /https?:\/\/(?<id>[^\.]*)\.(?<domain>(?:(?:raw\.)?(?:ic0\.app|icp0\.io))|(?:localhost:\d+))/i,
 
   /**
    * Matches the following URL formats:
@@ -58,7 +58,7 @@ export const PATTERNS = {
    *   - If the collection ID is not found in the phone book, it's invalid.
    */
   ProxyCanisterUrl:
-    /https?:\/\/(?<domain>(?:prptl\.io)|(?:exos\.origyn\.network)|(?:localhost:3000))\/-\/(?<id>[^\/\?#]*)/i,
+    /https?:\/\/(?<domain>(?:prptl\.io)|(?:exos\.origyn\.network)|(?:localhost:\d+))\/-\/(?<id>[^\/\?#]*)/i,
 
   /**
    * Matches the following canister-relative URL formats:
