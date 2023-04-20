@@ -26,6 +26,24 @@ const getResourceType = (name: string) => {
   }
 };
 
+const cacheMap = new Map<string, string>();
+
+const getCanisterId = async (collectionId: string): Promise<string> => {
+  // return quickly from cache if exists
+  let canisterId = cacheMap.get(collectionId);
+  if (canisterId) {
+    return canisterId;
+  }
+
+  // otherwise, lookup the canister ID (takes about 200 ms)
+  canisterId = await lookupCanisterId(collectionId);
+  if (canisterId) {
+    cacheMap.set(collectionId, canisterId);
+  }
+
+  return canisterId;
+};
+
 export const parseURL = async (url: string): Promise<URLContext> => {
   const urlTrimmed = url?.trim() || '';
 
@@ -81,7 +99,7 @@ export const parseURL = async (url: string): Promise<URLContext> => {
       ctx.canisterUrl = proxyMatches[0];
       ctx.canisterId = PATTERNS.CanisterId.test(id) ? id : '';
       if (!ctx.canisterId) {
-        ctx.canisterId = await lookupCanisterId(id);
+        ctx.canisterId = await getCanisterId(id);
         ctx.collectionId = id;
       }
       // the proxy always uses the raw URL internally
