@@ -154,23 +154,23 @@ export const parseURL = async (url: string): Promise<URLContext> => {
       ctx.libraryId = asset;
       ctx.resourceType = ResourceType.LibraryAsset;
     }
-  }
+  } else {
+    const tokenPathMatches = ctx.canisterRelativePath.match(PATTERNS.TokenRelativeUrl);
+    if (tokenPathMatches?.groups) {
+      const token = tokenPathMatches.groups.token;
+      const known = tokenPathMatches.groups.known;
+      const asset = tokenPathMatches.groups.asset;
 
-  const tokenPathMatches = ctx.canisterRelativePath.match(PATTERNS.TokenRelativeUrl);
-  if (tokenPathMatches?.groups) {
-    const token = tokenPathMatches.groups.token;
-    const known = tokenPathMatches.groups.known;
-    const asset = tokenPathMatches.groups.asset;
-
-    ctx.resourceLevel = ResourceLevel.Token;
-    if (token) {
-      ctx.tokenId = token;
-    }
-    if (known) {
-      ctx.resourceType = getResourceType(known);
-    } else if (asset) {
-      ctx.libraryId = asset;
-      ctx.resourceType = ResourceType.LibraryAsset;
+      ctx.resourceLevel = ResourceLevel.Token;
+      if (token) {
+        ctx.tokenId = token;
+      }
+      if (known) {
+        ctx.resourceType = getResourceType(known);
+      } else if (asset) {
+        ctx.libraryId = asset;
+        ctx.resourceType = ResourceType.LibraryAsset;
+      }
     }
   }
 
