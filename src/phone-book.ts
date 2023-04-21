@@ -1,12 +1,6 @@
-import { Actor, ActorMethod, HttpAgent } from '@dfinity/agent';
+import { ActorMethod, ActorSubclass } from '@dfinity/agent';
 import { Principal } from '@dfinity/principal';
-import nodeFetch from 'node-fetch';
-
-declare global {
-  interface Window {
-    fetch: any;
-  }
-}
+import { getActor } from '@origyn/actor-reference';
 
 /**
  * The canister ID of the ORIGYN `Phone Book` on the Internet Computer mainnet network.
@@ -40,6 +34,12 @@ export interface PhoneBook {
   list: ActorMethod<[[] | [bigint], [] | [bigint]], Array<[string, Principal[]]>>;
 }
 
+const getPhoneBookActor = async (): Promise<ActorSubclass<PhoneBook>> => {
+  return await getActor<PhoneBook>({
+    canisterId: PHONE_BOOK_CANISTER_ID,
+    idlFactory: phoneBookIdl,
+  });
+};
 /**
  * Queries the ORIGYN `Phone Book` canister to get the canister ID that corresponds to
  * the provided collection ID.
@@ -56,14 +56,7 @@ export interface PhoneBook {
  * @returns the corresponding canister ID principal as a string
  */
 export const lookupCanisterId = async (collectionId: string): Promise<string> => {
-  const actor = Actor.createActor<PhoneBook>(phoneBookIdl, {
-    agent: new HttpAgent({
-      fetch: typeof window !== 'undefined' ? window.fetch : nodeFetch,
-      host: MAINNET_BOUNDARY_NODE,
-    }),
-    canisterId: PHONE_BOOK_CANISTER_ID,
-  });
-
+  const actor = await getPhoneBookActor();
   const res = await actor.lookup(collectionId);
   return res?.[0]?.[0]?.toText() || '';
 };
@@ -84,14 +77,7 @@ export const lookupCanisterId = async (collectionId: string): Promise<string> =>
  * @returns the corresponding collection ID
  */
 export const lookupCollectionId = async (canisterId: string): Promise<string> => {
-  const actor = Actor.createActor<PhoneBook>(phoneBookIdl, {
-    agent: new HttpAgent({
-      fetch: typeof window !== 'undefined' ? window.fetch : nodeFetch,
-      host: MAINNET_BOUNDARY_NODE,
-    }),
-    canisterId: PHONE_BOOK_CANISTER_ID,
-  });
-
+  const actor = await getPhoneBookActor();
   const collectionId = await actor.reverse_lookup(Principal.fromText(canisterId));
   return collectionId;
 };
