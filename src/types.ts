@@ -156,6 +156,17 @@ export interface URLContext {
   canisterUrl: string;
 
   /**
+   * Root-url or pseudo-root URL that references the canister directly with the canister ID.
+   * This may be the same as the canisterUrl if the URL is targeting a canister directly.
+   */
+  directCanisterUrl: string;
+
+  /**
+   * The port number of the canister URL if specified.
+   */
+  port: string;
+
+  /**
    * Principal ID of the canister as a string
    */
   canisterId: string;
@@ -200,6 +211,14 @@ export interface URLContext {
    * mainnet network.
    */
   isLocal: boolean;
+
+  /**
+   * Indicates that the URL is local, but targeting a canister running on the Internet Computer.
+   * This is true when the port is 8080.
+   * The Origyn DApps run locally on port 8080 (ex: `npm run start:marketplace`) while targeting
+   * a mainnet canister.
+   */
+  isLocalToMainnet: boolean;
 
   /**
    * Indicates that the URL is referencing a canister directly.

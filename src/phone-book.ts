@@ -6,7 +6,7 @@ import { getActor } from '@origyn/actor-reference';
  * The canister ID of the ORIGYN `Phone Book` on the Internet Computer mainnet network.
  * There is only a single instance of the `Phone Book`
  */
-export const PHONE_BOOK_CANISTER_ID = 'ngrpb-5qaaa-aaaaj-adz7a-cai';
+export const MAINNET_PHONE_BOOK_CANISTER_ID = 'ngrpb-5qaaa-aaaaj-adz7a-cai';
 
 /**
  * Partial IDL (Interface Definition Language) of the ORIGYN `Phone Book` canister
@@ -23,8 +23,6 @@ const phoneBookIdl = ({ IDL }) => {
   });
 };
 
-const MAINNET_BOUNDARY_NODE = 'https://boundary.ic0.app/';
-
 /**
  * Partial interface of the ORIGYN Phone Book canister
  */
@@ -34,9 +32,11 @@ export interface PhoneBook {
   list: ActorMethod<[[] | [bigint], [] | [bigint]], Array<[string, Principal[]]>>;
 }
 
-const getPhoneBookActor = async (): Promise<ActorSubclass<PhoneBook>> => {
+const getPhoneBookActor = async (
+  canisterId: string = MAINNET_PHONE_BOOK_CANISTER_ID,
+): Promise<ActorSubclass<PhoneBook>> => {
   return await getActor<PhoneBook>({
-    canisterId: PHONE_BOOK_CANISTER_ID,
+    canisterId,
     idlFactory: phoneBookIdl,
   });
 };
@@ -55,8 +55,11 @@ const getPhoneBookActor = async (): Promise<ActorSubclass<PhoneBook>> => {
  * @param collectionId - a user friendly like `my-cool-collection`
  * @returns the corresponding canister ID principal as a string
  */
-export const lookupCanisterId = async (collectionId: string): Promise<string> => {
-  const actor = await getPhoneBookActor();
+export const lookupCanisterId = async (
+  collectionId: string,
+  phoneBookCanisterId?: string,
+): Promise<string> => {
+  const actor = await getPhoneBookActor(phoneBookCanisterId);
   const res = await actor.lookup(collectionId);
   return res?.[0]?.[0]?.toText() || '';
 };
@@ -76,8 +79,11 @@ export const lookupCanisterId = async (collectionId: string): Promise<string> =>
  * @param canisterId - a valid Internet Computer canister ID `like abcde-biaaa-aaaal-qbhwa-cai`
  * @returns the corresponding collection ID
  */
-export const lookupCollectionId = async (canisterId: string): Promise<string> => {
-  const actor = await getPhoneBookActor();
+export const lookupCollectionId = async (
+  canisterId: string,
+  phoneBookCanisterId?: string,
+): Promise<string> => {
+  const actor = await getPhoneBookActor(phoneBookCanisterId);
   const collectionId = await actor.reverse_lookup(Principal.fromText(canisterId));
   return collectionId;
 };

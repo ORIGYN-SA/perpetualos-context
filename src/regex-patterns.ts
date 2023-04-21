@@ -32,14 +32,16 @@ export const PATTERNS = {
    *   - If it's not a canister ID, it's invalid.
    */
   DirectCanisterUrl:
-    /https?:\/\/(?<id>[^\.]*)\.(?<domain>(?:(?:raw\.)?(?:ic0\.app|icp0\.io))|(?:localhost:\d+))/i,
+    /https?:\/\/(?<id>[^\.]*)\.(?<domain>(?:(?:raw\.)?(?:ic0\.app|icp0\.io))|(?:localhost:(?<port>\d+)))/i,
 
   /**
    * Matches the following URL formats:
    * - http://localhost:3000/-/{canister_id}/...
+   * - http://localhost:8080/-/{canister_id}/
    * - https://prptl.io/-/{canister_id}/...
    * - https://exos.origyn.network/-/{canister_id}/...
    * - http://localhost:3000/-/{canister_name}/...
+   * - http://localhost:8080/-/{canister_name}/
    * - https://prptl.io/-/{canister_name}/...
    * - https://exos.origyn.network/-/{canister_name}/...
    *
@@ -58,7 +60,7 @@ export const PATTERNS = {
    *   - If the collection ID is not found in the phone book, it's invalid.
    */
   ProxyCanisterUrl:
-    /https?:\/\/(?<domain>(?:prptl\.io)|(?:exos\.origyn\.network)|(?:localhost:\d+))\/-\/(?<id>[^\/\?#]*)/i,
+    /https?:\/\/(?<domain>(?:prptl\.io)|(?:exos\.origyn\.network)|(?:localhost:(?<port>\d+)))\/-\/(?<id>[^\/\?#]*)/i,
 
   /**
    * Matches the following canister-relative URL formats:

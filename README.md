@@ -54,6 +54,9 @@ regular expressions in [regex-patterns.ts](src/regex-patterns.ts).
 - Via Proxy
   - Localhost
     - http://localhost:3000/-/{canister_id}
+  - Localhost to Mainnet Canister
+    - http://localhost:8080/-/{canister_id}
+    - http://localhost:8080/-/{canister_name}
   - Mainnet
     - Current domain
       - https://prptl.io/-/{canister_id}
