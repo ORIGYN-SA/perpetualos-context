@@ -55,7 +55,9 @@ export const parseURL = async (url: string): Promise<URLContext> => {
 
   const ctx: URLContext = {
     fullUrl: url,
+    port: '',
     canisterUrl: '',
+    directCanisterUrl: '',
     canisterId: '',
     collectionId: '',
     canisterRelativeUrl: '',
@@ -63,6 +65,7 @@ export const parseURL = async (url: string): Promise<URLContext> => {
     queryStringParams,
     fragment: '',
     isLocal: false,
+    isLocalToMainnet: false,
     isDirect: false,
     isRaw: false,
     resourceLevel: ResourceLevel.Unknown,
@@ -82,12 +85,14 @@ export const parseURL = async (url: string): Promise<URLContext> => {
   if (directMatches?.groups) {
     const id = directMatches.groups.id || '';
     const domain = directMatches.groups.domain || '';
+    const port = directMatches.groups.port || '';
 
     ctx.isDirect = true;
     ctx.canisterUrl = directMatches[0];
     ctx.canisterId = PATTERNS.CanisterId.test(id) ? id : '';
     ctx.isRaw = domain.toLowerCase().startsWith('raw.');
     ctx.isLocal = domain.toLowerCase().includes('localhost');
+    ctx.port = port;
   } else {
     // Proxy URLs to a canister include the canister ID or the collection ID.
     // Root URL + 2 additional segments.
@@ -95,6 +100,7 @@ export const parseURL = async (url: string): Promise<URLContext> => {
     if (proxyMatches?.groups) {
       const id = proxyMatches.groups.id || '';
       const domain = proxyMatches.groups.domain || '';
+      const port = proxyMatches.groups.port || '';
 
       ctx.canisterUrl = proxyMatches[0];
       ctx.canisterId = PATTERNS.CanisterId.test(id) ? id : '';
@@ -105,6 +111,10 @@ export const parseURL = async (url: string): Promise<URLContext> => {
       // the proxy always uses the raw URL internally
       ctx.isRaw = true;
       ctx.isLocal = domain.toLowerCase().includes('localhost');
+      ctx.port = port;
+      if (port === '8080') {
+        ctx.isLocalToMainnet = true;
+      }
     }
   }
 
@@ -166,6 +176,18 @@ export const parseURL = async (url: string): Promise<URLContext> => {
 
   ctx.resourceLevelText = ResourceLevel[ctx.resourceLevel];
   ctx.resourceTypeText = ResourceType[ctx.resourceType];
+
+  // If the URL is local using port 8080 (isLocalToMainnet),
+  // it's a local test URL pointing at a mainnet canister:
+  // http://localhost:8080/-/brain-matters
+  // In that case, the direct URL is the mainnet direct URL
+
+  if (ctx.isLocal && !ctx.isLocalToMainnet) {
+    ctx.directCanisterUrl = `http://${ctx.canisterId}.localhost:8000`;
+  } else {
+    // As of Apr 20, 2023, all existing and new canisters can be accessed with icp0.io.
+    ctx.directCanisterUrl = `https://${ctx.canisterId}.raw.icp0.io`;
+  }
 
   return ctx;
 };
