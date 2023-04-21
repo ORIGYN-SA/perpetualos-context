@@ -135,7 +135,7 @@ export const parseURL = async (url: string): Promise<URLContext> => {
     // parse the hash
     const posHash = ctx.canisterRelativeUrl.indexOf('#');
     if (posHash > -1 && ctx.canisterRelativeUrl.length > posHash + 1) {
-      if (!ctx.canisterRelativePath) {
+      if (posHash < posQueryString) {
         ctx.canisterRelativePath = ctx.canisterRelativeUrl.substring(0, posHash);
       }
       ctx.fragment = ctx.canisterRelativeUrl.substring(posHash + 1);
