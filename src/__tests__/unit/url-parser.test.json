@@ -50,28 +50,28 @@
     }
   },
   {
-    "url": "http://localhost:8080/-/brain-matters/collection/-/info",
+    "url": "http://localhost:8080/-/brain-matters/collection/info",
     "expectedResult": {
-      "fullUrl": "http://localhost:8080/-/brain-matters/collection/-/info",
+      "fullUrl": "http://localhost:8080/-/brain-matters/collection/info",
       "port": "8080",
       "canisterUrl": "http://localhost:8080/-/brain-matters",
       "directCanisterUrl": "https://fghij-biaaa-aaaal-qbhwa-cai.raw.icp0.io",
       "canisterId": "fghij-biaaa-aaaal-qbhwa-cai",
       "collectionId": "brain-matters",
-      "canisterRelativeUrl": "/collection/-/info",
-      "canisterRelativePath": "/collection/-/info",
+      "canisterRelativeUrl": "/collection/info",
+      "canisterRelativePath": "/collection/info",
       "queryStringParams": [],
       "fragment": "",
       "isLocal": true,
       "isLocalToMainnet": true,
       "isDirect": false,
       "isRaw": true,
-      "resourceLevel": 2,
-      "resourceLevelText": "Token",
-      "resourceType": 10,
-      "resourceTypeText": "LibraryAsset",
-      "tokenId": "info",
-      "libraryId": "info"
+      "resourceLevel": 1,
+      "resourceLevelText": "Collection",
+      "resourceType": 2,
+      "resourceTypeText": "Info",
+      "tokenId": "",
+      "libraryId": ""
     }
   },
   {
@@ -650,28 +650,28 @@
     }
   },
   {
-    "url": "http://localhost:8080/-/brain-matters/collection/-/ledger_info",
+    "url": "http://localhost:8080/-/brain-matters/collection/ledger_info",
     "expectedResult": {
-      "fullUrl": "http://localhost:8080/-/brain-matters/collection/-/ledger_info",
+      "fullUrl": "http://localhost:8080/-/brain-matters/collection/ledger_info",
       "port": "8080",
       "canisterUrl": "http://localhost:8080/-/brain-matters",
       "directCanisterUrl": "https://fghij-biaaa-aaaal-qbhwa-cai.raw.icp0.io",
       "canisterId": "fghij-biaaa-aaaal-qbhwa-cai",
       "collectionId": "brain-matters",
-      "canisterRelativeUrl": "/collection/-/ledger_info",
-      "canisterRelativePath": "/collection/-/ledger_info",
+      "canisterRelativeUrl": "/collection/ledger_info",
+      "canisterRelativePath": "/collection/ledger_info",
       "queryStringParams": [],
       "fragment": "",
       "isLocal": true,
       "isLocalToMainnet": true,
       "isDirect": false,
       "isRaw": true,
-      "resourceLevel": 2,
-      "resourceLevelText": "Token",
-      "resourceType": 10,
-      "resourceTypeText": "LibraryAsset",
-      "tokenId": "ledger_info",
-      "libraryId": "ledger_info"
+      "resourceLevel": 1,
+      "resourceLevelText": "Collection",
+      "resourceType": 3,
+      "resourceTypeText": "LedgerInfo",
+      "tokenId": "",
+      "libraryId": ""
     }
   },
   {
@@ -1250,28 +1250,28 @@
     }
   },
   {
-    "url": "http://localhost:8080/-/brain-matters/collection/-/translate",
+    "url": "http://localhost:8080/-/brain-matters/collection/translate",
     "expectedResult": {
-      "fullUrl": "http://localhost:8080/-/brain-matters/collection/-/translate",
+      "fullUrl": "http://localhost:8080/-/brain-matters/collection/translate",
       "port": "8080",
       "canisterUrl": "http://localhost:8080/-/brain-matters",
       "directCanisterUrl": "https://fghij-biaaa-aaaal-qbhwa-cai.raw.icp0.io",
       "canisterId": "fghij-biaaa-aaaal-qbhwa-cai",
       "collectionId": "brain-matters",
-      "canisterRelativeUrl": "/collection/-/translate",
-      "canisterRelativePath": "/collection/-/translate",
+      "canisterRelativeUrl": "/collection/translate",
+      "canisterRelativePath": "/collection/translate",
       "queryStringParams": [],
       "fragment": "",
       "isLocal": true,
       "isLocalToMainnet": true,
       "isDirect": false,
       "isRaw": true,
-      "resourceLevel": 2,
-      "resourceLevelText": "Token",
-      "resourceType": 10,
-      "resourceTypeText": "LibraryAsset",
-      "tokenId": "translate",
-      "libraryId": "translate"
+      "resourceLevel": 1,
+      "resourceLevelText": "Collection",
+      "resourceType": 4,
+      "resourceTypeText": "Translate",
+      "tokenId": "",
+      "libraryId": ""
     }
   },
   {
@@ -1850,28 +1850,28 @@
     }
   },
   {
-    "url": "http://localhost:8080/-/brain-matters/collection/-/library",
+    "url": "http://localhost:8080/-/brain-matters/collection/library",
     "expectedResult": {
-      "fullUrl": "http://localhost:8080/-/brain-matters/collection/-/library",
+      "fullUrl": "http://localhost:8080/-/brain-matters/collection/library",
       "port": "8080",
       "canisterUrl": "http://localhost:8080/-/brain-matters",
       "directCanisterUrl": "https://fghij-biaaa-aaaal-qbhwa-cai.raw.icp0.io",
       "canisterId": "fghij-biaaa-aaaal-qbhwa-cai",
       "collectionId": "brain-matters",
-      "canisterRelativeUrl": "/collection/-/library",
-      "canisterRelativePath": "/collection/-/library",
+      "canisterRelativeUrl": "/collection/library",
+      "canisterRelativePath": "/collection/library",
       "queryStringParams": [],
       "fragment": "",
       "isLocal": true,
       "isLocalToMainnet": true,
       "isDirect": false,
       "isRaw": true,
-      "resourceLevel": 2,
-      "resourceLevelText": "Token",
-      "resourceType": 10,
-      "resourceTypeText": "LibraryAsset",
-      "tokenId": "library",
-      "libraryId": "library"
+      "resourceLevel": 1,
+      "resourceLevelText": "Collection",
+      "resourceType": 5,
+      "resourceTypeText": "Library",
+      "tokenId": "",
+      "libraryId": ""
     }
   },
   {
@@ -2450,28 +2450,28 @@
     }
   },
   {
-    "url": "http://localhost:8080/-/brain-matters/collection/-/primary",
+    "url": "http://localhost:8080/-/brain-matters/collection/primary",
     "expectedResult": {
-      "fullUrl": "http://localhost:8080/-/brain-matters/collection/-/primary",
+      "fullUrl": "http://localhost:8080/-/brain-matters/collection/primary",
       "port": "8080",
       "canisterUrl": "http://localhost:8080/-/brain-matters",
       "directCanisterUrl": "https://fghij-biaaa-aaaal-qbhwa-cai.raw.icp0.io",
       "canisterId": "fghij-biaaa-aaaal-qbhwa-cai",
       "collectionId": "brain-matters",
-      "canisterRelativeUrl": "/collection/-/primary",
-      "canisterRelativePath": "/collection/-/primary",
+      "canisterRelativeUrl": "/collection/primary",
+      "canisterRelativePath": "/collection/primary",
       "queryStringParams": [],
       "fragment": "",
       "isLocal": true,
       "isLocalToMainnet": true,
       "isDirect": false,
       "isRaw": true,
-      "resourceLevel": 2,
-      "resourceLevelText": "Token",
-      "resourceType": 10,
-      "resourceTypeText": "LibraryAsset",
-      "tokenId": "primary",
-      "libraryId": "primary"
+      "resourceLevel": 1,
+      "resourceLevelText": "Collection",
+      "resourceType": 6,
+      "resourceTypeText": "PrimaryAsset",
+      "tokenId": "",
+      "libraryId": ""
     }
   },
   {
@@ -3050,28 +3050,28 @@
     }
   },
   {
-    "url": "http://localhost:8080/-/brain-matters/collection/-/preview",
+    "url": "http://localhost:8080/-/brain-matters/collection/preview",
     "expectedResult": {
-      "fullUrl": "http://localhost:8080/-/brain-matters/collection/-/preview",
+      "fullUrl": "http://localhost:8080/-/brain-matters/collection/preview",
       "port": "8080",
       "canisterUrl": "http://localhost:8080/-/brain-matters",
       "directCanisterUrl": "https://fghij-biaaa-aaaal-qbhwa-cai.raw.icp0.io",
       "canisterId": "fghij-biaaa-aaaal-qbhwa-cai",
       "collectionId": "brain-matters",
-      "canisterRelativeUrl": "/collection/-/preview",
-      "canisterRelativePath": "/collection/-/preview",
+      "canisterRelativeUrl": "/collection/preview",
+      "canisterRelativePath": "/collection/preview",
       "queryStringParams": [],
       "fragment": "",
       "isLocal": true,
       "isLocalToMainnet": true,
       "isDirect": false,
       "isRaw": true,
-      "resourceLevel": 2,
-      "resourceLevelText": "Token",
-      "resourceType": 10,
-      "resourceTypeText": "LibraryAsset",
-      "tokenId": "preview",
-      "libraryId": "preview"
+      "resourceLevel": 1,
+      "resourceLevelText": "Collection",
+      "resourceType": 7,
+      "resourceTypeText": "PreviewAsset",
+      "tokenId": "",
+      "libraryId": ""
     }
   },
   {
@@ -3650,28 +3650,28 @@
     }
   },
   {
-    "url": "http://localhost:8080/-/brain-matters/collection/-/hidden",
+    "url": "http://localhost:8080/-/brain-matters/collection/hidden",
     "expectedResult": {
-      "fullUrl": "http://localhost:8080/-/brain-matters/collection/-/hidden",
+      "fullUrl": "http://localhost:8080/-/brain-matters/collection/hidden",
       "port": "8080",
       "canisterUrl": "http://localhost:8080/-/brain-matters",
       "directCanisterUrl": "https://fghij-biaaa-aaaal-qbhwa-cai.raw.icp0.io",
       "canisterId": "fghij-biaaa-aaaal-qbhwa-cai",
       "collectionId": "brain-matters",
-      "canisterRelativeUrl": "/collection/-/hidden",
-      "canisterRelativePath": "/collection/-/hidden",
+      "canisterRelativeUrl": "/collection/hidden",
+      "canisterRelativePath": "/collection/hidden",
       "queryStringParams": [],
       "fragment": "",
       "isLocal": true,
       "isLocalToMainnet": true,
       "isDirect": false,
       "isRaw": true,
-      "resourceLevel": 2,
-      "resourceLevelText": "Token",
-      "resourceType": 10,
-      "resourceTypeText": "LibraryAsset",
-      "tokenId": "hidden",
-      "libraryId": "hidden"
+      "resourceLevel": 1,
+      "resourceLevelText": "Collection",
+      "resourceType": 8,
+      "resourceTypeText": "HiddenAsset",
+      "tokenId": "",
+      "libraryId": ""
     }
   },
   {
@@ -4250,28 +4250,28 @@
     }
   },
   {
-    "url": "http://localhost:8080/-/brain-matters/collection/-/ex",
+    "url": "http://localhost:8080/-/brain-matters/collection/ex",
     "expectedResult": {
-      "fullUrl": "http://localhost:8080/-/brain-matters/collection/-/ex",
+      "fullUrl": "http://localhost:8080/-/brain-matters/collection/ex",
       "port": "8080",
       "canisterUrl": "http://localhost:8080/-/brain-matters",
       "directCanisterUrl": "https://fghij-biaaa-aaaal-qbhwa-cai.raw.icp0.io",
       "canisterId": "fghij-biaaa-aaaal-qbhwa-cai",
       "collectionId": "brain-matters",
-      "canisterRelativeUrl": "/collection/-/ex",
-      "canisterRelativePath": "/collection/-/ex",
+      "canisterRelativeUrl": "/collection/ex",
+      "canisterRelativePath": "/collection/ex",
       "queryStringParams": [],
       "fragment": "",
       "isLocal": true,
       "isLocalToMainnet": true,
       "isDirect": false,
       "isRaw": true,
-      "resourceLevel": 2,
-      "resourceLevelText": "Token",
-      "resourceType": 10,
-      "resourceTypeText": "LibraryAsset",
-      "tokenId": "ex",
-      "libraryId": "ex"
+      "resourceLevel": 1,
+      "resourceLevelText": "Collection",
+      "resourceType": 9,
+      "resourceTypeText": "ExperienceAsset",
+      "tokenId": "",
+      "libraryId": ""
     }
   },
   {
@@ -4816,11 +4816,11 @@
       "isLocalToMainnet": false,
       "isDirect": true,
       "isRaw": false,
-      "resourceLevel": 2,
-      "resourceLevelText": "Token",
+      "resourceLevel": 1,
+      "resourceLevelText": "Collection",
       "resourceType": 10,
       "resourceTypeText": "LibraryAsset",
-      "tokenId": "file-name.png",
+      "tokenId": "",
       "libraryId": "file-name.png"
     }
   },
@@ -4850,28 +4850,28 @@
     }
   },
   {
-    "url": "http://localhost:8080/-/brain-matters/collection/-/-/file-name.png",
+    "url": "http://localhost:8080/-/brain-matters/collection/-/file-name.png",
     "expectedResult": {
-      "fullUrl": "http://localhost:8080/-/brain-matters/collection/-/-/file-name.png",
+      "fullUrl": "http://localhost:8080/-/brain-matters/collection/-/file-name.png",
       "port": "8080",
       "canisterUrl": "http://localhost:8080/-/brain-matters",
       "directCanisterUrl": "https://fghij-biaaa-aaaal-qbhwa-cai.raw.icp0.io",
       "canisterId": "fghij-biaaa-aaaal-qbhwa-cai",
       "collectionId": "brain-matters",
-      "canisterRelativeUrl": "/collection/-/-/file-name.png",
-      "canisterRelativePath": "/collection/-/-/file-name.png",
+      "canisterRelativeUrl": "/collection/-/file-name.png",
+      "canisterRelativePath": "/collection/-/file-name.png",
       "queryStringParams": [],
       "fragment": "",
       "isLocal": true,
       "isLocalToMainnet": true,
       "isDirect": false,
       "isRaw": true,
-      "resourceLevel": 2,
-      "resourceLevelText": "Token",
-      "resourceType": 0,
-      "resourceTypeText": "Unknown",
-      "tokenId": "-",
-      "libraryId": "-"
+      "resourceLevel": 1,
+      "resourceLevelText": "Collection",
+      "resourceType": 10,
+      "resourceTypeText": "LibraryAsset",
+      "tokenId": "",
+      "libraryId": "file-name.png"
     }
   },
   {
@@ -4916,11 +4916,11 @@
       "isLocalToMainnet": false,
       "isDirect": true,
       "isRaw": true,
-      "resourceLevel": 2,
-      "resourceLevelText": "Token",
+      "resourceLevel": 1,
+      "resourceLevelText": "Collection",
       "resourceType": 10,
       "resourceTypeText": "LibraryAsset",
-      "tokenId": "file-name.png",
+      "tokenId": "",
       "libraryId": "file-name.png"
     }
   },
@@ -4966,11 +4966,11 @@
       "isLocalToMainnet": false,
       "isDirect": true,
       "isRaw": false,
-      "resourceLevel": 2,
-      "resourceLevelText": "Token",
+      "resourceLevel": 1,
+      "resourceLevelText": "Collection",
       "resourceType": 10,
       "resourceTypeText": "LibraryAsset",
-      "tokenId": "file-name.png",
+      "tokenId": "",
       "libraryId": "file-name.png"
     }
   },
@@ -5016,11 +5016,11 @@
       "isLocalToMainnet": false,
       "isDirect": true,
       "isRaw": true,
-      "resourceLevel": 2,
-      "resourceLevelText": "Token",
+      "resourceLevel": 1,
+      "resourceLevelText": "Collection",
       "resourceType": 10,
       "resourceTypeText": "LibraryAsset",
-      "tokenId": "file-name.png",
+      "tokenId": "",
       "libraryId": "file-name.png"
     }
   },
@@ -5066,11 +5066,11 @@
       "isLocalToMainnet": false,
       "isDirect": true,
       "isRaw": false,
-      "resourceLevel": 2,
-      "resourceLevelText": "Token",
+      "resourceLevel": 1,
+      "resourceLevelText": "Collection",
       "resourceType": 10,
       "resourceTypeText": "LibraryAsset",
-      "tokenId": "file-name.png",
+      "tokenId": "",
       "libraryId": "file-name.png"
     }
   },
@@ -5116,11 +5116,11 @@
       "isLocalToMainnet": false,
       "isDirect": false,
       "isRaw": true,
-      "resourceLevel": 2,
-      "resourceLevelText": "Token",
+      "resourceLevel": 1,
+      "resourceLevelText": "Collection",
       "resourceType": 10,
       "resourceTypeText": "LibraryAsset",
-      "tokenId": "file-name.png",
+      "tokenId": "",
       "libraryId": "file-name.png"
     }
   },
@@ -5166,11 +5166,11 @@
       "isLocalToMainnet": false,
       "isDirect": false,
       "isRaw": true,
-      "resourceLevel": 2,
-      "resourceLevelText": "Token",
+      "resourceLevel": 1,
+      "resourceLevelText": "Collection",
       "resourceType": 10,
       "resourceTypeText": "LibraryAsset",
-      "tokenId": "file-name.png",
+      "tokenId": "",
       "libraryId": "file-name.png"
     }
   },
@@ -5216,11 +5216,11 @@
       "isLocalToMainnet": false,
       "isDirect": false,
       "isRaw": true,
-      "resourceLevel": 2,
-      "resourceLevelText": "Token",
+      "resourceLevel": 1,
+      "resourceLevelText": "Collection",
       "resourceType": 10,
       "resourceTypeText": "LibraryAsset",
-      "tokenId": "file-name.png",
+      "tokenId": "",
       "libraryId": "file-name.png"
     }
   },
@@ -5266,11 +5266,11 @@
       "isLocalToMainnet": false,
       "isDirect": false,
       "isRaw": true,
-      "resourceLevel": 2,
-      "resourceLevelText": "Token",
+      "resourceLevel": 1,
+      "resourceLevelText": "Collection",
       "resourceType": 10,
       "resourceTypeText": "LibraryAsset",
-      "tokenId": "file-name.png",
+      "tokenId": "",
       "libraryId": "file-name.png"
     }
   },
@@ -5316,11 +5316,11 @@
       "isLocalToMainnet": false,
       "isDirect": false,
       "isRaw": true,
-      "resourceLevel": 2,
-      "resourceLevelText": "Token",
+      "resourceLevel": 1,
+      "resourceLevelText": "Collection",
       "resourceType": 10,
       "resourceTypeText": "LibraryAsset",
-      "tokenId": "file-name.png",
+      "tokenId": "",
       "libraryId": "file-name.png"
     }
   },
@@ -5366,11 +5366,11 @@
       "isLocalToMainnet": false,
       "isDirect": false,
       "isRaw": true,
-      "resourceLevel": 2,
-      "resourceLevelText": "Token",
+      "resourceLevel": 1,
+      "resourceLevelText": "Collection",
       "resourceType": 10,
       "resourceTypeText": "LibraryAsset",
-      "tokenId": "file-name.png",
+      "tokenId": "",
       "libraryId": "file-name.png"
     }
   },
@@ -5450,28 +5450,28 @@
     }
   },
   {
-    "url": "http://localhost:8080/-/brain-matters/collection/-/info#/some-fragment",
+    "url": "http://localhost:8080/-/brain-matters/collection/info#/some-fragment",
     "expectedResult": {
-      "fullUrl": "http://localhost:8080/-/brain-matters/collection/-/info#/some-fragment",
+      "fullUrl": "http://localhost:8080/-/brain-matters/collection/info#/some-fragment",
       "port": "8080",
       "canisterUrl": "http://localhost:8080/-/brain-matters",
       "directCanisterUrl": "https://fghij-biaaa-aaaal-qbhwa-cai.raw.icp0.io",
       "canisterId": "fghij-biaaa-aaaal-qbhwa-cai",
       "collectionId": "brain-matters",
-      "canisterRelativeUrl": "/collection/-/info#/some-fragment",
-      "canisterRelativePath": "/collection/-/info#/some-fragment",
+      "canisterRelativeUrl": "/collection/info#/some-fragment",
+      "canisterRelativePath": "/collection/info#/some-fragment",
       "queryStringParams": [],
       "fragment": "/some-fragment",
       "isLocal": true,
       "isLocalToMainnet": true,
       "isDirect": false,
       "isRaw": true,
-      "resourceLevel": 2,
-      "resourceLevelText": "Token",
-      "resourceType": 10,
-      "resourceTypeText": "LibraryAsset",
-      "tokenId": "info",
-      "libraryId": "info"
+      "resourceLevel": 1,
+      "resourceLevelText": "Collection",
+      "resourceType": 2,
+      "resourceTypeText": "Info",
+      "tokenId": "",
+      "libraryId": ""
     }
   },
   {
@@ -6050,28 +6050,28 @@
     }
   },
   {
-    "url": "http://localhost:8080/-/brain-matters/collection/-/ledger_info#/some-fragment",
+    "url": "http://localhost:8080/-/brain-matters/collection/ledger_info#/some-fragment",
     "expectedResult": {
-      "fullUrl": "http://localhost:8080/-/brain-matters/collection/-/ledger_info#/some-fragment",
+      "fullUrl": "http://localhost:8080/-/brain-matters/collection/ledger_info#/some-fragment",
       "port": "8080",
       "canisterUrl": "http://localhost:8080/-/brain-matters",
       "directCanisterUrl": "https://fghij-biaaa-aaaal-qbhwa-cai.raw.icp0.io",
       "canisterId": "fghij-biaaa-aaaal-qbhwa-cai",
       "collectionId": "brain-matters",
-      "canisterRelativeUrl": "/collection/-/ledger_info#/some-fragment",
-      "canisterRelativePath": "/collection/-/ledger_info#/some-fragment",
+      "canisterRelativeUrl": "/collection/ledger_info#/some-fragment",
+      "canisterRelativePath": "/collection/ledger_info#/some-fragment",
       "queryStringParams": [],
       "fragment": "/some-fragment",
       "isLocal": true,
       "isLocalToMainnet": true,
       "isDirect": false,
       "isRaw": true,
-      "resourceLevel": 2,
-      "resourceLevelText": "Token",
-      "resourceType": 10,
-      "resourceTypeText": "LibraryAsset",
-      "tokenId": "ledger_info",
-      "libraryId": "ledger_info"
+      "resourceLevel": 1,
+      "resourceLevelText": "Collection",
+      "resourceType": 3,
+      "resourceTypeText": "LedgerInfo",
+      "tokenId": "",
+      "libraryId": ""
     }
   },
   {
@@ -6650,28 +6650,28 @@
     }
   },
   {
-    "url": "http://localhost:8080/-/brain-matters/collection/-/translate#/some-fragment",
+    "url": "http://localhost:8080/-/brain-matters/collection/translate#/some-fragment",
     "expectedResult": {
-      "fullUrl": "http://localhost:8080/-/brain-matters/collection/-/translate#/some-fragment",
+      "fullUrl": "http://localhost:8080/-/brain-matters/collection/translate#/some-fragment",
       "port": "8080",
       "canisterUrl": "http://localhost:8080/-/brain-matters",
       "directCanisterUrl": "https://fghij-biaaa-aaaal-qbhwa-cai.raw.icp0.io",
       "canisterId": "fghij-biaaa-aaaal-qbhwa-cai",
       "collectionId": "brain-matters",
-      "canisterRelativeUrl": "/collection/-/translate#/some-fragment",
-      "canisterRelativePath": "/collection/-/translate#/some-fragment",
+      "canisterRelativeUrl": "/collection/translate#/some-fragment",
+      "canisterRelativePath": "/collection/translate#/some-fragment",
       "queryStringParams": [],
       "fragment": "/some-fragment",
       "isLocal": true,
       "isLocalToMainnet": true,
       "isDirect": false,
       "isRaw": true,
-      "resourceLevel": 2,
-      "resourceLevelText": "Token",
-      "resourceType": 10,
-      "resourceTypeText": "LibraryAsset",
-      "tokenId": "translate",
-      "libraryId": "translate"
+      "resourceLevel": 1,
+      "resourceLevelText": "Collection",
+      "resourceType": 4,
+      "resourceTypeText": "Translate",
+      "tokenId": "",
+      "libraryId": ""
     }
   },
   {
@@ -7250,28 +7250,28 @@
     }
   },
   {
-    "url": "http://localhost:8080/-/brain-matters/collection/-/library#/some-fragment",
+    "url": "http://localhost:8080/-/brain-matters/collection/library#/some-fragment",
     "expectedResult": {
-      "fullUrl": "http://localhost:8080/-/brain-matters/collection/-/library#/some-fragment",
+      "fullUrl": "http://localhost:8080/-/brain-matters/collection/library#/some-fragment",
       "port": "8080",
       "canisterUrl": "http://localhost:8080/-/brain-matters",
       "directCanisterUrl": "https://fghij-biaaa-aaaal-qbhwa-cai.raw.icp0.io",
       "canisterId": "fghij-biaaa-aaaal-qbhwa-cai",
       "collectionId": "brain-matters",
-      "canisterRelativeUrl": "/collection/-/library#/some-fragment",
-      "canisterRelativePath": "/collection/-/library#/some-fragment",
+      "canisterRelativeUrl": "/collection/library#/some-fragment",
+      "canisterRelativePath": "/collection/library#/some-fragment",
       "queryStringParams": [],
       "fragment": "/some-fragment",
       "isLocal": true,
       "isLocalToMainnet": true,
       "isDirect": false,
       "isRaw": true,
-      "resourceLevel": 2,
-      "resourceLevelText": "Token",
-      "resourceType": 10,
-      "resourceTypeText": "LibraryAsset",
-      "tokenId": "library",
-      "libraryId": "library"
+      "resourceLevel": 1,
+      "resourceLevelText": "Collection",
+      "resourceType": 5,
+      "resourceTypeText": "Library",
+      "tokenId": "",
+      "libraryId": ""
     }
   },
   {
@@ -7850,28 +7850,28 @@
     }
   },
   {
-    "url": "http://localhost:8080/-/brain-matters/collection/-/primary#/some-fragment",
+    "url": "http://localhost:8080/-/brain-matters/collection/primary#/some-fragment",
     "expectedResult": {
-      "fullUrl": "http://localhost:8080/-/brain-matters/collection/-/primary#/some-fragment",
+      "fullUrl": "http://localhost:8080/-/brain-matters/collection/primary#/some-fragment",
       "port": "8080",
       "canisterUrl": "http://localhost:8080/-/brain-matters",
       "directCanisterUrl": "https://fghij-biaaa-aaaal-qbhwa-cai.raw.icp0.io",
       "canisterId": "fghij-biaaa-aaaal-qbhwa-cai",
       "collectionId": "brain-matters",
-      "canisterRelativeUrl": "/collection/-/primary#/some-fragment",
-      "canisterRelativePath": "/collection/-/primary#/some-fragment",
+      "canisterRelativeUrl": "/collection/primary#/some-fragment",
+      "canisterRelativePath": "/collection/primary#/some-fragment",
       "queryStringParams": [],
       "fragment": "/some-fragment",
       "isLocal": true,
       "isLocalToMainnet": true,
       "isDirect": false,
       "isRaw": true,
-      "resourceLevel": 2,
-      "resourceLevelText": "Token",
-      "resourceType": 10,
-      "resourceTypeText": "LibraryAsset",
-      "tokenId": "primary",
-      "libraryId": "primary"
+      "resourceLevel": 1,
+      "resourceLevelText": "Collection",
+      "resourceType": 6,
+      "resourceTypeText": "PrimaryAsset",
+      "tokenId": "",
+      "libraryId": ""
     }
   },
   {
@@ -8450,28 +8450,28 @@
     }
   },
   {
-    "url": "http://localhost:8080/-/brain-matters/collection/-/preview#/some-fragment",
+    "url": "http://localhost:8080/-/brain-matters/collection/preview#/some-fragment",
     "expectedResult": {
-      "fullUrl": "http://localhost:8080/-/brain-matters/collection/-/preview#/some-fragment",
+      "fullUrl": "http://localhost:8080/-/brain-matters/collection/preview#/some-fragment",
       "port": "8080",
       "canisterUrl": "http://localhost:8080/-/brain-matters",
       "directCanisterUrl": "https://fghij-biaaa-aaaal-qbhwa-cai.raw.icp0.io",
       "canisterId": "fghij-biaaa-aaaal-qbhwa-cai",
       "collectionId": "brain-matters",
-      "canisterRelativeUrl": "/collection/-/preview#/some-fragment",
-      "canisterRelativePath": "/collection/-/preview#/some-fragment",
+      "canisterRelativeUrl": "/collection/preview#/some-fragment",
+      "canisterRelativePath": "/collection/preview#/some-fragment",
       "queryStringParams": [],
       "fragment": "/some-fragment",
       "isLocal": true,
       "isLocalToMainnet": true,
       "isDirect": false,
       "isRaw": true,
-      "resourceLevel": 2,
-      "resourceLevelText": "Token",
-      "resourceType": 10,
-      "resourceTypeText": "LibraryAsset",
-      "tokenId": "preview",
-      "libraryId": "preview"
+      "resourceLevel": 1,
+      "resourceLevelText": "Collection",
+      "resourceType": 7,
+      "resourceTypeText": "PreviewAsset",
+      "tokenId": "",
+      "libraryId": ""
     }
   },
   {
@@ -9050,28 +9050,28 @@
     }
   },
   {
-    "url": "http://localhost:8080/-/brain-matters/collection/-/hidden#/some-fragment",
+    "url": "http://localhost:8080/-/brain-matters/collection/hidden#/some-fragment",
     "expectedResult": {
-      "fullUrl": "http://localhost:8080/-/brain-matters/collection/-/hidden#/some-fragment",
+      "fullUrl": "http://localhost:8080/-/brain-matters/collection/hidden#/some-fragment",
       "port": "8080",
       "canisterUrl": "http://localhost:8080/-/brain-matters",
       "directCanisterUrl": "https://fghij-biaaa-aaaal-qbhwa-cai.raw.icp0.io",
       "canisterId": "fghij-biaaa-aaaal-qbhwa-cai",
       "collectionId": "brain-matters",
-      "canisterRelativeUrl": "/collection/-/hidden#/some-fragment",
-      "canisterRelativePath": "/collection/-/hidden#/some-fragment",
+      "canisterRelativeUrl": "/collection/hidden#/some-fragment",
+      "canisterRelativePath": "/collection/hidden#/some-fragment",
       "queryStringParams": [],
       "fragment": "/some-fragment",
       "isLocal": true,
       "isLocalToMainnet": true,
       "isDirect": false,
       "isRaw": true,
-      "resourceLevel": 2,
-      "resourceLevelText": "Token",
-      "resourceType": 10,
-      "resourceTypeText": "LibraryAsset",
-      "tokenId": "hidden",
-      "libraryId": "hidden"
+      "resourceLevel": 1,
+      "resourceLevelText": "Collection",
+      "resourceType": 8,
+      "resourceTypeText": "HiddenAsset",
+      "tokenId": "",
+      "libraryId": ""
     }
   },
   {
@@ -9650,28 +9650,28 @@
     }
   },
   {
-    "url": "http://localhost:8080/-/brain-matters/collection/-/ex#/some-fragment",
+    "url": "http://localhost:8080/-/brain-matters/collection/ex#/some-fragment",
     "expectedResult": {
-      "fullUrl": "http://localhost:8080/-/brain-matters/collection/-/ex#/some-fragment",
+      "fullUrl": "http://localhost:8080/-/brain-matters/collection/ex#/some-fragment",
       "port": "8080",
       "canisterUrl": "http://localhost:8080/-/brain-matters",
       "directCanisterUrl": "https://fghij-biaaa-aaaal-qbhwa-cai.raw.icp0.io",
       "canisterId": "fghij-biaaa-aaaal-qbhwa-cai",
       "collectionId": "brain-matters",
-      "canisterRelativeUrl": "/collection/-/ex#/some-fragment",
-      "canisterRelativePath": "/collection/-/ex#/some-fragment",
+      "canisterRelativeUrl": "/collection/ex#/some-fragment",
+      "canisterRelativePath": "/collection/ex#/some-fragment",
       "queryStringParams": [],
       "fragment": "/some-fragment",
       "isLocal": true,
       "isLocalToMainnet": true,
       "isDirect": false,
       "isRaw": true,
-      "resourceLevel": 2,
-      "resourceLevelText": "Token",
-      "resourceType": 10,
-      "resourceTypeText": "LibraryAsset",
-      "tokenId": "ex",
-      "libraryId": "ex"
+      "resourceLevel": 1,
+      "resourceLevelText": "Collection",
+      "resourceType": 9,
+      "resourceTypeText": "ExperienceAsset",
+      "tokenId": "",
+      "libraryId": ""
     }
   },
   {
@@ -10216,11 +10216,11 @@
       "isLocalToMainnet": false,
       "isDirect": true,
       "isRaw": false,
-      "resourceLevel": 2,
-      "resourceLevelText": "Token",
+      "resourceLevel": 1,
+      "resourceLevelText": "Collection",
       "resourceType": 10,
       "resourceTypeText": "LibraryAsset",
-      "tokenId": "file-name.png",
+      "tokenId": "",
       "libraryId": "file-name.png"
     }
   },
@@ -10250,28 +10250,28 @@
     }
   },
   {
-    "url": "http://localhost:8080/-/brain-matters/collection/-/-/file-name.png#/some-fragment",
+    "url": "http://localhost:8080/-/brain-matters/collection/-/file-name.png#/some-fragment",
     "expectedResult": {
-      "fullUrl": "http://localhost:8080/-/brain-matters/collection/-/-/file-name.png#/some-fragment",
+      "fullUrl": "http://localhost:8080/-/brain-matters/collection/-/file-name.png#/some-fragment",
       "port": "8080",
       "canisterUrl": "http://localhost:8080/-/brain-matters",
       "directCanisterUrl": "https://fghij-biaaa-aaaal-qbhwa-cai.raw.icp0.io",
       "canisterId": "fghij-biaaa-aaaal-qbhwa-cai",
       "collectionId": "brain-matters",
-      "canisterRelativeUrl": "/collection/-/-/file-name.png#/some-fragment",
-      "canisterRelativePath": "/collection/-/-/file-name.png#/some-fragment",
+      "canisterRelativeUrl": "/collection/-/file-name.png#/some-fragment",
+      "canisterRelativePath": "/collection/-/file-name.png#/some-fragment",
       "queryStringParams": [],
       "fragment": "/some-fragment",
       "isLocal": true,
       "isLocalToMainnet": true,
       "isDirect": false,
       "isRaw": true,
-      "resourceLevel": 2,
-      "resourceLevelText": "Token",
-      "resourceType": 0,
-      "resourceTypeText": "Unknown",
-      "tokenId": "-",
-      "libraryId": "-"
+      "resourceLevel": 1,
+      "resourceLevelText": "Collection",
+      "resourceType": 10,
+      "resourceTypeText": "LibraryAsset",
+      "tokenId": "",
+      "libraryId": "file-name.png"
     }
   },
   {
@@ -10316,11 +10316,11 @@
       "isLocalToMainnet": false,
       "isDirect": true,
       "isRaw": true,
-      "resourceLevel": 2,
-      "resourceLevelText": "Token",
+      "resourceLevel": 1,
+      "resourceLevelText": "Collection",
       "resourceType": 10,
       "resourceTypeText": "LibraryAsset",
-      "tokenId": "file-name.png",
+      "tokenId": "",
       "libraryId": "file-name.png"
     }
   },
@@ -10366,11 +10366,11 @@
       "isLocalToMainnet": false,
       "isDirect": true,
       "isRaw": false,
-      "resourceLevel": 2,
-      "resourceLevelText": "Token",
+      "resourceLevel": 1,
+      "resourceLevelText": "Collection",
       "resourceType": 10,
       "resourceTypeText": "LibraryAsset",
-      "tokenId": "file-name.png",
+      "tokenId": "",
       "libraryId": "file-name.png"
     }
   },
@@ -10416,11 +10416,11 @@
       "isLocalToMainnet": false,
       "isDirect": true,
       "isRaw": true,
-      "resourceLevel": 2,
-      "resourceLevelText": "Token",
+      "resourceLevel": 1,
+      "resourceLevelText": "Collection",
       "resourceType": 10,
       "resourceTypeText": "LibraryAsset",
-      "tokenId": "file-name.png",
+      "tokenId": "",
       "libraryId": "file-name.png"
     }
   },
@@ -10466,11 +10466,11 @@
       "isLocalToMainnet": false,
       "isDirect": true,
       "isRaw": false,
-      "resourceLevel": 2,
-      "resourceLevelText": "Token",
+      "resourceLevel": 1,
+      "resourceLevelText": "Collection",
       "resourceType": 10,
       "resourceTypeText": "LibraryAsset",
-      "tokenId": "file-name.png",
+      "tokenId": "",
       "libraryId": "file-name.png"
     }
   },
@@ -10516,11 +10516,11 @@
       "isLocalToMainnet": false,
       "isDirect": false,
       "isRaw": true,
-      "resourceLevel": 2,
-      "resourceLevelText": "Token",
+      "resourceLevel": 1,
+      "resourceLevelText": "Collection",
       "resourceType": 10,
       "resourceTypeText": "LibraryAsset",
-      "tokenId": "file-name.png",
+      "tokenId": "",
       "libraryId": "file-name.png"
     }
   },
@@ -10566,11 +10566,11 @@
       "isLocalToMainnet": false,
       "isDirect": false,
       "isRaw": true,
-      "resourceLevel": 2,
-      "resourceLevelText": "Token",
+      "resourceLevel": 1,
+      "resourceLevelText": "Collection",
       "resourceType": 10,
       "resourceTypeText": "LibraryAsset",
-      "tokenId": "file-name.png",
+      "tokenId": "",
       "libraryId": "file-name.png"
     }
   },
@@ -10616,11 +10616,11 @@
       "isLocalToMainnet": false,
       "isDirect": false,
       "isRaw": true,
-      "resourceLevel": 2,
-      "resourceLevelText": "Token",
+      "resourceLevel": 1,
+      "resourceLevelText": "Collection",
       "resourceType": 10,
       "resourceTypeText": "LibraryAsset",
-      "tokenId": "file-name.png",
+      "tokenId": "",
       "libraryId": "file-name.png"
     }
   },
@@ -10666,11 +10666,11 @@
       "isLocalToMainnet": false,
       "isDirect": false,
       "isRaw": true,
-      "resourceLevel": 2,
-      "resourceLevelText": "Token",
+      "resourceLevel": 1,
+      "resourceLevelText": "Collection",
       "resourceType": 10,
       "resourceTypeText": "LibraryAsset",
-      "tokenId": "file-name.png",
+      "tokenId": "",
       "libraryId": "file-name.png"
     }
   },
@@ -10716,11 +10716,11 @@
       "isLocalToMainnet": false,
       "isDirect": false,
       "isRaw": true,
-      "resourceLevel": 2,
-      "resourceLevelText": "Token",
+      "resourceLevel": 1,
+      "resourceLevelText": "Collection",
       "resourceType": 10,
       "resourceTypeText": "LibraryAsset",
-      "tokenId": "file-name.png",
+      "tokenId": "",
       "libraryId": "file-name.png"
     }
   },
@@ -10766,11 +10766,11 @@
       "isLocalToMainnet": false,
       "isDirect": false,
       "isRaw": true,
-      "resourceLevel": 2,
-      "resourceLevelText": "Token",
+      "resourceLevel": 1,
+      "resourceLevelText": "Collection",
       "resourceType": 10,
       "resourceTypeText": "LibraryAsset",
-      "tokenId": "file-name.png",
+      "tokenId": "",
       "libraryId": "file-name.png"
     }
   },
@@ -10876,16 +10876,16 @@
     }
   },
   {
-    "url": "http://localhost:8080/-/brain-matters/collection/-/info?page=home&nav=3&connected=true",
+    "url": "http://localhost:8080/-/brain-matters/collection/info?page=home&nav=3&connected=true",
     "expectedResult": {
-      "fullUrl": "http://localhost:8080/-/brain-matters/collection/-/info?page=home&nav=3&connected=true",
+      "fullUrl": "http://localhost:8080/-/brain-matters/collection/info?page=home&nav=3&connected=true",
       "port": "8080",
       "canisterUrl": "http://localhost:8080/-/brain-matters",
       "directCanisterUrl": "https://fghij-biaaa-aaaal-qbhwa-cai.raw.icp0.io",
       "canisterId": "fghij-biaaa-aaaal-qbhwa-cai",
       "collectionId": "brain-matters",
-      "canisterRelativeUrl": "/collection/-/info?page=home&nav=3&connected=true",
-      "canisterRelativePath": "/collection/-/info",
+      "canisterRelativeUrl": "/collection/info?page=home&nav=3&connected=true",
+      "canisterRelativePath": "/collection/info",
       "queryStringParams": [
         {
           "name": "page",
@@ -10905,12 +10905,12 @@
       "isLocalToMainnet": true,
       "isDirect": false,
       "isRaw": true,
-      "resourceLevel": 2,
-      "resourceLevelText": "Token",
-      "resourceType": 10,
-      "resourceTypeText": "LibraryAsset",
-      "tokenId": "info",
-      "libraryId": "info"
+      "resourceLevel": 1,
+      "resourceLevelText": "Collection",
+      "resourceType": 2,
+      "resourceTypeText": "Info",
+      "tokenId": "",
+      "libraryId": ""
     }
   },
   {
@@ -11788,16 +11788,16 @@
     }
   },
   {
-    "url": "http://localhost:8080/-/brain-matters/collection/-/ledger_info?page=home&nav=3&connected=true",
+    "url": "http://localhost:8080/-/brain-matters/collection/ledger_info?page=home&nav=3&connected=true",
     "expectedResult": {
-      "fullUrl": "http://localhost:8080/-/brain-matters/collection/-/ledger_info?page=home&nav=3&connected=true",
+      "fullUrl": "http://localhost:8080/-/brain-matters/collection/ledger_info?page=home&nav=3&connected=true",
       "port": "8080",
       "canisterUrl": "http://localhost:8080/-/brain-matters",
       "directCanisterUrl": "https://fghij-biaaa-aaaal-qbhwa-cai.raw.icp0.io",
       "canisterId": "fghij-biaaa-aaaal-qbhwa-cai",
       "collectionId": "brain-matters",
-      "canisterRelativeUrl": "/collection/-/ledger_info?page=home&nav=3&connected=true",
-      "canisterRelativePath": "/collection/-/ledger_info",
+      "canisterRelativeUrl": "/collection/ledger_info?page=home&nav=3&connected=true",
+      "canisterRelativePath": "/collection/ledger_info",
       "queryStringParams": [
         {
           "name": "page",
@@ -11817,12 +11817,12 @@
       "isLocalToMainnet": true,
       "isDirect": false,
       "isRaw": true,
-      "resourceLevel": 2,
-      "resourceLevelText": "Token",
-      "resourceType": 10,
-      "resourceTypeText": "LibraryAsset",
-      "tokenId": "ledger_info",
-      "libraryId": "ledger_info"
+      "resourceLevel": 1,
+      "resourceLevelText": "Collection",
+      "resourceType": 3,
+      "resourceTypeText": "LedgerInfo",
+      "tokenId": "",
+      "libraryId": ""
     }
   },
   {
@@ -12700,16 +12700,16 @@
     }
   },
   {
-    "url": "http://localhost:8080/-/brain-matters/collection/-/translate?page=home&nav=3&connected=true",
+    "url": "http://localhost:8080/-/brain-matters/collection/translate?page=home&nav=3&connected=true",
     "expectedResult": {
-      "fullUrl": "http://localhost:8080/-/brain-matters/collection/-/translate?page=home&nav=3&connected=true",
+      "fullUrl": "http://localhost:8080/-/brain-matters/collection/translate?page=home&nav=3&connected=true",
       "port": "8080",
       "canisterUrl": "http://localhost:8080/-/brain-matters",
       "directCanisterUrl": "https://fghij-biaaa-aaaal-qbhwa-cai.raw.icp0.io",
       "canisterId": "fghij-biaaa-aaaal-qbhwa-cai",
       "collectionId": "brain-matters",
-      "canisterRelativeUrl": "/collection/-/translate?page=home&nav=3&connected=true",
-      "canisterRelativePath": "/collection/-/translate",
+      "canisterRelativeUrl": "/collection/translate?page=home&nav=3&connected=true",
+      "canisterRelativePath": "/collection/translate",
       "queryStringParams": [
         {
           "name": "page",
@@ -12729,12 +12729,12 @@
       "isLocalToMainnet": true,
       "isDirect": false,
       "isRaw": true,
-      "resourceLevel": 2,
-      "resourceLevelText": "Token",
-      "resourceType": 10,
-      "resourceTypeText": "LibraryAsset",
-      "tokenId": "translate",
-      "libraryId": "translate"
+      "resourceLevel": 1,
+      "resourceLevelText": "Collection",
+      "resourceType": 4,
+      "resourceTypeText": "Translate",
+      "tokenId": "",
+      "libraryId": ""
     }
   },
   {
@@ -13612,16 +13612,16 @@
     }
   },
   {
-    "url": "http://localhost:8080/-/brain-matters/collection/-/library?page=home&nav=3&connected=true",
+    "url": "http://localhost:8080/-/brain-matters/collection/library?page=home&nav=3&connected=true",
     "expectedResult": {
-      "fullUrl": "http://localhost:8080/-/brain-matters/collection/-/library?page=home&nav=3&connected=true",
+      "fullUrl": "http://localhost:8080/-/brain-matters/collection/library?page=home&nav=3&connected=true",
       "port": "8080",
       "canisterUrl": "http://localhost:8080/-/brain-matters",
       "directCanisterUrl": "https://fghij-biaaa-aaaal-qbhwa-cai.raw.icp0.io",
       "canisterId": "fghij-biaaa-aaaal-qbhwa-cai",
       "collectionId": "brain-matters",
-      "canisterRelativeUrl": "/collection/-/library?page=home&nav=3&connected=true",
-      "canisterRelativePath": "/collection/-/library",
+      "canisterRelativeUrl": "/collection/library?page=home&nav=3&connected=true",
+      "canisterRelativePath": "/collection/library",
       "queryStringParams": [
         {
           "name": "page",
@@ -13641,12 +13641,12 @@
       "isLocalToMainnet": true,
       "isDirect": false,
       "isRaw": true,
-      "resourceLevel": 2,
-      "resourceLevelText": "Token",
-      "resourceType": 10,
-      "resourceTypeText": "LibraryAsset",
-      "tokenId": "library",
-      "libraryId": "library"
+      "resourceLevel": 1,
+      "resourceLevelText": "Collection",
+      "resourceType": 5,
+      "resourceTypeText": "Library",
+      "tokenId": "",
+      "libraryId": ""
     }
   },
   {
@@ -14524,16 +14524,16 @@
     }
   },
   {
-    "url": "http://localhost:8080/-/brain-matters/collection/-/primary?page=home&nav=3&connected=true",
+    "url": "http://localhost:8080/-/brain-matters/collection/primary?page=home&nav=3&connected=true",
     "expectedResult": {
-      "fullUrl": "http://localhost:8080/-/brain-matters/collection/-/primary?page=home&nav=3&connected=true",
+      "fullUrl": "http://localhost:8080/-/brain-matters/collection/primary?page=home&nav=3&connected=true",
       "port": "8080",
       "canisterUrl": "http://localhost:8080/-/brain-matters",
       "directCanisterUrl": "https://fghij-biaaa-aaaal-qbhwa-cai.raw.icp0.io",
       "canisterId": "fghij-biaaa-aaaal-qbhwa-cai",
       "collectionId": "brain-matters",
-      "canisterRelativeUrl": "/collection/-/primary?page=home&nav=3&connected=true",
-      "canisterRelativePath": "/collection/-/primary",
+      "canisterRelativeUrl": "/collection/primary?page=home&nav=3&connected=true",
+      "canisterRelativePath": "/collection/primary",
       "queryStringParams": [
         {
           "name": "page",
@@ -14553,12 +14553,12 @@
       "isLocalToMainnet": true,
       "isDirect": false,
       "isRaw": true,
-      "resourceLevel": 2,
-      "resourceLevelText": "Token",
-      "resourceType": 10,
-      "resourceTypeText": "LibraryAsset",
-      "tokenId": "primary",
-      "libraryId": "primary"
+      "resourceLevel": 1,
+      "resourceLevelText": "Collection",
+      "resourceType": 6,
+      "resourceTypeText": "PrimaryAsset",
+      "tokenId": "",
+      "libraryId": ""
     }
   },
   {
@@ -15436,16 +15436,16 @@
     }
   },
   {
-    "url": "http://localhost:8080/-/brain-matters/collection/-/preview?page=home&nav=3&connected=true",
+    "url": "http://localhost:8080/-/brain-matters/collection/preview?page=home&nav=3&connected=true",
     "expectedResult": {
-      "fullUrl": "http://localhost:8080/-/brain-matters/collection/-/preview?page=home&nav=3&connected=true",
+      "fullUrl": "http://localhost:8080/-/brain-matters/collection/preview?page=home&nav=3&connected=true",
       "port": "8080",
       "canisterUrl": "http://localhost:8080/-/brain-matters",
       "directCanisterUrl": "https://fghij-biaaa-aaaal-qbhwa-cai.raw.icp0.io",
       "canisterId": "fghij-biaaa-aaaal-qbhwa-cai",
       "collectionId": "brain-matters",
-      "canisterRelativeUrl": "/collection/-/preview?page=home&nav=3&connected=true",
-      "canisterRelativePath": "/collection/-/preview",
+      "canisterRelativeUrl": "/collection/preview?page=home&nav=3&connected=true",
+      "canisterRelativePath": "/collection/preview",
       "queryStringParams": [
         {
           "name": "page",
@@ -15465,12 +15465,12 @@
       "isLocalToMainnet": true,
       "isDirect": false,
       "isRaw": true,
-      "resourceLevel": 2,
-      "resourceLevelText": "Token",
-      "resourceType": 10,
-      "resourceTypeText": "LibraryAsset",
-      "tokenId": "preview",
-      "libraryId": "preview"
+      "resourceLevel": 1,
+      "resourceLevelText": "Collection",
+      "resourceType": 7,
+      "resourceTypeText": "PreviewAsset",
+      "tokenId": "",
+      "libraryId": ""
     }
   },
   {
@@ -16348,16 +16348,16 @@
     }
   },
   {
-    "url": "http://localhost:8080/-/brain-matters/collection/-/hidden?page=home&nav=3&connected=true",
+    "url": "http://localhost:8080/-/brain-matters/collection/hidden?page=home&nav=3&connected=true",
     "expectedResult": {
-      "fullUrl": "http://localhost:8080/-/brain-matters/collection/-/hidden?page=home&nav=3&connected=true",
+      "fullUrl": "http://localhost:8080/-/brain-matters/collection/hidden?page=home&nav=3&connected=true",
       "port": "8080",
       "canisterUrl": "http://localhost:8080/-/brain-matters",
       "directCanisterUrl": "https://fghij-biaaa-aaaal-qbhwa-cai.raw.icp0.io",
       "canisterId": "fghij-biaaa-aaaal-qbhwa-cai",
       "collectionId": "brain-matters",
-      "canisterRelativeUrl": "/collection/-/hidden?page=home&nav=3&connected=true",
-      "canisterRelativePath": "/collection/-/hidden",
+      "canisterRelativeUrl": "/collection/hidden?page=home&nav=3&connected=true",
+      "canisterRelativePath": "/collection/hidden",
       "queryStringParams": [
         {
           "name": "page",
@@ -16377,12 +16377,12 @@
       "isLocalToMainnet": true,
       "isDirect": false,
       "isRaw": true,
-      "resourceLevel": 2,
-      "resourceLevelText": "Token",
-      "resourceType": 10,
-      "resourceTypeText": "LibraryAsset",
-      "tokenId": "hidden",
-      "libraryId": "hidden"
+      "resourceLevel": 1,
+      "resourceLevelText": "Collection",
+      "resourceType": 8,
+      "resourceTypeText": "HiddenAsset",
+      "tokenId": "",
+      "libraryId": ""
     }
   },
   {
@@ -17260,16 +17260,16 @@
     }
   },
   {
-    "url": "http://localhost:8080/-/brain-matters/collection/-/ex?page=home&nav=3&connected=true",
+    "url": "http://localhost:8080/-/brain-matters/collection/ex?page=home&nav=3&connected=true",
     "expectedResult": {
-      "fullUrl": "http://localhost:8080/-/brain-matters/collection/-/ex?page=home&nav=3&connected=true",
+      "fullUrl": "http://localhost:8080/-/brain-matters/collection/ex?page=home&nav=3&connected=true",
       "port": "8080",
       "canisterUrl": "http://localhost:8080/-/brain-matters",
       "directCanisterUrl": "https://fghij-biaaa-aaaal-qbhwa-cai.raw.icp0.io",
       "canisterId": "fghij-biaaa-aaaal-qbhwa-cai",
       "collectionId": "brain-matters",
-      "canisterRelativeUrl": "/collection/-/ex?page=home&nav=3&connected=true",
-      "canisterRelativePath": "/collection/-/ex",
+      "canisterRelativeUrl": "/collection/ex?page=home&nav=3&connected=true",
+      "canisterRelativePath": "/collection/ex",
       "queryStringParams": [
         {
           "name": "page",
@@ -17289,12 +17289,12 @@
       "isLocalToMainnet": true,
       "isDirect": false,
       "isRaw": true,
-      "resourceLevel": 2,
-      "resourceLevelText": "Token",
-      "resourceType": 10,
-      "resourceTypeText": "LibraryAsset",
-      "tokenId": "ex",
-      "libraryId": "ex"
+      "resourceLevel": 1,
+      "resourceLevelText": "Collection",
+      "resourceType": 9,
+      "resourceTypeText": "ExperienceAsset",
+      "tokenId": "",
+      "libraryId": ""
     }
   },
   {
@@ -18125,11 +18125,11 @@
       "isLocalToMainnet": false,
       "isDirect": true,
       "isRaw": false,
-      "resourceLevel": 2,
-      "resourceLevelText": "Token",
+      "resourceLevel": 1,
+      "resourceLevelText": "Collection",
       "resourceType": 10,
       "resourceTypeText": "LibraryAsset",
-      "tokenId": "file-name.png",
+      "tokenId": "",
       "libraryId": "file-name.png"
     }
   },
@@ -18172,16 +18172,16 @@
     }
   },
   {
-    "url": "http://localhost:8080/-/brain-matters/collection/-/-/file-name.png?page=home&nav=3&connected=true",
+    "url": "http://localhost:8080/-/brain-matters/collection/-/file-name.png?page=home&nav=3&connected=true",
     "expectedResult": {
-      "fullUrl": "http://localhost:8080/-/brain-matters/collection/-/-/file-name.png?page=home&nav=3&connected=true",
+      "fullUrl": "http://localhost:8080/-/brain-matters/collection/-/file-name.png?page=home&nav=3&connected=true",
       "port": "8080",
       "canisterUrl": "http://localhost:8080/-/brain-matters",
       "directCanisterUrl": "https://fghij-biaaa-aaaal-qbhwa-cai.raw.icp0.io",
       "canisterId": "fghij-biaaa-aaaal-qbhwa-cai",
       "collectionId": "brain-matters",
-      "canisterRelativeUrl": "/collection/-/-/file-name.png?page=home&nav=3&connected=true",
-      "canisterRelativePath": "/collection/-/-/file-name.png",
+      "canisterRelativeUrl": "/collection/-/file-name.png?page=home&nav=3&connected=true",
+      "canisterRelativePath": "/collection/-/file-name.png",
       "queryStringParams": [
         {
           "name": "page",
@@ -18201,12 +18201,12 @@
       "isLocalToMainnet": true,
       "isDirect": false,
       "isRaw": true,
-      "resourceLevel": 2,
-      "resourceLevelText": "Token",
-      "resourceType": 0,
-      "resourceTypeText": "Unknown",
-      "tokenId": "-",
-      "libraryId": "-"
+      "resourceLevel": 1,
+      "resourceLevelText": "Collection",
+      "resourceType": 10,
+      "resourceTypeText": "LibraryAsset",
+      "tokenId": "",
+      "libraryId": "file-name.png"
     }
   },
   {
@@ -18277,11 +18277,11 @@
       "isLocalToMainnet": false,
       "isDirect": true,
       "isRaw": true,
-      "resourceLevel": 2,
-      "resourceLevelText": "Token",
+      "resourceLevel": 1,
+      "resourceLevelText": "Collection",
       "resourceType": 10,
       "resourceTypeText": "LibraryAsset",
-      "tokenId": "file-name.png",
+      "tokenId": "",
       "libraryId": "file-name.png"
     }
   },
@@ -18353,11 +18353,11 @@
       "isLocalToMainnet": false,
       "isDirect": true,
       "isRaw": false,
-      "resourceLevel": 2,
-      "resourceLevelText": "Token",
+      "resourceLevel": 1,
+      "resourceLevelText": "Collection",
       "resourceType": 10,
       "resourceTypeText": "LibraryAsset",
-      "tokenId": "file-name.png",
+      "tokenId": "",
       "libraryId": "file-name.png"
     }
   },
@@ -18429,11 +18429,11 @@
       "isLocalToMainnet": false,
       "isDirect": true,
       "isRaw": true,
-      "resourceLevel": 2,
-      "resourceLevelText": "Token",
+      "resourceLevel": 1,
+      "resourceLevelText": "Collection",
       "resourceType": 10,
       "resourceTypeText": "LibraryAsset",
-      "tokenId": "file-name.png",
+      "tokenId": "",
       "libraryId": "file-name.png"
     }
   },
@@ -18505,11 +18505,11 @@
       "isLocalToMainnet": false,
       "isDirect": true,
       "isRaw": false,
-      "resourceLevel": 2,
-      "resourceLevelText": "Token",
+      "resourceLevel": 1,
+      "resourceLevelText": "Collection",
       "resourceType": 10,
       "resourceTypeText": "LibraryAsset",
-      "tokenId": "file-name.png",
+      "tokenId": "",
       "libraryId": "file-name.png"
     }
   },
@@ -18581,11 +18581,11 @@
       "isLocalToMainnet": false,
       "isDirect": false,
       "isRaw": true,
-      "resourceLevel": 2,
-      "resourceLevelText": "Token",
+      "resourceLevel": 1,
+      "resourceLevelText": "Collection",
       "resourceType": 10,
       "resourceTypeText": "LibraryAsset",
-      "tokenId": "file-name.png",
+      "tokenId": "",
       "libraryId": "file-name.png"
     }
   },
@@ -18657,11 +18657,11 @@
       "isLocalToMainnet": false,
       "isDirect": false,
       "isRaw": true,
-      "resourceLevel": 2,
-      "resourceLevelText": "Token",
+      "resourceLevel": 1,
+      "resourceLevelText": "Collection",
       "resourceType": 10,
       "resourceTypeText": "LibraryAsset",
-      "tokenId": "file-name.png",
+      "tokenId": "",
       "libraryId": "file-name.png"
     }
   },
@@ -18733,11 +18733,11 @@
       "isLocalToMainnet": false,
       "isDirect": false,
       "isRaw": true,
-      "resourceLevel": 2,
-      "resourceLevelText": "Token",
+      "resourceLevel": 1,
+      "resourceLevelText": "Collection",
       "resourceType": 10,
       "resourceTypeText": "LibraryAsset",
-      "tokenId": "file-name.png",
+      "tokenId": "",
       "libraryId": "file-name.png"
     }
   },
@@ -18809,11 +18809,11 @@
       "isLocalToMainnet": false,
       "isDirect": false,
       "isRaw": true,
-      "resourceLevel": 2,
-      "resourceLevelText": "Token",
+      "resourceLevel": 1,
+      "resourceLevelText": "Collection",
       "resourceType": 10,
       "resourceTypeText": "LibraryAsset",
-      "tokenId": "file-name.png",
+      "tokenId": "",
       "libraryId": "file-name.png"
     }
   },
@@ -18885,11 +18885,11 @@
       "isLocalToMainnet": false,
       "isDirect": false,
       "isRaw": true,
-      "resourceLevel": 2,
-      "resourceLevelText": "Token",
+      "resourceLevel": 1,
+      "resourceLevelText": "Collection",
       "resourceType": 10,
       "resourceTypeText": "LibraryAsset",
-      "tokenId": "file-name.png",
+      "tokenId": "",
       "libraryId": "file-name.png"
     }
   },
@@ -18961,11 +18961,11 @@
       "isLocalToMainnet": false,
       "isDirect": false,
       "isRaw": true,
-      "resourceLevel": 2,
-      "resourceLevelText": "Token",
+      "resourceLevel": 1,
+      "resourceLevelText": "Collection",
       "resourceType": 10,
       "resourceTypeText": "LibraryAsset",
-      "tokenId": "file-name.png",
+      "tokenId": "",
       "libraryId": "file-name.png"
     }
   },
