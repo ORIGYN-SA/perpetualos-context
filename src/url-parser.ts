@@ -114,6 +114,7 @@ export const parseURL = async (url: string): Promise<URLContext> => {
       ctx.port = port;
       if (port === '8080') {
         ctx.isLocalToMainnet = true;
+        ctx.isLocal = false;
       }
     }
   }
