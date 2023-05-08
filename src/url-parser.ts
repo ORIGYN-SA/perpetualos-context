@@ -178,13 +178,14 @@ export const parseURL = async (url: string): Promise<URLContext> => {
   ctx.resourceLevelText = ResourceLevel[ctx.resourceLevel];
   ctx.resourceTypeText = ResourceType[ctx.resourceType];
 
-  // If the URL is local using port 8080 (isLocalToMainnet),
-  // it's a local test URL pointing at a mainnet canister:
-  // http://localhost:8080/-/brain-matters
+  // If the URL is local using port 9000 (isLocalToMainnet),
+  // it's a local test URL pointing at a mainnet canister
+  // running on webpack dev server configured for port 9000.
+  // http://localhost:9000/-/brain-matters
   // In that case, the direct URL is the mainnet direct URL
 
   if (ctx.isLocal && !ctx.isLocalToMainnet) {
-    ctx.directCanisterUrl = `http://${ctx.canisterId}.localhost:8000`;
+    ctx.directCanisterUrl = `http://${ctx.canisterId}.localhost:8080`;
   } else {
     // As of Apr 20, 2023, all existing and new canisters can be accessed with icp0.io.
     ctx.directCanisterUrl = `https://${ctx.canisterId}.raw.icp0.io`;
