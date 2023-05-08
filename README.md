@@ -43,7 +43,7 @@ regular expressions in [regex-patterns.ts](src/regex-patterns.ts).
 
 - Direct to Canister
   - Localhost
-    - http://{canister_id}.localhost:8000
+    - http://{canister_id}.localhost:8080
   - Mainnet
     - Canisters created before Apr 20, 2023
       - https://{canister_id}.raw.ic0.app
@@ -55,8 +55,8 @@ regular expressions in [regex-patterns.ts](src/regex-patterns.ts).
   - Localhost
     - http://localhost:3000/-/{canister_id}
   - Localhost to Mainnet Canister
-    - http://localhost:8080/-/{canister_id}
-    - http://localhost:8080/-/{canister_name}
+    - http://localhost:9000/-/{canister_id}
+    - http://localhost:9000/-/{canister_name}
   - Mainnet
     - Current domain
       - https://prptl.io/-/{canister_id}
