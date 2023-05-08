@@ -16,15 +16,15 @@ export const PATTERNS = {
    * - https://{canister_id}.icp0.io/...
    * - https://{canister_id}.raw.ic0.app/...
    * - https://{canister_id}.ic0.app/...
-   * - http://{canister_id}.localhost:8000/...
+   * - http://{canister_id}.localhost:8080/...
    *
    * Example matches:
    * - https://abcde-biaaa-aaaal-qbhwa-cai.raw.icp0.io
    *   - matches.groups.id abcde-biaaa-aaaal-qbhwa-cai
    *   - matches.groups.domain raw.icp0.io
-   * - https://abcde-biaaa-aaaal-qbhwa-cai.localhost:8000
+   * - https://abcde-biaaa-aaaal-qbhwa-cai.localhost:8080
    *   - matches.groups.id abcde-biaaa-aaaal-qbhwa-cai
-   *   - matches.groups.domain localhost:8000
+   *   - matches.groups.domain localhost:8080
    *
    * Notes:
    * - The id should be a canister ID.

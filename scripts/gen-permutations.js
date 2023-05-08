@@ -43,8 +43,8 @@ const generateUrlPermutations = async () => {
 
   for (const resourceType of resourceTypes) {
     // Direct Localhost
-    urls.push(`http://${canisterId}.localhost:8000/collection/${resourceType}`);
-    urls.push(`http://${canisterId}.localhost:8000/-/${tokenId}/${resourceType}`);
+    urls.push(`http://${canisterId}.localhost:8080/collection/${resourceType}`);
+    urls.push(`http://${canisterId}.localhost:8080/-/${tokenId}/${resourceType}`);
 
     // Localhost pointing to mainnet canister for testing
     urls.push(`http://localhost:8080/-/${collectionId}/collection/${resourceType}`);
