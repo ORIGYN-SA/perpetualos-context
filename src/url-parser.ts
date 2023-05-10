@@ -112,7 +112,7 @@ export const parseURL = async (url: string): Promise<URLContext> => {
       ctx.isRaw = true;
       ctx.isLocal = domain.toLowerCase().includes('localhost');
       ctx.port = port;
-      if (port === '8080') {
+      if (port === '9000') {
         ctx.isLocalToMainnet = true;
         ctx.isLocal = false;
       }
