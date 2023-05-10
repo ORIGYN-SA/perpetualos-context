@@ -47,8 +47,8 @@ const generateUrlPermutations = async () => {
     urls.push(`http://${canisterId}.localhost:8080/-/${tokenId}/${resourceType}`);
 
     // Localhost pointing to mainnet canister for testing
-    urls.push(`http://localhost:8080/-/${collectionId}/collection/${resourceType}`);
-    urls.push(`http://localhost:8080/-/${collectionId}/-/${tokenId}/${resourceType}`);
+    urls.push(`http://localhost:9000/-/${collectionId}/collection/${resourceType}`);
+    urls.push(`http://localhost:9000/-/${collectionId}/-/${tokenId}/${resourceType}`);
 
     // Direct Mainnet
     for (const mainnetDomain of mainnetDomains) {

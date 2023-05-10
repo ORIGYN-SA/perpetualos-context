@@ -50,11 +50,11 @@
     }
   },
   {
-    "url": "http://localhost:8080/-/brain-matters/collection/info",
+    "url": "http://localhost:9000/-/brain-matters/collection/info",
     "expectedResult": {
-      "fullUrl": "http://localhost:8080/-/brain-matters/collection/info",
-      "port": "8080",
-      "canisterUrl": "http://localhost:8080/-/brain-matters",
+      "fullUrl": "http://localhost:9000/-/brain-matters/collection/info",
+      "port": "9000",
+      "canisterUrl": "http://localhost:9000/-/brain-matters",
       "directCanisterUrl": "https://fghij-biaaa-aaaal-qbhwa-cai.raw.icp0.io",
       "canisterId": "fghij-biaaa-aaaal-qbhwa-cai",
       "collectionId": "brain-matters",
@@ -75,11 +75,11 @@
     }
   },
   {
-    "url": "http://localhost:8080/-/brain-matters/-/some-token-id/info",
+    "url": "http://localhost:9000/-/brain-matters/-/some-token-id/info",
     "expectedResult": {
-      "fullUrl": "http://localhost:8080/-/brain-matters/-/some-token-id/info",
-      "port": "8080",
-      "canisterUrl": "http://localhost:8080/-/brain-matters",
+      "fullUrl": "http://localhost:9000/-/brain-matters/-/some-token-id/info",
+      "port": "9000",
+      "canisterUrl": "http://localhost:9000/-/brain-matters",
       "directCanisterUrl": "https://fghij-biaaa-aaaal-qbhwa-cai.raw.icp0.io",
       "canisterId": "fghij-biaaa-aaaal-qbhwa-cai",
       "collectionId": "brain-matters",
@@ -650,11 +650,11 @@
     }
   },
   {
-    "url": "http://localhost:8080/-/brain-matters/collection/ledger_info",
+    "url": "http://localhost:9000/-/brain-matters/collection/ledger_info",
     "expectedResult": {
-      "fullUrl": "http://localhost:8080/-/brain-matters/collection/ledger_info",
-      "port": "8080",
-      "canisterUrl": "http://localhost:8080/-/brain-matters",
+      "fullUrl": "http://localhost:9000/-/brain-matters/collection/ledger_info",
+      "port": "9000",
+      "canisterUrl": "http://localhost:9000/-/brain-matters",
       "directCanisterUrl": "https://fghij-biaaa-aaaal-qbhwa-cai.raw.icp0.io",
       "canisterId": "fghij-biaaa-aaaal-qbhwa-cai",
       "collectionId": "brain-matters",
@@ -675,11 +675,11 @@
     }
   },
   {
-    "url": "http://localhost:8080/-/brain-matters/-/some-token-id/ledger_info",
+    "url": "http://localhost:9000/-/brain-matters/-/some-token-id/ledger_info",
     "expectedResult": {
-      "fullUrl": "http://localhost:8080/-/brain-matters/-/some-token-id/ledger_info",
-      "port": "8080",
-      "canisterUrl": "http://localhost:8080/-/brain-matters",
+      "fullUrl": "http://localhost:9000/-/brain-matters/-/some-token-id/ledger_info",
+      "port": "9000",
+      "canisterUrl": "http://localhost:9000/-/brain-matters",
       "directCanisterUrl": "https://fghij-biaaa-aaaal-qbhwa-cai.raw.icp0.io",
       "canisterId": "fghij-biaaa-aaaal-qbhwa-cai",
       "collectionId": "brain-matters",
@@ -1250,11 +1250,11 @@
     }
   },
   {
-    "url": "http://localhost:8080/-/brain-matters/collection/translate",
+    "url": "http://localhost:9000/-/brain-matters/collection/translate",
     "expectedResult": {
-      "fullUrl": "http://localhost:8080/-/brain-matters/collection/translate",
-      "port": "8080",
-      "canisterUrl": "http://localhost:8080/-/brain-matters",
+      "fullUrl": "http://localhost:9000/-/brain-matters/collection/translate",
+      "port": "9000",
+      "canisterUrl": "http://localhost:9000/-/brain-matters",
       "directCanisterUrl": "https://fghij-biaaa-aaaal-qbhwa-cai.raw.icp0.io",
       "canisterId": "fghij-biaaa-aaaal-qbhwa-cai",
       "collectionId": "brain-matters",
@@ -1275,11 +1275,11 @@
     }
   },
   {
-    "url": "http://localhost:8080/-/brain-matters/-/some-token-id/translate",
+    "url": "http://localhost:9000/-/brain-matters/-/some-token-id/translate",
     "expectedResult": {
-      "fullUrl": "http://localhost:8080/-/brain-matters/-/some-token-id/translate",
-      "port": "8080",
-      "canisterUrl": "http://localhost:8080/-/brain-matters",
+      "fullUrl": "http://localhost:9000/-/brain-matters/-/some-token-id/translate",
+      "port": "9000",
+      "canisterUrl": "http://localhost:9000/-/brain-matters",
       "directCanisterUrl": "https://fghij-biaaa-aaaal-qbhwa-cai.raw.icp0.io",
       "canisterId": "fghij-biaaa-aaaal-qbhwa-cai",
       "collectionId": "brain-matters",
@@ -1850,11 +1850,11 @@
     }
   },
   {
-    "url": "http://localhost:8080/-/brain-matters/collection/library",
+    "url": "http://localhost:9000/-/brain-matters/collection/library",
     "expectedResult": {
-      "fullUrl": "http://localhost:8080/-/brain-matters/collection/library",
-      "port": "8080",
-      "canisterUrl": "http://localhost:8080/-/brain-matters",
+      "fullUrl": "http://localhost:9000/-/brain-matters/collection/library",
+      "port": "9000",
+      "canisterUrl": "http://localhost:9000/-/brain-matters",
       "directCanisterUrl": "https://fghij-biaaa-aaaal-qbhwa-cai.raw.icp0.io",
       "canisterId": "fghij-biaaa-aaaal-qbhwa-cai",
       "collectionId": "brain-matters",
@@ -1875,11 +1875,11 @@
     }
   },
   {
-    "url": "http://localhost:8080/-/brain-matters/-/some-token-id/library",
+    "url": "http://localhost:9000/-/brain-matters/-/some-token-id/library",
     "expectedResult": {
-      "fullUrl": "http://localhost:8080/-/brain-matters/-/some-token-id/library",
-      "port": "8080",
-      "canisterUrl": "http://localhost:8080/-/brain-matters",
+      "fullUrl": "http://localhost:9000/-/brain-matters/-/some-token-id/library",
+      "port": "9000",
+      "canisterUrl": "http://localhost:9000/-/brain-matters",
       "directCanisterUrl": "https://fghij-biaaa-aaaal-qbhwa-cai.raw.icp0.io",
       "canisterId": "fghij-biaaa-aaaal-qbhwa-cai",
       "collectionId": "brain-matters",
@@ -2450,11 +2450,11 @@
     }
   },
   {
-    "url": "http://localhost:8080/-/brain-matters/collection/primary",
+    "url": "http://localhost:9000/-/brain-matters/collection/primary",
     "expectedResult": {
-      "fullUrl": "http://localhost:8080/-/brain-matters/collection/primary",
-      "port": "8080",
-      "canisterUrl": "http://localhost:8080/-/brain-matters",
+      "fullUrl": "http://localhost:9000/-/brain-matters/collection/primary",
+      "port": "9000",
+      "canisterUrl": "http://localhost:9000/-/brain-matters",
       "directCanisterUrl": "https://fghij-biaaa-aaaal-qbhwa-cai.raw.icp0.io",
       "canisterId": "fghij-biaaa-aaaal-qbhwa-cai",
       "collectionId": "brain-matters",
@@ -2475,11 +2475,11 @@
     }
   },
   {
-    "url": "http://localhost:8080/-/brain-matters/-/some-token-id/primary",
+    "url": "http://localhost:9000/-/brain-matters/-/some-token-id/primary",
     "expectedResult": {
-      "fullUrl": "http://localhost:8080/-/brain-matters/-/some-token-id/primary",
-      "port": "8080",
-      "canisterUrl": "http://localhost:8080/-/brain-matters",
+      "fullUrl": "http://localhost:9000/-/brain-matters/-/some-token-id/primary",
+      "port": "9000",
+      "canisterUrl": "http://localhost:9000/-/brain-matters",
       "directCanisterUrl": "https://fghij-biaaa-aaaal-qbhwa-cai.raw.icp0.io",
       "canisterId": "fghij-biaaa-aaaal-qbhwa-cai",
       "collectionId": "brain-matters",
@@ -3050,11 +3050,11 @@
     }
   },
   {
-    "url": "http://localhost:8080/-/brain-matters/collection/preview",
+    "url": "http://localhost:9000/-/brain-matters/collection/preview",
     "expectedResult": {
-      "fullUrl": "http://localhost:8080/-/brain-matters/collection/preview",
-      "port": "8080",
-      "canisterUrl": "http://localhost:8080/-/brain-matters",
+      "fullUrl": "http://localhost:9000/-/brain-matters/collection/preview",
+      "port": "9000",
+      "canisterUrl": "http://localhost:9000/-/brain-matters",
       "directCanisterUrl": "https://fghij-biaaa-aaaal-qbhwa-cai.raw.icp0.io",
       "canisterId": "fghij-biaaa-aaaal-qbhwa-cai",
       "collectionId": "brain-matters",
@@ -3075,11 +3075,11 @@
     }
   },
   {
-    "url": "http://localhost:8080/-/brain-matters/-/some-token-id/preview",
+    "url": "http://localhost:9000/-/brain-matters/-/some-token-id/preview",
     "expectedResult": {
-      "fullUrl": "http://localhost:8080/-/brain-matters/-/some-token-id/preview",
-      "port": "8080",
-      "canisterUrl": "http://localhost:8080/-/brain-matters",
+      "fullUrl": "http://localhost:9000/-/brain-matters/-/some-token-id/preview",
+      "port": "9000",
+      "canisterUrl": "http://localhost:9000/-/brain-matters",
       "directCanisterUrl": "https://fghij-biaaa-aaaal-qbhwa-cai.raw.icp0.io",
       "canisterId": "fghij-biaaa-aaaal-qbhwa-cai",
       "collectionId": "brain-matters",
@@ -3650,11 +3650,11 @@
     }
   },
   {
-    "url": "http://localhost:8080/-/brain-matters/collection/hidden",
+    "url": "http://localhost:9000/-/brain-matters/collection/hidden",
     "expectedResult": {
-      "fullUrl": "http://localhost:8080/-/brain-matters/collection/hidden",
-      "port": "8080",
-      "canisterUrl": "http://localhost:8080/-/brain-matters",
+      "fullUrl": "http://localhost:9000/-/brain-matters/collection/hidden",
+      "port": "9000",
+      "canisterUrl": "http://localhost:9000/-/brain-matters",
       "directCanisterUrl": "https://fghij-biaaa-aaaal-qbhwa-cai.raw.icp0.io",
       "canisterId": "fghij-biaaa-aaaal-qbhwa-cai",
       "collectionId": "brain-matters",
@@ -3675,11 +3675,11 @@
     }
   },
   {
-    "url": "http://localhost:8080/-/brain-matters/-/some-token-id/hidden",
+    "url": "http://localhost:9000/-/brain-matters/-/some-token-id/hidden",
     "expectedResult": {
-      "fullUrl": "http://localhost:8080/-/brain-matters/-/some-token-id/hidden",
-      "port": "8080",
-      "canisterUrl": "http://localhost:8080/-/brain-matters",
+      "fullUrl": "http://localhost:9000/-/brain-matters/-/some-token-id/hidden",
+      "port": "9000",
+      "canisterUrl": "http://localhost:9000/-/brain-matters",
       "directCanisterUrl": "https://fghij-biaaa-aaaal-qbhwa-cai.raw.icp0.io",
       "canisterId": "fghij-biaaa-aaaal-qbhwa-cai",
       "collectionId": "brain-matters",
@@ -4250,11 +4250,11 @@
     }
   },
   {
-    "url": "http://localhost:8080/-/brain-matters/collection/ex",
+    "url": "http://localhost:9000/-/brain-matters/collection/ex",
     "expectedResult": {
-      "fullUrl": "http://localhost:8080/-/brain-matters/collection/ex",
-      "port": "8080",
-      "canisterUrl": "http://localhost:8080/-/brain-matters",
+      "fullUrl": "http://localhost:9000/-/brain-matters/collection/ex",
+      "port": "9000",
+      "canisterUrl": "http://localhost:9000/-/brain-matters",
       "directCanisterUrl": "https://fghij-biaaa-aaaal-qbhwa-cai.raw.icp0.io",
       "canisterId": "fghij-biaaa-aaaal-qbhwa-cai",
       "collectionId": "brain-matters",
@@ -4275,11 +4275,11 @@
     }
   },
   {
-    "url": "http://localhost:8080/-/brain-matters/-/some-token-id/ex",
+    "url": "http://localhost:9000/-/brain-matters/-/some-token-id/ex",
     "expectedResult": {
-      "fullUrl": "http://localhost:8080/-/brain-matters/-/some-token-id/ex",
-      "port": "8080",
-      "canisterUrl": "http://localhost:8080/-/brain-matters",
+      "fullUrl": "http://localhost:9000/-/brain-matters/-/some-token-id/ex",
+      "port": "9000",
+      "canisterUrl": "http://localhost:9000/-/brain-matters",
       "directCanisterUrl": "https://fghij-biaaa-aaaal-qbhwa-cai.raw.icp0.io",
       "canisterId": "fghij-biaaa-aaaal-qbhwa-cai",
       "collectionId": "brain-matters",
@@ -4850,11 +4850,11 @@
     }
   },
   {
-    "url": "http://localhost:8080/-/brain-matters/collection/-/file-name.png",
+    "url": "http://localhost:9000/-/brain-matters/collection/-/file-name.png",
     "expectedResult": {
-      "fullUrl": "http://localhost:8080/-/brain-matters/collection/-/file-name.png",
-      "port": "8080",
-      "canisterUrl": "http://localhost:8080/-/brain-matters",
+      "fullUrl": "http://localhost:9000/-/brain-matters/collection/-/file-name.png",
+      "port": "9000",
+      "canisterUrl": "http://localhost:9000/-/brain-matters",
       "directCanisterUrl": "https://fghij-biaaa-aaaal-qbhwa-cai.raw.icp0.io",
       "canisterId": "fghij-biaaa-aaaal-qbhwa-cai",
       "collectionId": "brain-matters",
@@ -4875,11 +4875,11 @@
     }
   },
   {
-    "url": "http://localhost:8080/-/brain-matters/-/some-token-id/-/file-name.png",
+    "url": "http://localhost:9000/-/brain-matters/-/some-token-id/-/file-name.png",
     "expectedResult": {
-      "fullUrl": "http://localhost:8080/-/brain-matters/-/some-token-id/-/file-name.png",
-      "port": "8080",
-      "canisterUrl": "http://localhost:8080/-/brain-matters",
+      "fullUrl": "http://localhost:9000/-/brain-matters/-/some-token-id/-/file-name.png",
+      "port": "9000",
+      "canisterUrl": "http://localhost:9000/-/brain-matters",
       "directCanisterUrl": "https://fghij-biaaa-aaaal-qbhwa-cai.raw.icp0.io",
       "canisterId": "fghij-biaaa-aaaal-qbhwa-cai",
       "collectionId": "brain-matters",
@@ -5450,11 +5450,11 @@
     }
   },
   {
-    "url": "http://localhost:8080/-/brain-matters/collection/info#/some-fragment",
+    "url": "http://localhost:9000/-/brain-matters/collection/info#/some-fragment",
     "expectedResult": {
-      "fullUrl": "http://localhost:8080/-/brain-matters/collection/info#/some-fragment",
-      "port": "8080",
-      "canisterUrl": "http://localhost:8080/-/brain-matters",
+      "fullUrl": "http://localhost:9000/-/brain-matters/collection/info#/some-fragment",
+      "port": "9000",
+      "canisterUrl": "http://localhost:9000/-/brain-matters",
       "directCanisterUrl": "https://fghij-biaaa-aaaal-qbhwa-cai.raw.icp0.io",
       "canisterId": "fghij-biaaa-aaaal-qbhwa-cai",
       "collectionId": "brain-matters",
@@ -5475,11 +5475,11 @@
     }
   },
   {
-    "url": "http://localhost:8080/-/brain-matters/-/some-token-id/info#/some-fragment",
+    "url": "http://localhost:9000/-/brain-matters/-/some-token-id/info#/some-fragment",
     "expectedResult": {
-      "fullUrl": "http://localhost:8080/-/brain-matters/-/some-token-id/info#/some-fragment",
-      "port": "8080",
-      "canisterUrl": "http://localhost:8080/-/brain-matters",
+      "fullUrl": "http://localhost:9000/-/brain-matters/-/some-token-id/info#/some-fragment",
+      "port": "9000",
+      "canisterUrl": "http://localhost:9000/-/brain-matters",
       "directCanisterUrl": "https://fghij-biaaa-aaaal-qbhwa-cai.raw.icp0.io",
       "canisterId": "fghij-biaaa-aaaal-qbhwa-cai",
       "collectionId": "brain-matters",
@@ -6050,11 +6050,11 @@
     }
   },
   {
-    "url": "http://localhost:8080/-/brain-matters/collection/ledger_info#/some-fragment",
+    "url": "http://localhost:9000/-/brain-matters/collection/ledger_info#/some-fragment",
     "expectedResult": {
-      "fullUrl": "http://localhost:8080/-/brain-matters/collection/ledger_info#/some-fragment",
-      "port": "8080",
-      "canisterUrl": "http://localhost:8080/-/brain-matters",
+      "fullUrl": "http://localhost:9000/-/brain-matters/collection/ledger_info#/some-fragment",
+      "port": "9000",
+      "canisterUrl": "http://localhost:9000/-/brain-matters",
       "directCanisterUrl": "https://fghij-biaaa-aaaal-qbhwa-cai.raw.icp0.io",
       "canisterId": "fghij-biaaa-aaaal-qbhwa-cai",
       "collectionId": "brain-matters",
@@ -6075,11 +6075,11 @@
     }
   },
   {
-    "url": "http://localhost:8080/-/brain-matters/-/some-token-id/ledger_info#/some-fragment",
+    "url": "http://localhost:9000/-/brain-matters/-/some-token-id/ledger_info#/some-fragment",
     "expectedResult": {
-      "fullUrl": "http://localhost:8080/-/brain-matters/-/some-token-id/ledger_info#/some-fragment",
-      "port": "8080",
-      "canisterUrl": "http://localhost:8080/-/brain-matters",
+      "fullUrl": "http://localhost:9000/-/brain-matters/-/some-token-id/ledger_info#/some-fragment",
+      "port": "9000",
+      "canisterUrl": "http://localhost:9000/-/brain-matters",
       "directCanisterUrl": "https://fghij-biaaa-aaaal-qbhwa-cai.raw.icp0.io",
       "canisterId": "fghij-biaaa-aaaal-qbhwa-cai",
       "collectionId": "brain-matters",
@@ -6650,11 +6650,11 @@
     }
   },
   {
-    "url": "http://localhost:8080/-/brain-matters/collection/translate#/some-fragment",
+    "url": "http://localhost:9000/-/brain-matters/collection/translate#/some-fragment",
     "expectedResult": {
-      "fullUrl": "http://localhost:8080/-/brain-matters/collection/translate#/some-fragment",
-      "port": "8080",
-      "canisterUrl": "http://localhost:8080/-/brain-matters",
+      "fullUrl": "http://localhost:9000/-/brain-matters/collection/translate#/some-fragment",
+      "port": "9000",
+      "canisterUrl": "http://localhost:9000/-/brain-matters",
       "directCanisterUrl": "https://fghij-biaaa-aaaal-qbhwa-cai.raw.icp0.io",
       "canisterId": "fghij-biaaa-aaaal-qbhwa-cai",
       "collectionId": "brain-matters",
@@ -6675,11 +6675,11 @@
     }
   },
   {
-    "url": "http://localhost:8080/-/brain-matters/-/some-token-id/translate#/some-fragment",
+    "url": "http://localhost:9000/-/brain-matters/-/some-token-id/translate#/some-fragment",
     "expectedResult": {
-      "fullUrl": "http://localhost:8080/-/brain-matters/-/some-token-id/translate#/some-fragment",
-      "port": "8080",
-      "canisterUrl": "http://localhost:8080/-/brain-matters",
+      "fullUrl": "http://localhost:9000/-/brain-matters/-/some-token-id/translate#/some-fragment",
+      "port": "9000",
+      "canisterUrl": "http://localhost:9000/-/brain-matters",
       "directCanisterUrl": "https://fghij-biaaa-aaaal-qbhwa-cai.raw.icp0.io",
       "canisterId": "fghij-biaaa-aaaal-qbhwa-cai",
       "collectionId": "brain-matters",
@@ -7250,11 +7250,11 @@
     }
   },
   {
-    "url": "http://localhost:8080/-/brain-matters/collection/library#/some-fragment",
+    "url": "http://localhost:9000/-/brain-matters/collection/library#/some-fragment",
     "expectedResult": {
-      "fullUrl": "http://localhost:8080/-/brain-matters/collection/library#/some-fragment",
-      "port": "8080",
-      "canisterUrl": "http://localhost:8080/-/brain-matters",
+      "fullUrl": "http://localhost:9000/-/brain-matters/collection/library#/some-fragment",
+      "port": "9000",
+      "canisterUrl": "http://localhost:9000/-/brain-matters",
       "directCanisterUrl": "https://fghij-biaaa-aaaal-qbhwa-cai.raw.icp0.io",
       "canisterId": "fghij-biaaa-aaaal-qbhwa-cai",
       "collectionId": "brain-matters",
@@ -7275,11 +7275,11 @@
     }
   },
   {
-    "url": "http://localhost:8080/-/brain-matters/-/some-token-id/library#/some-fragment",
+    "url": "http://localhost:9000/-/brain-matters/-/some-token-id/library#/some-fragment",
     "expectedResult": {
-      "fullUrl": "http://localhost:8080/-/brain-matters/-/some-token-id/library#/some-fragment",
-      "port": "8080",
-      "canisterUrl": "http://localhost:8080/-/brain-matters",
+      "fullUrl": "http://localhost:9000/-/brain-matters/-/some-token-id/library#/some-fragment",
+      "port": "9000",
+      "canisterUrl": "http://localhost:9000/-/brain-matters",
       "directCanisterUrl": "https://fghij-biaaa-aaaal-qbhwa-cai.raw.icp0.io",
       "canisterId": "fghij-biaaa-aaaal-qbhwa-cai",
       "collectionId": "brain-matters",
@@ -7850,11 +7850,11 @@
     }
   },
   {
-    "url": "http://localhost:8080/-/brain-matters/collection/primary#/some-fragment",
+    "url": "http://localhost:9000/-/brain-matters/collection/primary#/some-fragment",
     "expectedResult": {
-      "fullUrl": "http://localhost:8080/-/brain-matters/collection/primary#/some-fragment",
-      "port": "8080",
-      "canisterUrl": "http://localhost:8080/-/brain-matters",
+      "fullUrl": "http://localhost:9000/-/brain-matters/collection/primary#/some-fragment",
+      "port": "9000",
+      "canisterUrl": "http://localhost:9000/-/brain-matters",
       "directCanisterUrl": "https://fghij-biaaa-aaaal-qbhwa-cai.raw.icp0.io",
       "canisterId": "fghij-biaaa-aaaal-qbhwa-cai",
       "collectionId": "brain-matters",
@@ -7875,11 +7875,11 @@
     }
   },
   {
-    "url": "http://localhost:8080/-/brain-matters/-/some-token-id/primary#/some-fragment",
+    "url": "http://localhost:9000/-/brain-matters/-/some-token-id/primary#/some-fragment",
     "expectedResult": {
-      "fullUrl": "http://localhost:8080/-/brain-matters/-/some-token-id/primary#/some-fragment",
-      "port": "8080",
-      "canisterUrl": "http://localhost:8080/-/brain-matters",
+      "fullUrl": "http://localhost:9000/-/brain-matters/-/some-token-id/primary#/some-fragment",
+      "port": "9000",
+      "canisterUrl": "http://localhost:9000/-/brain-matters",
       "directCanisterUrl": "https://fghij-biaaa-aaaal-qbhwa-cai.raw.icp0.io",
       "canisterId": "fghij-biaaa-aaaal-qbhwa-cai",
       "collectionId": "brain-matters",
@@ -8450,11 +8450,11 @@
     }
   },
   {
-    "url": "http://localhost:8080/-/brain-matters/collection/preview#/some-fragment",
+    "url": "http://localhost:9000/-/brain-matters/collection/preview#/some-fragment",
     "expectedResult": {
-      "fullUrl": "http://localhost:8080/-/brain-matters/collection/preview#/some-fragment",
-      "port": "8080",
-      "canisterUrl": "http://localhost:8080/-/brain-matters",
+      "fullUrl": "http://localhost:9000/-/brain-matters/collection/preview#/some-fragment",
+      "port": "9000",
+      "canisterUrl": "http://localhost:9000/-/brain-matters",
       "directCanisterUrl": "https://fghij-biaaa-aaaal-qbhwa-cai.raw.icp0.io",
       "canisterId": "fghij-biaaa-aaaal-qbhwa-cai",
       "collectionId": "brain-matters",
@@ -8475,11 +8475,11 @@
     }
   },
   {
-    "url": "http://localhost:8080/-/brain-matters/-/some-token-id/preview#/some-fragment",
+    "url": "http://localhost:9000/-/brain-matters/-/some-token-id/preview#/some-fragment",
     "expectedResult": {
-      "fullUrl": "http://localhost:8080/-/brain-matters/-/some-token-id/preview#/some-fragment",
-      "port": "8080",
-      "canisterUrl": "http://localhost:8080/-/brain-matters",
+      "fullUrl": "http://localhost:9000/-/brain-matters/-/some-token-id/preview#/some-fragment",
+      "port": "9000",
+      "canisterUrl": "http://localhost:9000/-/brain-matters",
       "directCanisterUrl": "https://fghij-biaaa-aaaal-qbhwa-cai.raw.icp0.io",
       "canisterId": "fghij-biaaa-aaaal-qbhwa-cai",
       "collectionId": "brain-matters",
@@ -9050,11 +9050,11 @@
     }
   },
   {
-    "url": "http://localhost:8080/-/brain-matters/collection/hidden#/some-fragment",
+    "url": "http://localhost:9000/-/brain-matters/collection/hidden#/some-fragment",
     "expectedResult": {
-      "fullUrl": "http://localhost:8080/-/brain-matters/collection/hidden#/some-fragment",
-      "port": "8080",
-      "canisterUrl": "http://localhost:8080/-/brain-matters",
+      "fullUrl": "http://localhost:9000/-/brain-matters/collection/hidden#/some-fragment",
+      "port": "9000",
+      "canisterUrl": "http://localhost:9000/-/brain-matters",
       "directCanisterUrl": "https://fghij-biaaa-aaaal-qbhwa-cai.raw.icp0.io",
       "canisterId": "fghij-biaaa-aaaal-qbhwa-cai",
       "collectionId": "brain-matters",
@@ -9075,11 +9075,11 @@
     }
   },
   {
-    "url": "http://localhost:8080/-/brain-matters/-/some-token-id/hidden#/some-fragment",
+    "url": "http://localhost:9000/-/brain-matters/-/some-token-id/hidden#/some-fragment",
     "expectedResult": {
-      "fullUrl": "http://localhost:8080/-/brain-matters/-/some-token-id/hidden#/some-fragment",
-      "port": "8080",
-      "canisterUrl": "http://localhost:8080/-/brain-matters",
+      "fullUrl": "http://localhost:9000/-/brain-matters/-/some-token-id/hidden#/some-fragment",
+      "port": "9000",
+      "canisterUrl": "http://localhost:9000/-/brain-matters",
       "directCanisterUrl": "https://fghij-biaaa-aaaal-qbhwa-cai.raw.icp0.io",
       "canisterId": "fghij-biaaa-aaaal-qbhwa-cai",
       "collectionId": "brain-matters",
@@ -9650,11 +9650,11 @@
     }
   },
   {
-    "url": "http://localhost:8080/-/brain-matters/collection/ex#/some-fragment",
+    "url": "http://localhost:9000/-/brain-matters/collection/ex#/some-fragment",
     "expectedResult": {
-      "fullUrl": "http://localhost:8080/-/brain-matters/collection/ex#/some-fragment",
-      "port": "8080",
-      "canisterUrl": "http://localhost:8080/-/brain-matters",
+      "fullUrl": "http://localhost:9000/-/brain-matters/collection/ex#/some-fragment",
+      "port": "9000",
+      "canisterUrl": "http://localhost:9000/-/brain-matters",
       "directCanisterUrl": "https://fghij-biaaa-aaaal-qbhwa-cai.raw.icp0.io",
       "canisterId": "fghij-biaaa-aaaal-qbhwa-cai",
       "collectionId": "brain-matters",
@@ -9675,11 +9675,11 @@
     }
   },
   {
-    "url": "http://localhost:8080/-/brain-matters/-/some-token-id/ex#/some-fragment",
+    "url": "http://localhost:9000/-/brain-matters/-/some-token-id/ex#/some-fragment",
     "expectedResult": {
-      "fullUrl": "http://localhost:8080/-/brain-matters/-/some-token-id/ex#/some-fragment",
-      "port": "8080",
-      "canisterUrl": "http://localhost:8080/-/brain-matters",
+      "fullUrl": "http://localhost:9000/-/brain-matters/-/some-token-id/ex#/some-fragment",
+      "port": "9000",
+      "canisterUrl": "http://localhost:9000/-/brain-matters",
       "directCanisterUrl": "https://fghij-biaaa-aaaal-qbhwa-cai.raw.icp0.io",
       "canisterId": "fghij-biaaa-aaaal-qbhwa-cai",
       "collectionId": "brain-matters",
@@ -10250,11 +10250,11 @@
     }
   },
   {
-    "url": "http://localhost:8080/-/brain-matters/collection/-/file-name.png#/some-fragment",
+    "url": "http://localhost:9000/-/brain-matters/collection/-/file-name.png#/some-fragment",
     "expectedResult": {
-      "fullUrl": "http://localhost:8080/-/brain-matters/collection/-/file-name.png#/some-fragment",
-      "port": "8080",
-      "canisterUrl": "http://localhost:8080/-/brain-matters",
+      "fullUrl": "http://localhost:9000/-/brain-matters/collection/-/file-name.png#/some-fragment",
+      "port": "9000",
+      "canisterUrl": "http://localhost:9000/-/brain-matters",
       "directCanisterUrl": "https://fghij-biaaa-aaaal-qbhwa-cai.raw.icp0.io",
       "canisterId": "fghij-biaaa-aaaal-qbhwa-cai",
       "collectionId": "brain-matters",
@@ -10275,11 +10275,11 @@
     }
   },
   {
-    "url": "http://localhost:8080/-/brain-matters/-/some-token-id/-/file-name.png#/some-fragment",
+    "url": "http://localhost:9000/-/brain-matters/-/some-token-id/-/file-name.png#/some-fragment",
     "expectedResult": {
-      "fullUrl": "http://localhost:8080/-/brain-matters/-/some-token-id/-/file-name.png#/some-fragment",
-      "port": "8080",
-      "canisterUrl": "http://localhost:8080/-/brain-matters",
+      "fullUrl": "http://localhost:9000/-/brain-matters/-/some-token-id/-/file-name.png#/some-fragment",
+      "port": "9000",
+      "canisterUrl": "http://localhost:9000/-/brain-matters",
       "directCanisterUrl": "https://fghij-biaaa-aaaal-qbhwa-cai.raw.icp0.io",
       "canisterId": "fghij-biaaa-aaaal-qbhwa-cai",
       "collectionId": "brain-matters",
@@ -10876,11 +10876,11 @@
     }
   },
   {
-    "url": "http://localhost:8080/-/brain-matters/collection/info?page=home&nav=3&connected=true",
+    "url": "http://localhost:9000/-/brain-matters/collection/info?page=home&nav=3&connected=true",
     "expectedResult": {
-      "fullUrl": "http://localhost:8080/-/brain-matters/collection/info?page=home&nav=3&connected=true",
-      "port": "8080",
-      "canisterUrl": "http://localhost:8080/-/brain-matters",
+      "fullUrl": "http://localhost:9000/-/brain-matters/collection/info?page=home&nav=3&connected=true",
+      "port": "9000",
+      "canisterUrl": "http://localhost:9000/-/brain-matters",
       "directCanisterUrl": "https://fghij-biaaa-aaaal-qbhwa-cai.raw.icp0.io",
       "canisterId": "fghij-biaaa-aaaal-qbhwa-cai",
       "collectionId": "brain-matters",
@@ -10914,11 +10914,11 @@
     }
   },
   {
-    "url": "http://localhost:8080/-/brain-matters/-/some-token-id/info?page=home&nav=3&connected=true",
+    "url": "http://localhost:9000/-/brain-matters/-/some-token-id/info?page=home&nav=3&connected=true",
     "expectedResult": {
-      "fullUrl": "http://localhost:8080/-/brain-matters/-/some-token-id/info?page=home&nav=3&connected=true",
-      "port": "8080",
-      "canisterUrl": "http://localhost:8080/-/brain-matters",
+      "fullUrl": "http://localhost:9000/-/brain-matters/-/some-token-id/info?page=home&nav=3&connected=true",
+      "port": "9000",
+      "canisterUrl": "http://localhost:9000/-/brain-matters",
       "directCanisterUrl": "https://fghij-biaaa-aaaal-qbhwa-cai.raw.icp0.io",
       "canisterId": "fghij-biaaa-aaaal-qbhwa-cai",
       "collectionId": "brain-matters",
@@ -11788,11 +11788,11 @@
     }
   },
   {
-    "url": "http://localhost:8080/-/brain-matters/collection/ledger_info?page=home&nav=3&connected=true",
+    "url": "http://localhost:9000/-/brain-matters/collection/ledger_info?page=home&nav=3&connected=true",
     "expectedResult": {
-      "fullUrl": "http://localhost:8080/-/brain-matters/collection/ledger_info?page=home&nav=3&connected=true",
-      "port": "8080",
-      "canisterUrl": "http://localhost:8080/-/brain-matters",
+      "fullUrl": "http://localhost:9000/-/brain-matters/collection/ledger_info?page=home&nav=3&connected=true",
+      "port": "9000",
+      "canisterUrl": "http://localhost:9000/-/brain-matters",
       "directCanisterUrl": "https://fghij-biaaa-aaaal-qbhwa-cai.raw.icp0.io",
       "canisterId": "fghij-biaaa-aaaal-qbhwa-cai",
       "collectionId": "brain-matters",
@@ -11826,11 +11826,11 @@
     }
   },
   {
-    "url": "http://localhost:8080/-/brain-matters/-/some-token-id/ledger_info?page=home&nav=3&connected=true",
+    "url": "http://localhost:9000/-/brain-matters/-/some-token-id/ledger_info?page=home&nav=3&connected=true",
     "expectedResult": {
-      "fullUrl": "http://localhost:8080/-/brain-matters/-/some-token-id/ledger_info?page=home&nav=3&connected=true",
-      "port": "8080",
-      "canisterUrl": "http://localhost:8080/-/brain-matters",
+      "fullUrl": "http://localhost:9000/-/brain-matters/-/some-token-id/ledger_info?page=home&nav=3&connected=true",
+      "port": "9000",
+      "canisterUrl": "http://localhost:9000/-/brain-matters",
       "directCanisterUrl": "https://fghij-biaaa-aaaal-qbhwa-cai.raw.icp0.io",
       "canisterId": "fghij-biaaa-aaaal-qbhwa-cai",
       "collectionId": "brain-matters",
@@ -12700,11 +12700,11 @@
     }
   },
   {
-    "url": "http://localhost:8080/-/brain-matters/collection/translate?page=home&nav=3&connected=true",
+    "url": "http://localhost:9000/-/brain-matters/collection/translate?page=home&nav=3&connected=true",
     "expectedResult": {
-      "fullUrl": "http://localhost:8080/-/brain-matters/collection/translate?page=home&nav=3&connected=true",
-      "port": "8080",
-      "canisterUrl": "http://localhost:8080/-/brain-matters",
+      "fullUrl": "http://localhost:9000/-/brain-matters/collection/translate?page=home&nav=3&connected=true",
+      "port": "9000",
+      "canisterUrl": "http://localhost:9000/-/brain-matters",
       "directCanisterUrl": "https://fghij-biaaa-aaaal-qbhwa-cai.raw.icp0.io",
       "canisterId": "fghij-biaaa-aaaal-qbhwa-cai",
       "collectionId": "brain-matters",
@@ -12738,11 +12738,11 @@
     }
   },
   {
-    "url": "http://localhost:8080/-/brain-matters/-/some-token-id/translate?page=home&nav=3&connected=true",
+    "url": "http://localhost:9000/-/brain-matters/-/some-token-id/translate?page=home&nav=3&connected=true",
     "expectedResult": {
-      "fullUrl": "http://localhost:8080/-/brain-matters/-/some-token-id/translate?page=home&nav=3&connected=true",
-      "port": "8080",
-      "canisterUrl": "http://localhost:8080/-/brain-matters",
+      "fullUrl": "http://localhost:9000/-/brain-matters/-/some-token-id/translate?page=home&nav=3&connected=true",
+      "port": "9000",
+      "canisterUrl": "http://localhost:9000/-/brain-matters",
       "directCanisterUrl": "https://fghij-biaaa-aaaal-qbhwa-cai.raw.icp0.io",
       "canisterId": "fghij-biaaa-aaaal-qbhwa-cai",
       "collectionId": "brain-matters",
@@ -13612,11 +13612,11 @@
     }
   },
   {
-    "url": "http://localhost:8080/-/brain-matters/collection/library?page=home&nav=3&connected=true",
+    "url": "http://localhost:9000/-/brain-matters/collection/library?page=home&nav=3&connected=true",
     "expectedResult": {
-      "fullUrl": "http://localhost:8080/-/brain-matters/collection/library?page=home&nav=3&connected=true",
-      "port": "8080",
-      "canisterUrl": "http://localhost:8080/-/brain-matters",
+      "fullUrl": "http://localhost:9000/-/brain-matters/collection/library?page=home&nav=3&connected=true",
+      "port": "9000",
+      "canisterUrl": "http://localhost:9000/-/brain-matters",
       "directCanisterUrl": "https://fghij-biaaa-aaaal-qbhwa-cai.raw.icp0.io",
       "canisterId": "fghij-biaaa-aaaal-qbhwa-cai",
       "collectionId": "brain-matters",
@@ -13650,11 +13650,11 @@
     }
   },
   {
-    "url": "http://localhost:8080/-/brain-matters/-/some-token-id/library?page=home&nav=3&connected=true",
+    "url": "http://localhost:9000/-/brain-matters/-/some-token-id/library?page=home&nav=3&connected=true",
     "expectedResult": {
-      "fullUrl": "http://localhost:8080/-/brain-matters/-/some-token-id/library?page=home&nav=3&connected=true",
-      "port": "8080",
-      "canisterUrl": "http://localhost:8080/-/brain-matters",
+      "fullUrl": "http://localhost:9000/-/brain-matters/-/some-token-id/library?page=home&nav=3&connected=true",
+      "port": "9000",
+      "canisterUrl": "http://localhost:9000/-/brain-matters",
       "directCanisterUrl": "https://fghij-biaaa-aaaal-qbhwa-cai.raw.icp0.io",
       "canisterId": "fghij-biaaa-aaaal-qbhwa-cai",
       "collectionId": "brain-matters",
@@ -14524,11 +14524,11 @@
     }
   },
   {
-    "url": "http://localhost:8080/-/brain-matters/collection/primary?page=home&nav=3&connected=true",
+    "url": "http://localhost:9000/-/brain-matters/collection/primary?page=home&nav=3&connected=true",
     "expectedResult": {
-      "fullUrl": "http://localhost:8080/-/brain-matters/collection/primary?page=home&nav=3&connected=true",
-      "port": "8080",
-      "canisterUrl": "http://localhost:8080/-/brain-matters",
+      "fullUrl": "http://localhost:9000/-/brain-matters/collection/primary?page=home&nav=3&connected=true",
+      "port": "9000",
+      "canisterUrl": "http://localhost:9000/-/brain-matters",
       "directCanisterUrl": "https://fghij-biaaa-aaaal-qbhwa-cai.raw.icp0.io",
       "canisterId": "fghij-biaaa-aaaal-qbhwa-cai",
       "collectionId": "brain-matters",
@@ -14562,11 +14562,11 @@
     }
   },
   {
-    "url": "http://localhost:8080/-/brain-matters/-/some-token-id/primary?page=home&nav=3&connected=true",
+    "url": "http://localhost:9000/-/brain-matters/-/some-token-id/primary?page=home&nav=3&connected=true",
     "expectedResult": {
-      "fullUrl": "http://localhost:8080/-/brain-matters/-/some-token-id/primary?page=home&nav=3&connected=true",
-      "port": "8080",
-      "canisterUrl": "http://localhost:8080/-/brain-matters",
+      "fullUrl": "http://localhost:9000/-/brain-matters/-/some-token-id/primary?page=home&nav=3&connected=true",
+      "port": "9000",
+      "canisterUrl": "http://localhost:9000/-/brain-matters",
       "directCanisterUrl": "https://fghij-biaaa-aaaal-qbhwa-cai.raw.icp0.io",
       "canisterId": "fghij-biaaa-aaaal-qbhwa-cai",
       "collectionId": "brain-matters",
@@ -15436,11 +15436,11 @@
     }
   },
   {
-    "url": "http://localhost:8080/-/brain-matters/collection/preview?page=home&nav=3&connected=true",
+    "url": "http://localhost:9000/-/brain-matters/collection/preview?page=home&nav=3&connected=true",
     "expectedResult": {
-      "fullUrl": "http://localhost:8080/-/brain-matters/collection/preview?page=home&nav=3&connected=true",
-      "port": "8080",
-      "canisterUrl": "http://localhost:8080/-/brain-matters",
+      "fullUrl": "http://localhost:9000/-/brain-matters/collection/preview?page=home&nav=3&connected=true",
+      "port": "9000",
+      "canisterUrl": "http://localhost:9000/-/brain-matters",
       "directCanisterUrl": "https://fghij-biaaa-aaaal-qbhwa-cai.raw.icp0.io",
       "canisterId": "fghij-biaaa-aaaal-qbhwa-cai",
       "collectionId": "brain-matters",
@@ -15474,11 +15474,11 @@
     }
   },
   {
-    "url": "http://localhost:8080/-/brain-matters/-/some-token-id/preview?page=home&nav=3&connected=true",
+    "url": "http://localhost:9000/-/brain-matters/-/some-token-id/preview?page=home&nav=3&connected=true",
     "expectedResult": {
-      "fullUrl": "http://localhost:8080/-/brain-matters/-/some-token-id/preview?page=home&nav=3&connected=true",
-      "port": "8080",
-      "canisterUrl": "http://localhost:8080/-/brain-matters",
+      "fullUrl": "http://localhost:9000/-/brain-matters/-/some-token-id/preview?page=home&nav=3&connected=true",
+      "port": "9000",
+      "canisterUrl": "http://localhost:9000/-/brain-matters",
       "directCanisterUrl": "https://fghij-biaaa-aaaal-qbhwa-cai.raw.icp0.io",
       "canisterId": "fghij-biaaa-aaaal-qbhwa-cai",
       "collectionId": "brain-matters",
@@ -16348,11 +16348,11 @@
     }
   },
   {
-    "url": "http://localhost:8080/-/brain-matters/collection/hidden?page=home&nav=3&connected=true",
+    "url": "http://localhost:9000/-/brain-matters/collection/hidden?page=home&nav=3&connected=true",
     "expectedResult": {
-      "fullUrl": "http://localhost:8080/-/brain-matters/collection/hidden?page=home&nav=3&connected=true",
-      "port": "8080",
-      "canisterUrl": "http://localhost:8080/-/brain-matters",
+      "fullUrl": "http://localhost:9000/-/brain-matters/collection/hidden?page=home&nav=3&connected=true",
+      "port": "9000",
+      "canisterUrl": "http://localhost:9000/-/brain-matters",
       "directCanisterUrl": "https://fghij-biaaa-aaaal-qbhwa-cai.raw.icp0.io",
       "canisterId": "fghij-biaaa-aaaal-qbhwa-cai",
       "collectionId": "brain-matters",
@@ -16386,11 +16386,11 @@
     }
   },
   {
-    "url": "http://localhost:8080/-/brain-matters/-/some-token-id/hidden?page=home&nav=3&connected=true",
+    "url": "http://localhost:9000/-/brain-matters/-/some-token-id/hidden?page=home&nav=3&connected=true",
     "expectedResult": {
-      "fullUrl": "http://localhost:8080/-/brain-matters/-/some-token-id/hidden?page=home&nav=3&connected=true",
-      "port": "8080",
-      "canisterUrl": "http://localhost:8080/-/brain-matters",
+      "fullUrl": "http://localhost:9000/-/brain-matters/-/some-token-id/hidden?page=home&nav=3&connected=true",
+      "port": "9000",
+      "canisterUrl": "http://localhost:9000/-/brain-matters",
       "directCanisterUrl": "https://fghij-biaaa-aaaal-qbhwa-cai.raw.icp0.io",
       "canisterId": "fghij-biaaa-aaaal-qbhwa-cai",
       "collectionId": "brain-matters",
@@ -17260,11 +17260,11 @@
     }
   },
   {
-    "url": "http://localhost:8080/-/brain-matters/collection/ex?page=home&nav=3&connected=true",
+    "url": "http://localhost:9000/-/brain-matters/collection/ex?page=home&nav=3&connected=true",
     "expectedResult": {
-      "fullUrl": "http://localhost:8080/-/brain-matters/collection/ex?page=home&nav=3&connected=true",
-      "port": "8080",
-      "canisterUrl": "http://localhost:8080/-/brain-matters",
+      "fullUrl": "http://localhost:9000/-/brain-matters/collection/ex?page=home&nav=3&connected=true",
+      "port": "9000",
+      "canisterUrl": "http://localhost:9000/-/brain-matters",
       "directCanisterUrl": "https://fghij-biaaa-aaaal-qbhwa-cai.raw.icp0.io",
       "canisterId": "fghij-biaaa-aaaal-qbhwa-cai",
       "collectionId": "brain-matters",
@@ -17298,11 +17298,11 @@
     }
   },
   {
-    "url": "http://localhost:8080/-/brain-matters/-/some-token-id/ex?page=home&nav=3&connected=true",
+    "url": "http://localhost:9000/-/brain-matters/-/some-token-id/ex?page=home&nav=3&connected=true",
     "expectedResult": {
-      "fullUrl": "http://localhost:8080/-/brain-matters/-/some-token-id/ex?page=home&nav=3&connected=true",
-      "port": "8080",
-      "canisterUrl": "http://localhost:8080/-/brain-matters",
+      "fullUrl": "http://localhost:9000/-/brain-matters/-/some-token-id/ex?page=home&nav=3&connected=true",
+      "port": "9000",
+      "canisterUrl": "http://localhost:9000/-/brain-matters",
       "directCanisterUrl": "https://fghij-biaaa-aaaal-qbhwa-cai.raw.icp0.io",
       "canisterId": "fghij-biaaa-aaaal-qbhwa-cai",
       "collectionId": "brain-matters",
@@ -18172,11 +18172,11 @@
     }
   },
   {
-    "url": "http://localhost:8080/-/brain-matters/collection/-/file-name.png?page=home&nav=3&connected=true",
+    "url": "http://localhost:9000/-/brain-matters/collection/-/file-name.png?page=home&nav=3&connected=true",
     "expectedResult": {
-      "fullUrl": "http://localhost:8080/-/brain-matters/collection/-/file-name.png?page=home&nav=3&connected=true",
-      "port": "8080",
-      "canisterUrl": "http://localhost:8080/-/brain-matters",
+      "fullUrl": "http://localhost:9000/-/brain-matters/collection/-/file-name.png?page=home&nav=3&connected=true",
+      "port": "9000",
+      "canisterUrl": "http://localhost:9000/-/brain-matters",
       "directCanisterUrl": "https://fghij-biaaa-aaaal-qbhwa-cai.raw.icp0.io",
       "canisterId": "fghij-biaaa-aaaal-qbhwa-cai",
       "collectionId": "brain-matters",
@@ -18210,11 +18210,11 @@
     }
   },
   {
-    "url": "http://localhost:8080/-/brain-matters/-/some-token-id/-/file-name.png?page=home&nav=3&connected=true",
+    "url": "http://localhost:9000/-/brain-matters/-/some-token-id/-/file-name.png?page=home&nav=3&connected=true",
     "expectedResult": {
-      "fullUrl": "http://localhost:8080/-/brain-matters/-/some-token-id/-/file-name.png?page=home&nav=3&connected=true",
-      "port": "8080",
-      "canisterUrl": "http://localhost:8080/-/brain-matters",
+      "fullUrl": "http://localhost:9000/-/brain-matters/-/some-token-id/-/file-name.png?page=home&nav=3&connected=true",
+      "port": "9000",
+      "canisterUrl": "http://localhost:9000/-/brain-matters",
       "directCanisterUrl": "https://fghij-biaaa-aaaal-qbhwa-cai.raw.icp0.io",
       "canisterId": "fghij-biaaa-aaaal-qbhwa-cai",
       "collectionId": "brain-matters",
