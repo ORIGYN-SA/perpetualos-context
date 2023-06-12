@@ -162,6 +162,14 @@ export interface URLContext {
   directCanisterUrl: string;
 
   /**
+   * Same as the `directCanisterUrl` if `isDevServer` equals `true`, otherwise, `canisterUrl`.
+   * Note: When hosting a dApp with webpack dev server, asset URLs that use the same port as the dev server
+   * will return the entire dApp, resulting in broken images and other links. In this specific case, the
+   * direct canister URL must be used to retrieve assets correctly.
+   */
+  assetCanisterUrl: string;
+
+  /**
    * The port number of the canister URL if specified.
    */
   port: string;
@@ -218,7 +226,7 @@ export interface URLContext {
    * The Origyn DApps run locally on port 8080 (ex: `npm run start:marketplace`) while targeting
    * a mainnet canister.
    */
-  isLocalToMainnet: boolean;
+  isDevServer: boolean;
 
   /**
    * Indicates that the URL is referencing a canister directly.
