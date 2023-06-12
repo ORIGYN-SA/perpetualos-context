@@ -46,7 +46,13 @@ const generateUrlPermutations = async () => {
     urls.push(`http://${canisterId}.localhost:8080/collection/${resourceType}`);
     urls.push(`http://${canisterId}.localhost:8080/-/${tokenId}/${resourceType}`);
 
-    // Localhost pointing to mainnet canister for testing
+    // Localhost dev server pointing to local canister for testing
+    urls.push(`http://localhost:8081/-/${canisterId}/collection/${resourceType}`);
+    urls.push(`http://localhost:8081/-/${canisterId}/-/${tokenId}/${resourceType}`);
+
+    // Localhost dev server pointing to mainnet canister for testing
+    urls.push(`http://localhost:9000/-/${canisterId}/collection/${resourceType}`);
+    urls.push(`http://localhost:9000/-/${canisterId}/-/${tokenId}/${resourceType}`);
     urls.push(`http://localhost:9000/-/${collectionId}/collection/${resourceType}`);
     urls.push(`http://localhost:9000/-/${collectionId}/-/${tokenId}/${resourceType}`);
 

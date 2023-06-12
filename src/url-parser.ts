@@ -58,6 +58,7 @@ export const parseURL = async (url: string): Promise<URLContext> => {
     port: '',
     canisterUrl: '',
     directCanisterUrl: '',
+    assetCanisterUrl: '',
     canisterId: '',
     collectionId: '',
     canisterRelativeUrl: '',
@@ -65,7 +66,7 @@ export const parseURL = async (url: string): Promise<URLContext> => {
     queryStringParams,
     fragment: '',
     isLocal: false,
-    isLocalToMainnet: false,
+    isDevServer: false,
     isDirect: false,
     isRaw: false,
     resourceLevel: ResourceLevel.Unknown,
@@ -112,8 +113,13 @@ export const parseURL = async (url: string): Promise<URLContext> => {
       ctx.isRaw = true;
       ctx.isLocal = domain.toLowerCase().includes('localhost');
       ctx.port = port;
-      if (port === '9000') {
-        ctx.isLocalToMainnet = true;
+
+      // assume that any port other than dfx (8080) and the local proxy (3000)
+      // is a webpack dev server port
+      ctx.isDevServer = ctx.isLocal && !['8080', '3000'].includes(ctx.port);
+
+      // when webpack dev server uses port 9000, it is pointing to a mainnet canister
+      if (ctx.isDevServer && ctx.port === '9000') {
         ctx.isLocal = false;
       }
     }
@@ -178,18 +184,20 @@ export const parseURL = async (url: string): Promise<URLContext> => {
   ctx.resourceLevelText = ResourceLevel[ctx.resourceLevel];
   ctx.resourceTypeText = ResourceType[ctx.resourceType];
 
-  // If the URL is local using port 9000 (isLocalToMainnet),
+  // If the URL is local using port 9000,
   // it's a local test URL pointing at a mainnet canister
-  // running on webpack dev server configured for port 9000.
+  // hosted on webpack dev server configured for port 9000.
   // http://localhost:9000/-/brain-matters
   // In that case, the direct URL is the mainnet direct URL
 
-  if (ctx.isLocal && !ctx.isLocalToMainnet) {
+  if (ctx.isLocal && ctx.port !== '9000') {
     ctx.directCanisterUrl = `http://${ctx.canisterId}.localhost:8080`;
   } else {
     // As of Apr 20, 2023, all existing and new canisters can be accessed with icp0.io.
     ctx.directCanisterUrl = `https://${ctx.canisterId}.raw.icp0.io`;
   }
+
+  ctx.assetCanisterUrl = ctx.isDevServer ? ctx.directCanisterUrl : ctx.canisterUrl;
 
   return ctx;
 };

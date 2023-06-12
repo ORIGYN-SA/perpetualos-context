@@ -43,7 +43,10 @@ regular expressions in [regex-patterns.ts](src/regex-patterns.ts).
 
 - Direct to Canister
   - Localhost
-    - http://{canister_id}.localhost:8080
+    - Direct to local canister
+      - http://{canister_id}.localhost:8080
+    - Webpack dev server to local canister
+      - http://localhost:8081/-/{canister_id}
   - Mainnet
     - Canisters created before Apr 20, 2023
       - https://{canister_id}.raw.ic0.app
@@ -51,12 +54,13 @@ regular expressions in [regex-patterns.ts](src/regex-patterns.ts).
     - Canisters created before or after Apr 20, 2023
       - https://{canister_id}.raw.icp0.io
       - https://{canister_id}.icp0.io
+    - Webpack dev server to mainnet canister
+      - http://localhost:9000/-/{canister_id}
 - Via Proxy
-  - Localhost
+  - Localhost (uses local proxy)
     - http://localhost:3000/-/{canister_id}
-  - Localhost to Mainnet Canister
+  - Webpack dev server to Mainnet Canister (uses mainnet proxy)
     - http://localhost:9000/-/{canister_id}
-    - http://localhost:9000/-/{canister_name}
   - Mainnet
     - Current domain
       - https://prptl.io/-/{canister_id}
@@ -65,6 +69,8 @@ regular expressions in [regex-patterns.ts](src/regex-patterns.ts).
 - Via Proxy + Phonebook (to Lookup Collection ID)
   - Localhost
     - http://localhost:3000/-/{collection_id} (lookup canister_id from collection_id)
+  - Webpack dev server to Mainnet Canister (uses mainnet proxy)
+    - http://localhost:9000/-/{collection_id} (lookup canister_id from collection_id)
   - Mainnet
     - Current domain
       - https://prptl.io/-/{collection_id} (lookup canister_id from collection_id)
