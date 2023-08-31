@@ -64,6 +64,8 @@ regular expressions in [regex-patterns.ts](src/regex-patterns.ts).
   - Mainnet
     - Current domain
       - https://prptl.io/-/{canister_id}
+    - Current direct proxy
+      - https://icx-proxy.origyn.ch/-/{canister_id}
     - Legacy domain
       - https://exos.origyn.network/-/{canister_id}
 - Via Proxy + Phonebook (to Lookup Collection ID)
@@ -74,6 +76,8 @@ regular expressions in [regex-patterns.ts](src/regex-patterns.ts).
   - Mainnet
     - Current domain
       - https://prptl.io/-/{collection_id} (lookup canister_id from collection_id)
+    - Current direct proxy
+      - https://icx-proxy.origyn.ch/-/{collection_id} (lookup canister_id from collection_id)
     - Legacy domain
       - https://exos.origyn.network/-/{collection_id} (lookup canister_id from collection_id)
 

@@ -37,7 +37,7 @@ const generateUrlPermutations = async () => {
 
   const mainnetDomains = ['raw.ic0.app', 'ic0.app', 'raw.icp0.io', 'icp0.io'];
 
-  const proxyDomains = ['prptl.io', 'exos.origyn.network'];
+  const proxyDomains = ['prptl.io', 'exos.origyn.network', 'icx-proxy.origyn.ch'];
 
   let urls = [];
 

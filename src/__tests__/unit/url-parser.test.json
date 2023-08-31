@@ -572,6 +572,58 @@
     }
   },
   {
+    "url": "https://icx-proxy.origyn.ch/-/abcde-biaaa-aaaal-qbhwa-cai/collection/info",
+    "expectedResult": {
+      "fullUrl": "https://icx-proxy.origyn.ch/-/abcde-biaaa-aaaal-qbhwa-cai/collection/info",
+      "port": "",
+      "canisterUrl": "https://icx-proxy.origyn.ch/-/abcde-biaaa-aaaal-qbhwa-cai",
+      "directCanisterUrl": "https://abcde-biaaa-aaaal-qbhwa-cai.raw.icp0.io",
+      "assetCanisterUrl": "https://icx-proxy.origyn.ch/-/abcde-biaaa-aaaal-qbhwa-cai",
+      "canisterId": "abcde-biaaa-aaaal-qbhwa-cai",
+      "collectionId": "",
+      "canisterRelativeUrl": "/collection/info",
+      "canisterRelativePath": "/collection/info",
+      "queryStringParams": [],
+      "fragment": "",
+      "isLocal": false,
+      "isDevServer": false,
+      "isDirect": false,
+      "isRaw": true,
+      "resourceLevel": 1,
+      "resourceLevelText": "Collection",
+      "resourceType": 2,
+      "resourceTypeText": "Info",
+      "tokenId": "",
+      "libraryId": ""
+    }
+  },
+  {
+    "url": "https://icx-proxy.origyn.ch/-/abcde-biaaa-aaaal-qbhwa-cai/-/some-token-id/info",
+    "expectedResult": {
+      "fullUrl": "https://icx-proxy.origyn.ch/-/abcde-biaaa-aaaal-qbhwa-cai/-/some-token-id/info",
+      "port": "",
+      "canisterUrl": "https://icx-proxy.origyn.ch/-/abcde-biaaa-aaaal-qbhwa-cai",
+      "directCanisterUrl": "https://abcde-biaaa-aaaal-qbhwa-cai.raw.icp0.io",
+      "assetCanisterUrl": "https://icx-proxy.origyn.ch/-/abcde-biaaa-aaaal-qbhwa-cai",
+      "canisterId": "abcde-biaaa-aaaal-qbhwa-cai",
+      "collectionId": "",
+      "canisterRelativeUrl": "/-/some-token-id/info",
+      "canisterRelativePath": "/-/some-token-id/info",
+      "queryStringParams": [],
+      "fragment": "",
+      "isLocal": false,
+      "isDevServer": false,
+      "isDirect": false,
+      "isRaw": true,
+      "resourceLevel": 2,
+      "resourceLevelText": "Token",
+      "resourceType": 2,
+      "resourceTypeText": "Info",
+      "tokenId": "some-token-id",
+      "libraryId": ""
+    }
+  },
+  {
     "url": "http://localhost:3000/-/brain-matters/collection/info",
     "expectedResult": {
       "fullUrl": "http://localhost:3000/-/brain-matters/collection/info",
@@ -709,6 +761,58 @@
       "canisterUrl": "https://exos.origyn.network/-/brain-matters",
       "directCanisterUrl": "https://fghij-biaaa-aaaal-qbhwa-cai.raw.icp0.io",
       "assetCanisterUrl": "https://exos.origyn.network/-/brain-matters",
+      "canisterId": "fghij-biaaa-aaaal-qbhwa-cai",
+      "collectionId": "brain-matters",
+      "canisterRelativeUrl": "/-/some-token-id/info",
+      "canisterRelativePath": "/-/some-token-id/info",
+      "queryStringParams": [],
+      "fragment": "",
+      "isLocal": false,
+      "isDevServer": false,
+      "isDirect": false,
+      "isRaw": true,
+      "resourceLevel": 2,
+      "resourceLevelText": "Token",
+      "resourceType": 2,
+      "resourceTypeText": "Info",
+      "tokenId": "some-token-id",
+      "libraryId": ""
+    }
+  },
+  {
+    "url": "https://icx-proxy.origyn.ch/-/brain-matters/collection/info",
+    "expectedResult": {
+      "fullUrl": "https://icx-proxy.origyn.ch/-/brain-matters/collection/info",
+      "port": "",
+      "canisterUrl": "https://icx-proxy.origyn.ch/-/brain-matters",
+      "directCanisterUrl": "https://fghij-biaaa-aaaal-qbhwa-cai.raw.icp0.io",
+      "assetCanisterUrl": "https://icx-proxy.origyn.ch/-/brain-matters",
+      "canisterId": "fghij-biaaa-aaaal-qbhwa-cai",
+      "collectionId": "brain-matters",
+      "canisterRelativeUrl": "/collection/info",
+      "canisterRelativePath": "/collection/info",
+      "queryStringParams": [],
+      "fragment": "",
+      "isLocal": false,
+      "isDevServer": false,
+      "isDirect": false,
+      "isRaw": true,
+      "resourceLevel": 1,
+      "resourceLevelText": "Collection",
+      "resourceType": 2,
+      "resourceTypeText": "Info",
+      "tokenId": "",
+      "libraryId": ""
+    }
+  },
+  {
+    "url": "https://icx-proxy.origyn.ch/-/brain-matters/-/some-token-id/info",
+    "expectedResult": {
+      "fullUrl": "https://icx-proxy.origyn.ch/-/brain-matters/-/some-token-id/info",
+      "port": "",
+      "canisterUrl": "https://icx-proxy.origyn.ch/-/brain-matters",
+      "directCanisterUrl": "https://fghij-biaaa-aaaal-qbhwa-cai.raw.icp0.io",
+      "assetCanisterUrl": "https://icx-proxy.origyn.ch/-/brain-matters",
       "canisterId": "fghij-biaaa-aaaal-qbhwa-cai",
       "collectionId": "brain-matters",
       "canisterRelativeUrl": "/-/some-token-id/info",
@@ -1300,6 +1404,58 @@
     }
   },
   {
+    "url": "https://icx-proxy.origyn.ch/-/abcde-biaaa-aaaal-qbhwa-cai/collection/ledger_info",
+    "expectedResult": {
+      "fullUrl": "https://icx-proxy.origyn.ch/-/abcde-biaaa-aaaal-qbhwa-cai/collection/ledger_info",
+      "port": "",
+      "canisterUrl": "https://icx-proxy.origyn.ch/-/abcde-biaaa-aaaal-qbhwa-cai",
+      "directCanisterUrl": "https://abcde-biaaa-aaaal-qbhwa-cai.raw.icp0.io",
+      "assetCanisterUrl": "https://icx-proxy.origyn.ch/-/abcde-biaaa-aaaal-qbhwa-cai",
+      "canisterId": "abcde-biaaa-aaaal-qbhwa-cai",
+      "collectionId": "",
+      "canisterRelativeUrl": "/collection/ledger_info",
+      "canisterRelativePath": "/collection/ledger_info",
+      "queryStringParams": [],
+      "fragment": "",
+      "isLocal": false,
+      "isDevServer": false,
+      "isDirect": false,
+      "isRaw": true,
+      "resourceLevel": 1,
+      "resourceLevelText": "Collection",
+      "resourceType": 3,
+      "resourceTypeText": "LedgerInfo",
+      "tokenId": "",
+      "libraryId": ""
+    }
+  },
+  {
+    "url": "https://icx-proxy.origyn.ch/-/abcde-biaaa-aaaal-qbhwa-cai/-/some-token-id/ledger_info",
+    "expectedResult": {
+      "fullUrl": "https://icx-proxy.origyn.ch/-/abcde-biaaa-aaaal-qbhwa-cai/-/some-token-id/ledger_info",
+      "port": "",
+      "canisterUrl": "https://icx-proxy.origyn.ch/-/abcde-biaaa-aaaal-qbhwa-cai",
+      "directCanisterUrl": "https://abcde-biaaa-aaaal-qbhwa-cai.raw.icp0.io",
+      "assetCanisterUrl": "https://icx-proxy.origyn.ch/-/abcde-biaaa-aaaal-qbhwa-cai",
+      "canisterId": "abcde-biaaa-aaaal-qbhwa-cai",
+      "collectionId": "",
+      "canisterRelativeUrl": "/-/some-token-id/ledger_info",
+      "canisterRelativePath": "/-/some-token-id/ledger_info",
+      "queryStringParams": [],
+      "fragment": "",
+      "isLocal": false,
+      "isDevServer": false,
+      "isDirect": false,
+      "isRaw": true,
+      "resourceLevel": 2,
+      "resourceLevelText": "Token",
+      "resourceType": 3,
+      "resourceTypeText": "LedgerInfo",
+      "tokenId": "some-token-id",
+      "libraryId": ""
+    }
+  },
+  {
     "url": "http://localhost:3000/-/brain-matters/collection/ledger_info",
     "expectedResult": {
       "fullUrl": "http://localhost:3000/-/brain-matters/collection/ledger_info",
@@ -1437,6 +1593,58 @@
       "canisterUrl": "https://exos.origyn.network/-/brain-matters",
       "directCanisterUrl": "https://fghij-biaaa-aaaal-qbhwa-cai.raw.icp0.io",
       "assetCanisterUrl": "https://exos.origyn.network/-/brain-matters",
+      "canisterId": "fghij-biaaa-aaaal-qbhwa-cai",
+      "collectionId": "brain-matters",
+      "canisterRelativeUrl": "/-/some-token-id/ledger_info",
+      "canisterRelativePath": "/-/some-token-id/ledger_info",
+      "queryStringParams": [],
+      "fragment": "",
+      "isLocal": false,
+      "isDevServer": false,
+      "isDirect": false,
+      "isRaw": true,
+      "resourceLevel": 2,
+      "resourceLevelText": "Token",
+      "resourceType": 3,
+      "resourceTypeText": "LedgerInfo",
+      "tokenId": "some-token-id",
+      "libraryId": ""
+    }
+  },
+  {
+    "url": "https://icx-proxy.origyn.ch/-/brain-matters/collection/ledger_info",
+    "expectedResult": {
+      "fullUrl": "https://icx-proxy.origyn.ch/-/brain-matters/collection/ledger_info",
+      "port": "",
+      "canisterUrl": "https://icx-proxy.origyn.ch/-/brain-matters",
+      "directCanisterUrl": "https://fghij-biaaa-aaaal-qbhwa-cai.raw.icp0.io",
+      "assetCanisterUrl": "https://icx-proxy.origyn.ch/-/brain-matters",
+      "canisterId": "fghij-biaaa-aaaal-qbhwa-cai",
+      "collectionId": "brain-matters",
+      "canisterRelativeUrl": "/collection/ledger_info",
+      "canisterRelativePath": "/collection/ledger_info",
+      "queryStringParams": [],
+      "fragment": "",
+      "isLocal": false,
+      "isDevServer": false,
+      "isDirect": false,
+      "isRaw": true,
+      "resourceLevel": 1,
+      "resourceLevelText": "Collection",
+      "resourceType": 3,
+      "resourceTypeText": "LedgerInfo",
+      "tokenId": "",
+      "libraryId": ""
+    }
+  },
+  {
+    "url": "https://icx-proxy.origyn.ch/-/brain-matters/-/some-token-id/ledger_info",
+    "expectedResult": {
+      "fullUrl": "https://icx-proxy.origyn.ch/-/brain-matters/-/some-token-id/ledger_info",
+      "port": "",
+      "canisterUrl": "https://icx-proxy.origyn.ch/-/brain-matters",
+      "directCanisterUrl": "https://fghij-biaaa-aaaal-qbhwa-cai.raw.icp0.io",
+      "assetCanisterUrl": "https://icx-proxy.origyn.ch/-/brain-matters",
       "canisterId": "fghij-biaaa-aaaal-qbhwa-cai",
       "collectionId": "brain-matters",
       "canisterRelativeUrl": "/-/some-token-id/ledger_info",
@@ -2028,6 +2236,58 @@
     }
   },
   {
+    "url": "https://icx-proxy.origyn.ch/-/abcde-biaaa-aaaal-qbhwa-cai/collection/translate",
+    "expectedResult": {
+      "fullUrl": "https://icx-proxy.origyn.ch/-/abcde-biaaa-aaaal-qbhwa-cai/collection/translate",
+      "port": "",
+      "canisterUrl": "https://icx-proxy.origyn.ch/-/abcde-biaaa-aaaal-qbhwa-cai",
+      "directCanisterUrl": "https://abcde-biaaa-aaaal-qbhwa-cai.raw.icp0.io",
+      "assetCanisterUrl": "https://icx-proxy.origyn.ch/-/abcde-biaaa-aaaal-qbhwa-cai",
+      "canisterId": "abcde-biaaa-aaaal-qbhwa-cai",
+      "collectionId": "",
+      "canisterRelativeUrl": "/collection/translate",
+      "canisterRelativePath": "/collection/translate",
+      "queryStringParams": [],
+      "fragment": "",
+      "isLocal": false,
+      "isDevServer": false,
+      "isDirect": false,
+      "isRaw": true,
+      "resourceLevel": 1,
+      "resourceLevelText": "Collection",
+      "resourceType": 4,
+      "resourceTypeText": "Translate",
+      "tokenId": "",
+      "libraryId": ""
+    }
+  },
+  {
+    "url": "https://icx-proxy.origyn.ch/-/abcde-biaaa-aaaal-qbhwa-cai/-/some-token-id/translate",
+    "expectedResult": {
+      "fullUrl": "https://icx-proxy.origyn.ch/-/abcde-biaaa-aaaal-qbhwa-cai/-/some-token-id/translate",
+      "port": "",
+      "canisterUrl": "https://icx-proxy.origyn.ch/-/abcde-biaaa-aaaal-qbhwa-cai",
+      "directCanisterUrl": "https://abcde-biaaa-aaaal-qbhwa-cai.raw.icp0.io",
+      "assetCanisterUrl": "https://icx-proxy.origyn.ch/-/abcde-biaaa-aaaal-qbhwa-cai",
+      "canisterId": "abcde-biaaa-aaaal-qbhwa-cai",
+      "collectionId": "",
+      "canisterRelativeUrl": "/-/some-token-id/translate",
+      "canisterRelativePath": "/-/some-token-id/translate",
+      "queryStringParams": [],
+      "fragment": "",
+      "isLocal": false,
+      "isDevServer": false,
+      "isDirect": false,
+      "isRaw": true,
+      "resourceLevel": 2,
+      "resourceLevelText": "Token",
+      "resourceType": 4,
+      "resourceTypeText": "Translate",
+      "tokenId": "some-token-id",
+      "libraryId": ""
+    }
+  },
+  {
     "url": "http://localhost:3000/-/brain-matters/collection/translate",
     "expectedResult": {
       "fullUrl": "http://localhost:3000/-/brain-matters/collection/translate",
@@ -2165,6 +2425,58 @@
       "canisterUrl": "https://exos.origyn.network/-/brain-matters",
       "directCanisterUrl": "https://fghij-biaaa-aaaal-qbhwa-cai.raw.icp0.io",
       "assetCanisterUrl": "https://exos.origyn.network/-/brain-matters",
+      "canisterId": "fghij-biaaa-aaaal-qbhwa-cai",
+      "collectionId": "brain-matters",
+      "canisterRelativeUrl": "/-/some-token-id/translate",
+      "canisterRelativePath": "/-/some-token-id/translate",
+      "queryStringParams": [],
+      "fragment": "",
+      "isLocal": false,
+      "isDevServer": false,
+      "isDirect": false,
+      "isRaw": true,
+      "resourceLevel": 2,
+      "resourceLevelText": "Token",
+      "resourceType": 4,
+      "resourceTypeText": "Translate",
+      "tokenId": "some-token-id",
+      "libraryId": ""
+    }
+  },
+  {
+    "url": "https://icx-proxy.origyn.ch/-/brain-matters/collection/translate",
+    "expectedResult": {
+      "fullUrl": "https://icx-proxy.origyn.ch/-/brain-matters/collection/translate",
+      "port": "",
+      "canisterUrl": "https://icx-proxy.origyn.ch/-/brain-matters",
+      "directCanisterUrl": "https://fghij-biaaa-aaaal-qbhwa-cai.raw.icp0.io",
+      "assetCanisterUrl": "https://icx-proxy.origyn.ch/-/brain-matters",
+      "canisterId": "fghij-biaaa-aaaal-qbhwa-cai",
+      "collectionId": "brain-matters",
+      "canisterRelativeUrl": "/collection/translate",
+      "canisterRelativePath": "/collection/translate",
+      "queryStringParams": [],
+      "fragment": "",
+      "isLocal": false,
+      "isDevServer": false,
+      "isDirect": false,
+      "isRaw": true,
+      "resourceLevel": 1,
+      "resourceLevelText": "Collection",
+      "resourceType": 4,
+      "resourceTypeText": "Translate",
+      "tokenId": "",
+      "libraryId": ""
+    }
+  },
+  {
+    "url": "https://icx-proxy.origyn.ch/-/brain-matters/-/some-token-id/translate",
+    "expectedResult": {
+      "fullUrl": "https://icx-proxy.origyn.ch/-/brain-matters/-/some-token-id/translate",
+      "port": "",
+      "canisterUrl": "https://icx-proxy.origyn.ch/-/brain-matters",
+      "directCanisterUrl": "https://fghij-biaaa-aaaal-qbhwa-cai.raw.icp0.io",
+      "assetCanisterUrl": "https://icx-proxy.origyn.ch/-/brain-matters",
       "canisterId": "fghij-biaaa-aaaal-qbhwa-cai",
       "collectionId": "brain-matters",
       "canisterRelativeUrl": "/-/some-token-id/translate",
@@ -2756,6 +3068,58 @@
     }
   },
   {
+    "url": "https://icx-proxy.origyn.ch/-/abcde-biaaa-aaaal-qbhwa-cai/collection/library",
+    "expectedResult": {
+      "fullUrl": "https://icx-proxy.origyn.ch/-/abcde-biaaa-aaaal-qbhwa-cai/collection/library",
+      "port": "",
+      "canisterUrl": "https://icx-proxy.origyn.ch/-/abcde-biaaa-aaaal-qbhwa-cai",
+      "directCanisterUrl": "https://abcde-biaaa-aaaal-qbhwa-cai.raw.icp0.io",
+      "assetCanisterUrl": "https://icx-proxy.origyn.ch/-/abcde-biaaa-aaaal-qbhwa-cai",
+      "canisterId": "abcde-biaaa-aaaal-qbhwa-cai",
+      "collectionId": "",
+      "canisterRelativeUrl": "/collection/library",
+      "canisterRelativePath": "/collection/library",
+      "queryStringParams": [],
+      "fragment": "",
+      "isLocal": false,
+      "isDevServer": false,
+      "isDirect": false,
+      "isRaw": true,
+      "resourceLevel": 1,
+      "resourceLevelText": "Collection",
+      "resourceType": 5,
+      "resourceTypeText": "Library",
+      "tokenId": "",
+      "libraryId": ""
+    }
+  },
+  {
+    "url": "https://icx-proxy.origyn.ch/-/abcde-biaaa-aaaal-qbhwa-cai/-/some-token-id/library",
+    "expectedResult": {
+      "fullUrl": "https://icx-proxy.origyn.ch/-/abcde-biaaa-aaaal-qbhwa-cai/-/some-token-id/library",
+      "port": "",
+      "canisterUrl": "https://icx-proxy.origyn.ch/-/abcde-biaaa-aaaal-qbhwa-cai",
+      "directCanisterUrl": "https://abcde-biaaa-aaaal-qbhwa-cai.raw.icp0.io",
+      "assetCanisterUrl": "https://icx-proxy.origyn.ch/-/abcde-biaaa-aaaal-qbhwa-cai",
+      "canisterId": "abcde-biaaa-aaaal-qbhwa-cai",
+      "collectionId": "",
+      "canisterRelativeUrl": "/-/some-token-id/library",
+      "canisterRelativePath": "/-/some-token-id/library",
+      "queryStringParams": [],
+      "fragment": "",
+      "isLocal": false,
+      "isDevServer": false,
+      "isDirect": false,
+      "isRaw": true,
+      "resourceLevel": 2,
+      "resourceLevelText": "Token",
+      "resourceType": 5,
+      "resourceTypeText": "Library",
+      "tokenId": "some-token-id",
+      "libraryId": ""
+    }
+  },
+  {
     "url": "http://localhost:3000/-/brain-matters/collection/library",
     "expectedResult": {
       "fullUrl": "http://localhost:3000/-/brain-matters/collection/library",
@@ -2893,6 +3257,58 @@
       "canisterUrl": "https://exos.origyn.network/-/brain-matters",
       "directCanisterUrl": "https://fghij-biaaa-aaaal-qbhwa-cai.raw.icp0.io",
       "assetCanisterUrl": "https://exos.origyn.network/-/brain-matters",
+      "canisterId": "fghij-biaaa-aaaal-qbhwa-cai",
+      "collectionId": "brain-matters",
+      "canisterRelativeUrl": "/-/some-token-id/library",
+      "canisterRelativePath": "/-/some-token-id/library",
+      "queryStringParams": [],
+      "fragment": "",
+      "isLocal": false,
+      "isDevServer": false,
+      "isDirect": false,
+      "isRaw": true,
+      "resourceLevel": 2,
+      "resourceLevelText": "Token",
+      "resourceType": 5,
+      "resourceTypeText": "Library",
+      "tokenId": "some-token-id",
+      "libraryId": ""
+    }
+  },
+  {
+    "url": "https://icx-proxy.origyn.ch/-/brain-matters/collection/library",
+    "expectedResult": {
+      "fullUrl": "https://icx-proxy.origyn.ch/-/brain-matters/collection/library",
+      "port": "",
+      "canisterUrl": "https://icx-proxy.origyn.ch/-/brain-matters",
+      "directCanisterUrl": "https://fghij-biaaa-aaaal-qbhwa-cai.raw.icp0.io",
+      "assetCanisterUrl": "https://icx-proxy.origyn.ch/-/brain-matters",
+      "canisterId": "fghij-biaaa-aaaal-qbhwa-cai",
+      "collectionId": "brain-matters",
+      "canisterRelativeUrl": "/collection/library",
+      "canisterRelativePath": "/collection/library",
+      "queryStringParams": [],
+      "fragment": "",
+      "isLocal": false,
+      "isDevServer": false,
+      "isDirect": false,
+      "isRaw": true,
+      "resourceLevel": 1,
+      "resourceLevelText": "Collection",
+      "resourceType": 5,
+      "resourceTypeText": "Library",
+      "tokenId": "",
+      "libraryId": ""
+    }
+  },
+  {
+    "url": "https://icx-proxy.origyn.ch/-/brain-matters/-/some-token-id/library",
+    "expectedResult": {
+      "fullUrl": "https://icx-proxy.origyn.ch/-/brain-matters/-/some-token-id/library",
+      "port": "",
+      "canisterUrl": "https://icx-proxy.origyn.ch/-/brain-matters",
+      "directCanisterUrl": "https://fghij-biaaa-aaaal-qbhwa-cai.raw.icp0.io",
+      "assetCanisterUrl": "https://icx-proxy.origyn.ch/-/brain-matters",
       "canisterId": "fghij-biaaa-aaaal-qbhwa-cai",
       "collectionId": "brain-matters",
       "canisterRelativeUrl": "/-/some-token-id/library",
@@ -3484,6 +3900,58 @@
     }
   },
   {
+    "url": "https://icx-proxy.origyn.ch/-/abcde-biaaa-aaaal-qbhwa-cai/collection/primary",
+    "expectedResult": {
+      "fullUrl": "https://icx-proxy.origyn.ch/-/abcde-biaaa-aaaal-qbhwa-cai/collection/primary",
+      "port": "",
+      "canisterUrl": "https://icx-proxy.origyn.ch/-/abcde-biaaa-aaaal-qbhwa-cai",
+      "directCanisterUrl": "https://abcde-biaaa-aaaal-qbhwa-cai.raw.icp0.io",
+      "assetCanisterUrl": "https://icx-proxy.origyn.ch/-/abcde-biaaa-aaaal-qbhwa-cai",
+      "canisterId": "abcde-biaaa-aaaal-qbhwa-cai",
+      "collectionId": "",
+      "canisterRelativeUrl": "/collection/primary",
+      "canisterRelativePath": "/collection/primary",
+      "queryStringParams": [],
+      "fragment": "",
+      "isLocal": false,
+      "isDevServer": false,
+      "isDirect": false,
+      "isRaw": true,
+      "resourceLevel": 1,
+      "resourceLevelText": "Collection",
+      "resourceType": 6,
+      "resourceTypeText": "PrimaryAsset",
+      "tokenId": "",
+      "libraryId": ""
+    }
+  },
+  {
+    "url": "https://icx-proxy.origyn.ch/-/abcde-biaaa-aaaal-qbhwa-cai/-/some-token-id/primary",
+    "expectedResult": {
+      "fullUrl": "https://icx-proxy.origyn.ch/-/abcde-biaaa-aaaal-qbhwa-cai/-/some-token-id/primary",
+      "port": "",
+      "canisterUrl": "https://icx-proxy.origyn.ch/-/abcde-biaaa-aaaal-qbhwa-cai",
+      "directCanisterUrl": "https://abcde-biaaa-aaaal-qbhwa-cai.raw.icp0.io",
+      "assetCanisterUrl": "https://icx-proxy.origyn.ch/-/abcde-biaaa-aaaal-qbhwa-cai",
+      "canisterId": "abcde-biaaa-aaaal-qbhwa-cai",
+      "collectionId": "",
+      "canisterRelativeUrl": "/-/some-token-id/primary",
+      "canisterRelativePath": "/-/some-token-id/primary",
+      "queryStringParams": [],
+      "fragment": "",
+      "isLocal": false,
+      "isDevServer": false,
+      "isDirect": false,
+      "isRaw": true,
+      "resourceLevel": 2,
+      "resourceLevelText": "Token",
+      "resourceType": 6,
+      "resourceTypeText": "PrimaryAsset",
+      "tokenId": "some-token-id",
+      "libraryId": ""
+    }
+  },
+  {
     "url": "http://localhost:3000/-/brain-matters/collection/primary",
     "expectedResult": {
       "fullUrl": "http://localhost:3000/-/brain-matters/collection/primary",
@@ -3621,6 +4089,58 @@
       "canisterUrl": "https://exos.origyn.network/-/brain-matters",
       "directCanisterUrl": "https://fghij-biaaa-aaaal-qbhwa-cai.raw.icp0.io",
       "assetCanisterUrl": "https://exos.origyn.network/-/brain-matters",
+      "canisterId": "fghij-biaaa-aaaal-qbhwa-cai",
+      "collectionId": "brain-matters",
+      "canisterRelativeUrl": "/-/some-token-id/primary",
+      "canisterRelativePath": "/-/some-token-id/primary",
+      "queryStringParams": [],
+      "fragment": "",
+      "isLocal": false,
+      "isDevServer": false,
+      "isDirect": false,
+      "isRaw": true,
+      "resourceLevel": 2,
+      "resourceLevelText": "Token",
+      "resourceType": 6,
+      "resourceTypeText": "PrimaryAsset",
+      "tokenId": "some-token-id",
+      "libraryId": ""
+    }
+  },
+  {
+    "url": "https://icx-proxy.origyn.ch/-/brain-matters/collection/primary",
+    "expectedResult": {
+      "fullUrl": "https://icx-proxy.origyn.ch/-/brain-matters/collection/primary",
+      "port": "",
+      "canisterUrl": "https://icx-proxy.origyn.ch/-/brain-matters",
+      "directCanisterUrl": "https://fghij-biaaa-aaaal-qbhwa-cai.raw.icp0.io",
+      "assetCanisterUrl": "https://icx-proxy.origyn.ch/-/brain-matters",
+      "canisterId": "fghij-biaaa-aaaal-qbhwa-cai",
+      "collectionId": "brain-matters",
+      "canisterRelativeUrl": "/collection/primary",
+      "canisterRelativePath": "/collection/primary",
+      "queryStringParams": [],
+      "fragment": "",
+      "isLocal": false,
+      "isDevServer": false,
+      "isDirect": false,
+      "isRaw": true,
+      "resourceLevel": 1,
+      "resourceLevelText": "Collection",
+      "resourceType": 6,
+      "resourceTypeText": "PrimaryAsset",
+      "tokenId": "",
+      "libraryId": ""
+    }
+  },
+  {
+    "url": "https://icx-proxy.origyn.ch/-/brain-matters/-/some-token-id/primary",
+    "expectedResult": {
+      "fullUrl": "https://icx-proxy.origyn.ch/-/brain-matters/-/some-token-id/primary",
+      "port": "",
+      "canisterUrl": "https://icx-proxy.origyn.ch/-/brain-matters",
+      "directCanisterUrl": "https://fghij-biaaa-aaaal-qbhwa-cai.raw.icp0.io",
+      "assetCanisterUrl": "https://icx-proxy.origyn.ch/-/brain-matters",
       "canisterId": "fghij-biaaa-aaaal-qbhwa-cai",
       "collectionId": "brain-matters",
       "canisterRelativeUrl": "/-/some-token-id/primary",
@@ -4212,6 +4732,58 @@
     }
   },
   {
+    "url": "https://icx-proxy.origyn.ch/-/abcde-biaaa-aaaal-qbhwa-cai/collection/preview",
+    "expectedResult": {
+      "fullUrl": "https://icx-proxy.origyn.ch/-/abcde-biaaa-aaaal-qbhwa-cai/collection/preview",
+      "port": "",
+      "canisterUrl": "https://icx-proxy.origyn.ch/-/abcde-biaaa-aaaal-qbhwa-cai",
+      "directCanisterUrl": "https://abcde-biaaa-aaaal-qbhwa-cai.raw.icp0.io",
+      "assetCanisterUrl": "https://icx-proxy.origyn.ch/-/abcde-biaaa-aaaal-qbhwa-cai",
+      "canisterId": "abcde-biaaa-aaaal-qbhwa-cai",
+      "collectionId": "",
+      "canisterRelativeUrl": "/collection/preview",
+      "canisterRelativePath": "/collection/preview",
+      "queryStringParams": [],
+      "fragment": "",
+      "isLocal": false,
+      "isDevServer": false,
+      "isDirect": false,
+      "isRaw": true,
+      "resourceLevel": 1,
+      "resourceLevelText": "Collection",
+      "resourceType": 7,
+      "resourceTypeText": "PreviewAsset",
+      "tokenId": "",
+      "libraryId": ""
+    }
+  },
+  {
+    "url": "https://icx-proxy.origyn.ch/-/abcde-biaaa-aaaal-qbhwa-cai/-/some-token-id/preview",
+    "expectedResult": {
+      "fullUrl": "https://icx-proxy.origyn.ch/-/abcde-biaaa-aaaal-qbhwa-cai/-/some-token-id/preview",
+      "port": "",
+      "canisterUrl": "https://icx-proxy.origyn.ch/-/abcde-biaaa-aaaal-qbhwa-cai",
+      "directCanisterUrl": "https://abcde-biaaa-aaaal-qbhwa-cai.raw.icp0.io",
+      "assetCanisterUrl": "https://icx-proxy.origyn.ch/-/abcde-biaaa-aaaal-qbhwa-cai",
+      "canisterId": "abcde-biaaa-aaaal-qbhwa-cai",
+      "collectionId": "",
+      "canisterRelativeUrl": "/-/some-token-id/preview",
+      "canisterRelativePath": "/-/some-token-id/preview",
+      "queryStringParams": [],
+      "fragment": "",
+      "isLocal": false,
+      "isDevServer": false,
+      "isDirect": false,
+      "isRaw": true,
+      "resourceLevel": 2,
+      "resourceLevelText": "Token",
+      "resourceType": 7,
+      "resourceTypeText": "PreviewAsset",
+      "tokenId": "some-token-id",
+      "libraryId": ""
+    }
+  },
+  {
     "url": "http://localhost:3000/-/brain-matters/collection/preview",
     "expectedResult": {
       "fullUrl": "http://localhost:3000/-/brain-matters/collection/preview",
@@ -4349,6 +4921,58 @@
       "canisterUrl": "https://exos.origyn.network/-/brain-matters",
       "directCanisterUrl": "https://fghij-biaaa-aaaal-qbhwa-cai.raw.icp0.io",
       "assetCanisterUrl": "https://exos.origyn.network/-/brain-matters",
+      "canisterId": "fghij-biaaa-aaaal-qbhwa-cai",
+      "collectionId": "brain-matters",
+      "canisterRelativeUrl": "/-/some-token-id/preview",
+      "canisterRelativePath": "/-/some-token-id/preview",
+      "queryStringParams": [],
+      "fragment": "",
+      "isLocal": false,
+      "isDevServer": false,
+      "isDirect": false,
+      "isRaw": true,
+      "resourceLevel": 2,
+      "resourceLevelText": "Token",
+      "resourceType": 7,
+      "resourceTypeText": "PreviewAsset",
+      "tokenId": "some-token-id",
+      "libraryId": ""
+    }
+  },
+  {
+    "url": "https://icx-proxy.origyn.ch/-/brain-matters/collection/preview",
+    "expectedResult": {
+      "fullUrl": "https://icx-proxy.origyn.ch/-/brain-matters/collection/preview",
+      "port": "",
+      "canisterUrl": "https://icx-proxy.origyn.ch/-/brain-matters",
+      "directCanisterUrl": "https://fghij-biaaa-aaaal-qbhwa-cai.raw.icp0.io",
+      "assetCanisterUrl": "https://icx-proxy.origyn.ch/-/brain-matters",
+      "canisterId": "fghij-biaaa-aaaal-qbhwa-cai",
+      "collectionId": "brain-matters",
+      "canisterRelativeUrl": "/collection/preview",
+      "canisterRelativePath": "/collection/preview",
+      "queryStringParams": [],
+      "fragment": "",
+      "isLocal": false,
+      "isDevServer": false,
+      "isDirect": false,
+      "isRaw": true,
+      "resourceLevel": 1,
+      "resourceLevelText": "Collection",
+      "resourceType": 7,
+      "resourceTypeText": "PreviewAsset",
+      "tokenId": "",
+      "libraryId": ""
+    }
+  },
+  {
+    "url": "https://icx-proxy.origyn.ch/-/brain-matters/-/some-token-id/preview",
+    "expectedResult": {
+      "fullUrl": "https://icx-proxy.origyn.ch/-/brain-matters/-/some-token-id/preview",
+      "port": "",
+      "canisterUrl": "https://icx-proxy.origyn.ch/-/brain-matters",
+      "directCanisterUrl": "https://fghij-biaaa-aaaal-qbhwa-cai.raw.icp0.io",
+      "assetCanisterUrl": "https://icx-proxy.origyn.ch/-/brain-matters",
       "canisterId": "fghij-biaaa-aaaal-qbhwa-cai",
       "collectionId": "brain-matters",
       "canisterRelativeUrl": "/-/some-token-id/preview",
@@ -4940,6 +5564,58 @@
     }
   },
   {
+    "url": "https://icx-proxy.origyn.ch/-/abcde-biaaa-aaaal-qbhwa-cai/collection/hidden",
+    "expectedResult": {
+      "fullUrl": "https://icx-proxy.origyn.ch/-/abcde-biaaa-aaaal-qbhwa-cai/collection/hidden",
+      "port": "",
+      "canisterUrl": "https://icx-proxy.origyn.ch/-/abcde-biaaa-aaaal-qbhwa-cai",
+      "directCanisterUrl": "https://abcde-biaaa-aaaal-qbhwa-cai.raw.icp0.io",
+      "assetCanisterUrl": "https://icx-proxy.origyn.ch/-/abcde-biaaa-aaaal-qbhwa-cai",
+      "canisterId": "abcde-biaaa-aaaal-qbhwa-cai",
+      "collectionId": "",
+      "canisterRelativeUrl": "/collection/hidden",
+      "canisterRelativePath": "/collection/hidden",
+      "queryStringParams": [],
+      "fragment": "",
+      "isLocal": false,
+      "isDevServer": false,
+      "isDirect": false,
+      "isRaw": true,
+      "resourceLevel": 1,
+      "resourceLevelText": "Collection",
+      "resourceType": 8,
+      "resourceTypeText": "HiddenAsset",
+      "tokenId": "",
+      "libraryId": ""
+    }
+  },
+  {
+    "url": "https://icx-proxy.origyn.ch/-/abcde-biaaa-aaaal-qbhwa-cai/-/some-token-id/hidden",
+    "expectedResult": {
+      "fullUrl": "https://icx-proxy.origyn.ch/-/abcde-biaaa-aaaal-qbhwa-cai/-/some-token-id/hidden",
+      "port": "",
+      "canisterUrl": "https://icx-proxy.origyn.ch/-/abcde-biaaa-aaaal-qbhwa-cai",
+      "directCanisterUrl": "https://abcde-biaaa-aaaal-qbhwa-cai.raw.icp0.io",
+      "assetCanisterUrl": "https://icx-proxy.origyn.ch/-/abcde-biaaa-aaaal-qbhwa-cai",
+      "canisterId": "abcde-biaaa-aaaal-qbhwa-cai",
+      "collectionId": "",
+      "canisterRelativeUrl": "/-/some-token-id/hidden",
+      "canisterRelativePath": "/-/some-token-id/hidden",
+      "queryStringParams": [],
+      "fragment": "",
+      "isLocal": false,
+      "isDevServer": false,
+      "isDirect": false,
+      "isRaw": true,
+      "resourceLevel": 2,
+      "resourceLevelText": "Token",
+      "resourceType": 8,
+      "resourceTypeText": "HiddenAsset",
+      "tokenId": "some-token-id",
+      "libraryId": ""
+    }
+  },
+  {
     "url": "http://localhost:3000/-/brain-matters/collection/hidden",
     "expectedResult": {
       "fullUrl": "http://localhost:3000/-/brain-matters/collection/hidden",
@@ -5077,6 +5753,58 @@
       "canisterUrl": "https://exos.origyn.network/-/brain-matters",
       "directCanisterUrl": "https://fghij-biaaa-aaaal-qbhwa-cai.raw.icp0.io",
       "assetCanisterUrl": "https://exos.origyn.network/-/brain-matters",
+      "canisterId": "fghij-biaaa-aaaal-qbhwa-cai",
+      "collectionId": "brain-matters",
+      "canisterRelativeUrl": "/-/some-token-id/hidden",
+      "canisterRelativePath": "/-/some-token-id/hidden",
+      "queryStringParams": [],
+      "fragment": "",
+      "isLocal": false,
+      "isDevServer": false,
+      "isDirect": false,
+      "isRaw": true,
+      "resourceLevel": 2,
+      "resourceLevelText": "Token",
+      "resourceType": 8,
+      "resourceTypeText": "HiddenAsset",
+      "tokenId": "some-token-id",
+      "libraryId": ""
+    }
+  },
+  {
+    "url": "https://icx-proxy.origyn.ch/-/brain-matters/collection/hidden",
+    "expectedResult": {
+      "fullUrl": "https://icx-proxy.origyn.ch/-/brain-matters/collection/hidden",
+      "port": "",
+      "canisterUrl": "https://icx-proxy.origyn.ch/-/brain-matters",
+      "directCanisterUrl": "https://fghij-biaaa-aaaal-qbhwa-cai.raw.icp0.io",
+      "assetCanisterUrl": "https://icx-proxy.origyn.ch/-/brain-matters",
+      "canisterId": "fghij-biaaa-aaaal-qbhwa-cai",
+      "collectionId": "brain-matters",
+      "canisterRelativeUrl": "/collection/hidden",
+      "canisterRelativePath": "/collection/hidden",
+      "queryStringParams": [],
+      "fragment": "",
+      "isLocal": false,
+      "isDevServer": false,
+      "isDirect": false,
+      "isRaw": true,
+      "resourceLevel": 1,
+      "resourceLevelText": "Collection",
+      "resourceType": 8,
+      "resourceTypeText": "HiddenAsset",
+      "tokenId": "",
+      "libraryId": ""
+    }
+  },
+  {
+    "url": "https://icx-proxy.origyn.ch/-/brain-matters/-/some-token-id/hidden",
+    "expectedResult": {
+      "fullUrl": "https://icx-proxy.origyn.ch/-/brain-matters/-/some-token-id/hidden",
+      "port": "",
+      "canisterUrl": "https://icx-proxy.origyn.ch/-/brain-matters",
+      "directCanisterUrl": "https://fghij-biaaa-aaaal-qbhwa-cai.raw.icp0.io",
+      "assetCanisterUrl": "https://icx-proxy.origyn.ch/-/brain-matters",
       "canisterId": "fghij-biaaa-aaaal-qbhwa-cai",
       "collectionId": "brain-matters",
       "canisterRelativeUrl": "/-/some-token-id/hidden",
@@ -5668,6 +6396,58 @@
     }
   },
   {
+    "url": "https://icx-proxy.origyn.ch/-/abcde-biaaa-aaaal-qbhwa-cai/collection/ex",
+    "expectedResult": {
+      "fullUrl": "https://icx-proxy.origyn.ch/-/abcde-biaaa-aaaal-qbhwa-cai/collection/ex",
+      "port": "",
+      "canisterUrl": "https://icx-proxy.origyn.ch/-/abcde-biaaa-aaaal-qbhwa-cai",
+      "directCanisterUrl": "https://abcde-biaaa-aaaal-qbhwa-cai.raw.icp0.io",
+      "assetCanisterUrl": "https://icx-proxy.origyn.ch/-/abcde-biaaa-aaaal-qbhwa-cai",
+      "canisterId": "abcde-biaaa-aaaal-qbhwa-cai",
+      "collectionId": "",
+      "canisterRelativeUrl": "/collection/ex",
+      "canisterRelativePath": "/collection/ex",
+      "queryStringParams": [],
+      "fragment": "",
+      "isLocal": false,
+      "isDevServer": false,
+      "isDirect": false,
+      "isRaw": true,
+      "resourceLevel": 1,
+      "resourceLevelText": "Collection",
+      "resourceType": 9,
+      "resourceTypeText": "ExperienceAsset",
+      "tokenId": "",
+      "libraryId": ""
+    }
+  },
+  {
+    "url": "https://icx-proxy.origyn.ch/-/abcde-biaaa-aaaal-qbhwa-cai/-/some-token-id/ex",
+    "expectedResult": {
+      "fullUrl": "https://icx-proxy.origyn.ch/-/abcde-biaaa-aaaal-qbhwa-cai/-/some-token-id/ex",
+      "port": "",
+      "canisterUrl": "https://icx-proxy.origyn.ch/-/abcde-biaaa-aaaal-qbhwa-cai",
+      "directCanisterUrl": "https://abcde-biaaa-aaaal-qbhwa-cai.raw.icp0.io",
+      "assetCanisterUrl": "https://icx-proxy.origyn.ch/-/abcde-biaaa-aaaal-qbhwa-cai",
+      "canisterId": "abcde-biaaa-aaaal-qbhwa-cai",
+      "collectionId": "",
+      "canisterRelativeUrl": "/-/some-token-id/ex",
+      "canisterRelativePath": "/-/some-token-id/ex",
+      "queryStringParams": [],
+      "fragment": "",
+      "isLocal": false,
+      "isDevServer": false,
+      "isDirect": false,
+      "isRaw": true,
+      "resourceLevel": 2,
+      "resourceLevelText": "Token",
+      "resourceType": 9,
+      "resourceTypeText": "ExperienceAsset",
+      "tokenId": "some-token-id",
+      "libraryId": ""
+    }
+  },
+  {
     "url": "http://localhost:3000/-/brain-matters/collection/ex",
     "expectedResult": {
       "fullUrl": "http://localhost:3000/-/brain-matters/collection/ex",
@@ -5805,6 +6585,58 @@
       "canisterUrl": "https://exos.origyn.network/-/brain-matters",
       "directCanisterUrl": "https://fghij-biaaa-aaaal-qbhwa-cai.raw.icp0.io",
       "assetCanisterUrl": "https://exos.origyn.network/-/brain-matters",
+      "canisterId": "fghij-biaaa-aaaal-qbhwa-cai",
+      "collectionId": "brain-matters",
+      "canisterRelativeUrl": "/-/some-token-id/ex",
+      "canisterRelativePath": "/-/some-token-id/ex",
+      "queryStringParams": [],
+      "fragment": "",
+      "isLocal": false,
+      "isDevServer": false,
+      "isDirect": false,
+      "isRaw": true,
+      "resourceLevel": 2,
+      "resourceLevelText": "Token",
+      "resourceType": 9,
+      "resourceTypeText": "ExperienceAsset",
+      "tokenId": "some-token-id",
+      "libraryId": ""
+    }
+  },
+  {
+    "url": "https://icx-proxy.origyn.ch/-/brain-matters/collection/ex",
+    "expectedResult": {
+      "fullUrl": "https://icx-proxy.origyn.ch/-/brain-matters/collection/ex",
+      "port": "",
+      "canisterUrl": "https://icx-proxy.origyn.ch/-/brain-matters",
+      "directCanisterUrl": "https://fghij-biaaa-aaaal-qbhwa-cai.raw.icp0.io",
+      "assetCanisterUrl": "https://icx-proxy.origyn.ch/-/brain-matters",
+      "canisterId": "fghij-biaaa-aaaal-qbhwa-cai",
+      "collectionId": "brain-matters",
+      "canisterRelativeUrl": "/collection/ex",
+      "canisterRelativePath": "/collection/ex",
+      "queryStringParams": [],
+      "fragment": "",
+      "isLocal": false,
+      "isDevServer": false,
+      "isDirect": false,
+      "isRaw": true,
+      "resourceLevel": 1,
+      "resourceLevelText": "Collection",
+      "resourceType": 9,
+      "resourceTypeText": "ExperienceAsset",
+      "tokenId": "",
+      "libraryId": ""
+    }
+  },
+  {
+    "url": "https://icx-proxy.origyn.ch/-/brain-matters/-/some-token-id/ex",
+    "expectedResult": {
+      "fullUrl": "https://icx-proxy.origyn.ch/-/brain-matters/-/some-token-id/ex",
+      "port": "",
+      "canisterUrl": "https://icx-proxy.origyn.ch/-/brain-matters",
+      "directCanisterUrl": "https://fghij-biaaa-aaaal-qbhwa-cai.raw.icp0.io",
+      "assetCanisterUrl": "https://icx-proxy.origyn.ch/-/brain-matters",
       "canisterId": "fghij-biaaa-aaaal-qbhwa-cai",
       "collectionId": "brain-matters",
       "canisterRelativeUrl": "/-/some-token-id/ex",
@@ -6396,6 +7228,58 @@
     }
   },
   {
+    "url": "https://icx-proxy.origyn.ch/-/abcde-biaaa-aaaal-qbhwa-cai/collection/-/file-name.png",
+    "expectedResult": {
+      "fullUrl": "https://icx-proxy.origyn.ch/-/abcde-biaaa-aaaal-qbhwa-cai/collection/-/file-name.png",
+      "port": "",
+      "canisterUrl": "https://icx-proxy.origyn.ch/-/abcde-biaaa-aaaal-qbhwa-cai",
+      "directCanisterUrl": "https://abcde-biaaa-aaaal-qbhwa-cai.raw.icp0.io",
+      "assetCanisterUrl": "https://icx-proxy.origyn.ch/-/abcde-biaaa-aaaal-qbhwa-cai",
+      "canisterId": "abcde-biaaa-aaaal-qbhwa-cai",
+      "collectionId": "",
+      "canisterRelativeUrl": "/collection/-/file-name.png",
+      "canisterRelativePath": "/collection/-/file-name.png",
+      "queryStringParams": [],
+      "fragment": "",
+      "isLocal": false,
+      "isDevServer": false,
+      "isDirect": false,
+      "isRaw": true,
+      "resourceLevel": 1,
+      "resourceLevelText": "Collection",
+      "resourceType": 10,
+      "resourceTypeText": "LibraryAsset",
+      "tokenId": "",
+      "libraryId": "file-name.png"
+    }
+  },
+  {
+    "url": "https://icx-proxy.origyn.ch/-/abcde-biaaa-aaaal-qbhwa-cai/-/some-token-id/-/file-name.png",
+    "expectedResult": {
+      "fullUrl": "https://icx-proxy.origyn.ch/-/abcde-biaaa-aaaal-qbhwa-cai/-/some-token-id/-/file-name.png",
+      "port": "",
+      "canisterUrl": "https://icx-proxy.origyn.ch/-/abcde-biaaa-aaaal-qbhwa-cai",
+      "directCanisterUrl": "https://abcde-biaaa-aaaal-qbhwa-cai.raw.icp0.io",
+      "assetCanisterUrl": "https://icx-proxy.origyn.ch/-/abcde-biaaa-aaaal-qbhwa-cai",
+      "canisterId": "abcde-biaaa-aaaal-qbhwa-cai",
+      "collectionId": "",
+      "canisterRelativeUrl": "/-/some-token-id/-/file-name.png",
+      "canisterRelativePath": "/-/some-token-id/-/file-name.png",
+      "queryStringParams": [],
+      "fragment": "",
+      "isLocal": false,
+      "isDevServer": false,
+      "isDirect": false,
+      "isRaw": true,
+      "resourceLevel": 2,
+      "resourceLevelText": "Token",
+      "resourceType": 10,
+      "resourceTypeText": "LibraryAsset",
+      "tokenId": "some-token-id",
+      "libraryId": "file-name.png"
+    }
+  },
+  {
     "url": "http://localhost:3000/-/brain-matters/collection/-/file-name.png",
     "expectedResult": {
       "fullUrl": "http://localhost:3000/-/brain-matters/collection/-/file-name.png",
@@ -6533,6 +7417,58 @@
       "canisterUrl": "https://exos.origyn.network/-/brain-matters",
       "directCanisterUrl": "https://fghij-biaaa-aaaal-qbhwa-cai.raw.icp0.io",
       "assetCanisterUrl": "https://exos.origyn.network/-/brain-matters",
+      "canisterId": "fghij-biaaa-aaaal-qbhwa-cai",
+      "collectionId": "brain-matters",
+      "canisterRelativeUrl": "/-/some-token-id/-/file-name.png",
+      "canisterRelativePath": "/-/some-token-id/-/file-name.png",
+      "queryStringParams": [],
+      "fragment": "",
+      "isLocal": false,
+      "isDevServer": false,
+      "isDirect": false,
+      "isRaw": true,
+      "resourceLevel": 2,
+      "resourceLevelText": "Token",
+      "resourceType": 10,
+      "resourceTypeText": "LibraryAsset",
+      "tokenId": "some-token-id",
+      "libraryId": "file-name.png"
+    }
+  },
+  {
+    "url": "https://icx-proxy.origyn.ch/-/brain-matters/collection/-/file-name.png",
+    "expectedResult": {
+      "fullUrl": "https://icx-proxy.origyn.ch/-/brain-matters/collection/-/file-name.png",
+      "port": "",
+      "canisterUrl": "https://icx-proxy.origyn.ch/-/brain-matters",
+      "directCanisterUrl": "https://fghij-biaaa-aaaal-qbhwa-cai.raw.icp0.io",
+      "assetCanisterUrl": "https://icx-proxy.origyn.ch/-/brain-matters",
+      "canisterId": "fghij-biaaa-aaaal-qbhwa-cai",
+      "collectionId": "brain-matters",
+      "canisterRelativeUrl": "/collection/-/file-name.png",
+      "canisterRelativePath": "/collection/-/file-name.png",
+      "queryStringParams": [],
+      "fragment": "",
+      "isLocal": false,
+      "isDevServer": false,
+      "isDirect": false,
+      "isRaw": true,
+      "resourceLevel": 1,
+      "resourceLevelText": "Collection",
+      "resourceType": 10,
+      "resourceTypeText": "LibraryAsset",
+      "tokenId": "",
+      "libraryId": "file-name.png"
+    }
+  },
+  {
+    "url": "https://icx-proxy.origyn.ch/-/brain-matters/-/some-token-id/-/file-name.png",
+    "expectedResult": {
+      "fullUrl": "https://icx-proxy.origyn.ch/-/brain-matters/-/some-token-id/-/file-name.png",
+      "port": "",
+      "canisterUrl": "https://icx-proxy.origyn.ch/-/brain-matters",
+      "directCanisterUrl": "https://fghij-biaaa-aaaal-qbhwa-cai.raw.icp0.io",
+      "assetCanisterUrl": "https://icx-proxy.origyn.ch/-/brain-matters",
       "canisterId": "fghij-biaaa-aaaal-qbhwa-cai",
       "collectionId": "brain-matters",
       "canisterRelativeUrl": "/-/some-token-id/-/file-name.png",
@@ -7124,6 +8060,58 @@
     }
   },
   {
+    "url": "https://icx-proxy.origyn.ch/-/abcde-biaaa-aaaal-qbhwa-cai/collection/info#/some-fragment",
+    "expectedResult": {
+      "fullUrl": "https://icx-proxy.origyn.ch/-/abcde-biaaa-aaaal-qbhwa-cai/collection/info#/some-fragment",
+      "port": "",
+      "canisterUrl": "https://icx-proxy.origyn.ch/-/abcde-biaaa-aaaal-qbhwa-cai",
+      "directCanisterUrl": "https://abcde-biaaa-aaaal-qbhwa-cai.raw.icp0.io",
+      "assetCanisterUrl": "https://icx-proxy.origyn.ch/-/abcde-biaaa-aaaal-qbhwa-cai",
+      "canisterId": "abcde-biaaa-aaaal-qbhwa-cai",
+      "collectionId": "",
+      "canisterRelativeUrl": "/collection/info#/some-fragment",
+      "canisterRelativePath": "/collection/info",
+      "queryStringParams": [],
+      "fragment": "/some-fragment",
+      "isLocal": false,
+      "isDevServer": false,
+      "isDirect": false,
+      "isRaw": true,
+      "resourceLevel": 1,
+      "resourceLevelText": "Collection",
+      "resourceType": 2,
+      "resourceTypeText": "Info",
+      "tokenId": "",
+      "libraryId": ""
+    }
+  },
+  {
+    "url": "https://icx-proxy.origyn.ch/-/abcde-biaaa-aaaal-qbhwa-cai/-/some-token-id/info#/some-fragment",
+    "expectedResult": {
+      "fullUrl": "https://icx-proxy.origyn.ch/-/abcde-biaaa-aaaal-qbhwa-cai/-/some-token-id/info#/some-fragment",
+      "port": "",
+      "canisterUrl": "https://icx-proxy.origyn.ch/-/abcde-biaaa-aaaal-qbhwa-cai",
+      "directCanisterUrl": "https://abcde-biaaa-aaaal-qbhwa-cai.raw.icp0.io",
+      "assetCanisterUrl": "https://icx-proxy.origyn.ch/-/abcde-biaaa-aaaal-qbhwa-cai",
+      "canisterId": "abcde-biaaa-aaaal-qbhwa-cai",
+      "collectionId": "",
+      "canisterRelativeUrl": "/-/some-token-id/info#/some-fragment",
+      "canisterRelativePath": "/-/some-token-id/info",
+      "queryStringParams": [],
+      "fragment": "/some-fragment",
+      "isLocal": false,
+      "isDevServer": false,
+      "isDirect": false,
+      "isRaw": true,
+      "resourceLevel": 2,
+      "resourceLevelText": "Token",
+      "resourceType": 2,
+      "resourceTypeText": "Info",
+      "tokenId": "some-token-id",
+      "libraryId": ""
+    }
+  },
+  {
     "url": "http://localhost:3000/-/brain-matters/collection/info#/some-fragment",
     "expectedResult": {
       "fullUrl": "http://localhost:3000/-/brain-matters/collection/info#/some-fragment",
@@ -7261,6 +8249,58 @@
       "canisterUrl": "https://exos.origyn.network/-/brain-matters",
       "directCanisterUrl": "https://fghij-biaaa-aaaal-qbhwa-cai.raw.icp0.io",
       "assetCanisterUrl": "https://exos.origyn.network/-/brain-matters",
+      "canisterId": "fghij-biaaa-aaaal-qbhwa-cai",
+      "collectionId": "brain-matters",
+      "canisterRelativeUrl": "/-/some-token-id/info#/some-fragment",
+      "canisterRelativePath": "/-/some-token-id/info",
+      "queryStringParams": [],
+      "fragment": "/some-fragment",
+      "isLocal": false,
+      "isDevServer": false,
+      "isDirect": false,
+      "isRaw": true,
+      "resourceLevel": 2,
+      "resourceLevelText": "Token",
+      "resourceType": 2,
+      "resourceTypeText": "Info",
+      "tokenId": "some-token-id",
+      "libraryId": ""
+    }
+  },
+  {
+    "url": "https://icx-proxy.origyn.ch/-/brain-matters/collection/info#/some-fragment",
+    "expectedResult": {
+      "fullUrl": "https://icx-proxy.origyn.ch/-/brain-matters/collection/info#/some-fragment",
+      "port": "",
+      "canisterUrl": "https://icx-proxy.origyn.ch/-/brain-matters",
+      "directCanisterUrl": "https://fghij-biaaa-aaaal-qbhwa-cai.raw.icp0.io",
+      "assetCanisterUrl": "https://icx-proxy.origyn.ch/-/brain-matters",
+      "canisterId": "fghij-biaaa-aaaal-qbhwa-cai",
+      "collectionId": "brain-matters",
+      "canisterRelativeUrl": "/collection/info#/some-fragment",
+      "canisterRelativePath": "/collection/info",
+      "queryStringParams": [],
+      "fragment": "/some-fragment",
+      "isLocal": false,
+      "isDevServer": false,
+      "isDirect": false,
+      "isRaw": true,
+      "resourceLevel": 1,
+      "resourceLevelText": "Collection",
+      "resourceType": 2,
+      "resourceTypeText": "Info",
+      "tokenId": "",
+      "libraryId": ""
+    }
+  },
+  {
+    "url": "https://icx-proxy.origyn.ch/-/brain-matters/-/some-token-id/info#/some-fragment",
+    "expectedResult": {
+      "fullUrl": "https://icx-proxy.origyn.ch/-/brain-matters/-/some-token-id/info#/some-fragment",
+      "port": "",
+      "canisterUrl": "https://icx-proxy.origyn.ch/-/brain-matters",
+      "directCanisterUrl": "https://fghij-biaaa-aaaal-qbhwa-cai.raw.icp0.io",
+      "assetCanisterUrl": "https://icx-proxy.origyn.ch/-/brain-matters",
       "canisterId": "fghij-biaaa-aaaal-qbhwa-cai",
       "collectionId": "brain-matters",
       "canisterRelativeUrl": "/-/some-token-id/info#/some-fragment",
@@ -7852,6 +8892,58 @@
     }
   },
   {
+    "url": "https://icx-proxy.origyn.ch/-/abcde-biaaa-aaaal-qbhwa-cai/collection/ledger_info#/some-fragment",
+    "expectedResult": {
+      "fullUrl": "https://icx-proxy.origyn.ch/-/abcde-biaaa-aaaal-qbhwa-cai/collection/ledger_info#/some-fragment",
+      "port": "",
+      "canisterUrl": "https://icx-proxy.origyn.ch/-/abcde-biaaa-aaaal-qbhwa-cai",
+      "directCanisterUrl": "https://abcde-biaaa-aaaal-qbhwa-cai.raw.icp0.io",
+      "assetCanisterUrl": "https://icx-proxy.origyn.ch/-/abcde-biaaa-aaaal-qbhwa-cai",
+      "canisterId": "abcde-biaaa-aaaal-qbhwa-cai",
+      "collectionId": "",
+      "canisterRelativeUrl": "/collection/ledger_info#/some-fragment",
+      "canisterRelativePath": "/collection/ledger_info",
+      "queryStringParams": [],
+      "fragment": "/some-fragment",
+      "isLocal": false,
+      "isDevServer": false,
+      "isDirect": false,
+      "isRaw": true,
+      "resourceLevel": 1,
+      "resourceLevelText": "Collection",
+      "resourceType": 3,
+      "resourceTypeText": "LedgerInfo",
+      "tokenId": "",
+      "libraryId": ""
+    }
+  },
+  {
+    "url": "https://icx-proxy.origyn.ch/-/abcde-biaaa-aaaal-qbhwa-cai/-/some-token-id/ledger_info#/some-fragment",
+    "expectedResult": {
+      "fullUrl": "https://icx-proxy.origyn.ch/-/abcde-biaaa-aaaal-qbhwa-cai/-/some-token-id/ledger_info#/some-fragment",
+      "port": "",
+      "canisterUrl": "https://icx-proxy.origyn.ch/-/abcde-biaaa-aaaal-qbhwa-cai",
+      "directCanisterUrl": "https://abcde-biaaa-aaaal-qbhwa-cai.raw.icp0.io",
+      "assetCanisterUrl": "https://icx-proxy.origyn.ch/-/abcde-biaaa-aaaal-qbhwa-cai",
+      "canisterId": "abcde-biaaa-aaaal-qbhwa-cai",
+      "collectionId": "",
+      "canisterRelativeUrl": "/-/some-token-id/ledger_info#/some-fragment",
+      "canisterRelativePath": "/-/some-token-id/ledger_info",
+      "queryStringParams": [],
+      "fragment": "/some-fragment",
+      "isLocal": false,
+      "isDevServer": false,
+      "isDirect": false,
+      "isRaw": true,
+      "resourceLevel": 2,
+      "resourceLevelText": "Token",
+      "resourceType": 3,
+      "resourceTypeText": "LedgerInfo",
+      "tokenId": "some-token-id",
+      "libraryId": ""
+    }
+  },
+  {
     "url": "http://localhost:3000/-/brain-matters/collection/ledger_info#/some-fragment",
     "expectedResult": {
       "fullUrl": "http://localhost:3000/-/brain-matters/collection/ledger_info#/some-fragment",
@@ -7989,6 +9081,58 @@
       "canisterUrl": "https://exos.origyn.network/-/brain-matters",
       "directCanisterUrl": "https://fghij-biaaa-aaaal-qbhwa-cai.raw.icp0.io",
       "assetCanisterUrl": "https://exos.origyn.network/-/brain-matters",
+      "canisterId": "fghij-biaaa-aaaal-qbhwa-cai",
+      "collectionId": "brain-matters",
+      "canisterRelativeUrl": "/-/some-token-id/ledger_info#/some-fragment",
+      "canisterRelativePath": "/-/some-token-id/ledger_info",
+      "queryStringParams": [],
+      "fragment": "/some-fragment",
+      "isLocal": false,
+      "isDevServer": false,
+      "isDirect": false,
+      "isRaw": true,
+      "resourceLevel": 2,
+      "resourceLevelText": "Token",
+      "resourceType": 3,
+      "resourceTypeText": "LedgerInfo",
+      "tokenId": "some-token-id",
+      "libraryId": ""
+    }
+  },
+  {
+    "url": "https://icx-proxy.origyn.ch/-/brain-matters/collection/ledger_info#/some-fragment",
+    "expectedResult": {
+      "fullUrl": "https://icx-proxy.origyn.ch/-/brain-matters/collection/ledger_info#/some-fragment",
+      "port": "",
+      "canisterUrl": "https://icx-proxy.origyn.ch/-/brain-matters",
+      "directCanisterUrl": "https://fghij-biaaa-aaaal-qbhwa-cai.raw.icp0.io",
+      "assetCanisterUrl": "https://icx-proxy.origyn.ch/-/brain-matters",
+      "canisterId": "fghij-biaaa-aaaal-qbhwa-cai",
+      "collectionId": "brain-matters",
+      "canisterRelativeUrl": "/collection/ledger_info#/some-fragment",
+      "canisterRelativePath": "/collection/ledger_info",
+      "queryStringParams": [],
+      "fragment": "/some-fragment",
+      "isLocal": false,
+      "isDevServer": false,
+      "isDirect": false,
+      "isRaw": true,
+      "resourceLevel": 1,
+      "resourceLevelText": "Collection",
+      "resourceType": 3,
+      "resourceTypeText": "LedgerInfo",
+      "tokenId": "",
+      "libraryId": ""
+    }
+  },
+  {
+    "url": "https://icx-proxy.origyn.ch/-/brain-matters/-/some-token-id/ledger_info#/some-fragment",
+    "expectedResult": {
+      "fullUrl": "https://icx-proxy.origyn.ch/-/brain-matters/-/some-token-id/ledger_info#/some-fragment",
+      "port": "",
+      "canisterUrl": "https://icx-proxy.origyn.ch/-/brain-matters",
+      "directCanisterUrl": "https://fghij-biaaa-aaaal-qbhwa-cai.raw.icp0.io",
+      "assetCanisterUrl": "https://icx-proxy.origyn.ch/-/brain-matters",
       "canisterId": "fghij-biaaa-aaaal-qbhwa-cai",
       "collectionId": "brain-matters",
       "canisterRelativeUrl": "/-/some-token-id/ledger_info#/some-fragment",
@@ -8580,6 +9724,58 @@
     }
   },
   {
+    "url": "https://icx-proxy.origyn.ch/-/abcde-biaaa-aaaal-qbhwa-cai/collection/translate#/some-fragment",
+    "expectedResult": {
+      "fullUrl": "https://icx-proxy.origyn.ch/-/abcde-biaaa-aaaal-qbhwa-cai/collection/translate#/some-fragment",
+      "port": "",
+      "canisterUrl": "https://icx-proxy.origyn.ch/-/abcde-biaaa-aaaal-qbhwa-cai",
+      "directCanisterUrl": "https://abcde-biaaa-aaaal-qbhwa-cai.raw.icp0.io",
+      "assetCanisterUrl": "https://icx-proxy.origyn.ch/-/abcde-biaaa-aaaal-qbhwa-cai",
+      "canisterId": "abcde-biaaa-aaaal-qbhwa-cai",
+      "collectionId": "",
+      "canisterRelativeUrl": "/collection/translate#/some-fragment",
+      "canisterRelativePath": "/collection/translate",
+      "queryStringParams": [],
+      "fragment": "/some-fragment",
+      "isLocal": false,
+      "isDevServer": false,
+      "isDirect": false,
+      "isRaw": true,
+      "resourceLevel": 1,
+      "resourceLevelText": "Collection",
+      "resourceType": 4,
+      "resourceTypeText": "Translate",
+      "tokenId": "",
+      "libraryId": ""
+    }
+  },
+  {
+    "url": "https://icx-proxy.origyn.ch/-/abcde-biaaa-aaaal-qbhwa-cai/-/some-token-id/translate#/some-fragment",
+    "expectedResult": {
+      "fullUrl": "https://icx-proxy.origyn.ch/-/abcde-biaaa-aaaal-qbhwa-cai/-/some-token-id/translate#/some-fragment",
+      "port": "",
+      "canisterUrl": "https://icx-proxy.origyn.ch/-/abcde-biaaa-aaaal-qbhwa-cai",
+      "directCanisterUrl": "https://abcde-biaaa-aaaal-qbhwa-cai.raw.icp0.io",
+      "assetCanisterUrl": "https://icx-proxy.origyn.ch/-/abcde-biaaa-aaaal-qbhwa-cai",
+      "canisterId": "abcde-biaaa-aaaal-qbhwa-cai",
+      "collectionId": "",
+      "canisterRelativeUrl": "/-/some-token-id/translate#/some-fragment",
+      "canisterRelativePath": "/-/some-token-id/translate",
+      "queryStringParams": [],
+      "fragment": "/some-fragment",
+      "isLocal": false,
+      "isDevServer": false,
+      "isDirect": false,
+      "isRaw": true,
+      "resourceLevel": 2,
+      "resourceLevelText": "Token",
+      "resourceType": 4,
+      "resourceTypeText": "Translate",
+      "tokenId": "some-token-id",
+      "libraryId": ""
+    }
+  },
+  {
     "url": "http://localhost:3000/-/brain-matters/collection/translate#/some-fragment",
     "expectedResult": {
       "fullUrl": "http://localhost:3000/-/brain-matters/collection/translate#/some-fragment",
@@ -8717,6 +9913,58 @@
       "canisterUrl": "https://exos.origyn.network/-/brain-matters",
       "directCanisterUrl": "https://fghij-biaaa-aaaal-qbhwa-cai.raw.icp0.io",
       "assetCanisterUrl": "https://exos.origyn.network/-/brain-matters",
+      "canisterId": "fghij-biaaa-aaaal-qbhwa-cai",
+      "collectionId": "brain-matters",
+      "canisterRelativeUrl": "/-/some-token-id/translate#/some-fragment",
+      "canisterRelativePath": "/-/some-token-id/translate",
+      "queryStringParams": [],
+      "fragment": "/some-fragment",
+      "isLocal": false,
+      "isDevServer": false,
+      "isDirect": false,
+      "isRaw": true,
+      "resourceLevel": 2,
+      "resourceLevelText": "Token",
+      "resourceType": 4,
+      "resourceTypeText": "Translate",
+      "tokenId": "some-token-id",
+      "libraryId": ""
+    }
+  },
+  {
+    "url": "https://icx-proxy.origyn.ch/-/brain-matters/collection/translate#/some-fragment",
+    "expectedResult": {
+      "fullUrl": "https://icx-proxy.origyn.ch/-/brain-matters/collection/translate#/some-fragment",
+      "port": "",
+      "canisterUrl": "https://icx-proxy.origyn.ch/-/brain-matters",
+      "directCanisterUrl": "https://fghij-biaaa-aaaal-qbhwa-cai.raw.icp0.io",
+      "assetCanisterUrl": "https://icx-proxy.origyn.ch/-/brain-matters",
+      "canisterId": "fghij-biaaa-aaaal-qbhwa-cai",
+      "collectionId": "brain-matters",
+      "canisterRelativeUrl": "/collection/translate#/some-fragment",
+      "canisterRelativePath": "/collection/translate",
+      "queryStringParams": [],
+      "fragment": "/some-fragment",
+      "isLocal": false,
+      "isDevServer": false,
+      "isDirect": false,
+      "isRaw": true,
+      "resourceLevel": 1,
+      "resourceLevelText": "Collection",
+      "resourceType": 4,
+      "resourceTypeText": "Translate",
+      "tokenId": "",
+      "libraryId": ""
+    }
+  },
+  {
+    "url": "https://icx-proxy.origyn.ch/-/brain-matters/-/some-token-id/translate#/some-fragment",
+    "expectedResult": {
+      "fullUrl": "https://icx-proxy.origyn.ch/-/brain-matters/-/some-token-id/translate#/some-fragment",
+      "port": "",
+      "canisterUrl": "https://icx-proxy.origyn.ch/-/brain-matters",
+      "directCanisterUrl": "https://fghij-biaaa-aaaal-qbhwa-cai.raw.icp0.io",
+      "assetCanisterUrl": "https://icx-proxy.origyn.ch/-/brain-matters",
       "canisterId": "fghij-biaaa-aaaal-qbhwa-cai",
       "collectionId": "brain-matters",
       "canisterRelativeUrl": "/-/some-token-id/translate#/some-fragment",
@@ -9308,6 +10556,58 @@
     }
   },
   {
+    "url": "https://icx-proxy.origyn.ch/-/abcde-biaaa-aaaal-qbhwa-cai/collection/library#/some-fragment",
+    "expectedResult": {
+      "fullUrl": "https://icx-proxy.origyn.ch/-/abcde-biaaa-aaaal-qbhwa-cai/collection/library#/some-fragment",
+      "port": "",
+      "canisterUrl": "https://icx-proxy.origyn.ch/-/abcde-biaaa-aaaal-qbhwa-cai",
+      "directCanisterUrl": "https://abcde-biaaa-aaaal-qbhwa-cai.raw.icp0.io",
+      "assetCanisterUrl": "https://icx-proxy.origyn.ch/-/abcde-biaaa-aaaal-qbhwa-cai",
+      "canisterId": "abcde-biaaa-aaaal-qbhwa-cai",
+      "collectionId": "",
+      "canisterRelativeUrl": "/collection/library#/some-fragment",
+      "canisterRelativePath": "/collection/library",
+      "queryStringParams": [],
+      "fragment": "/some-fragment",
+      "isLocal": false,
+      "isDevServer": false,
+      "isDirect": false,
+      "isRaw": true,
+      "resourceLevel": 1,
+      "resourceLevelText": "Collection",
+      "resourceType": 5,
+      "resourceTypeText": "Library",
+      "tokenId": "",
+      "libraryId": ""
+    }
+  },
+  {
+    "url": "https://icx-proxy.origyn.ch/-/abcde-biaaa-aaaal-qbhwa-cai/-/some-token-id/library#/some-fragment",
+    "expectedResult": {
+      "fullUrl": "https://icx-proxy.origyn.ch/-/abcde-biaaa-aaaal-qbhwa-cai/-/some-token-id/library#/some-fragment",
+      "port": "",
+      "canisterUrl": "https://icx-proxy.origyn.ch/-/abcde-biaaa-aaaal-qbhwa-cai",
+      "directCanisterUrl": "https://abcde-biaaa-aaaal-qbhwa-cai.raw.icp0.io",
+      "assetCanisterUrl": "https://icx-proxy.origyn.ch/-/abcde-biaaa-aaaal-qbhwa-cai",
+      "canisterId": "abcde-biaaa-aaaal-qbhwa-cai",
+      "collectionId": "",
+      "canisterRelativeUrl": "/-/some-token-id/library#/some-fragment",
+      "canisterRelativePath": "/-/some-token-id/library",
+      "queryStringParams": [],
+      "fragment": "/some-fragment",
+      "isLocal": false,
+      "isDevServer": false,
+      "isDirect": false,
+      "isRaw": true,
+      "resourceLevel": 2,
+      "resourceLevelText": "Token",
+      "resourceType": 5,
+      "resourceTypeText": "Library",
+      "tokenId": "some-token-id",
+      "libraryId": ""
+    }
+  },
+  {
     "url": "http://localhost:3000/-/brain-matters/collection/library#/some-fragment",
     "expectedResult": {
       "fullUrl": "http://localhost:3000/-/brain-matters/collection/library#/some-fragment",
@@ -9445,6 +10745,58 @@
       "canisterUrl": "https://exos.origyn.network/-/brain-matters",
       "directCanisterUrl": "https://fghij-biaaa-aaaal-qbhwa-cai.raw.icp0.io",
       "assetCanisterUrl": "https://exos.origyn.network/-/brain-matters",
+      "canisterId": "fghij-biaaa-aaaal-qbhwa-cai",
+      "collectionId": "brain-matters",
+      "canisterRelativeUrl": "/-/some-token-id/library#/some-fragment",
+      "canisterRelativePath": "/-/some-token-id/library",
+      "queryStringParams": [],
+      "fragment": "/some-fragment",
+      "isLocal": false,
+      "isDevServer": false,
+      "isDirect": false,
+      "isRaw": true,
+      "resourceLevel": 2,
+      "resourceLevelText": "Token",
+      "resourceType": 5,
+      "resourceTypeText": "Library",
+      "tokenId": "some-token-id",
+      "libraryId": ""
+    }
+  },
+  {
+    "url": "https://icx-proxy.origyn.ch/-/brain-matters/collection/library#/some-fragment",
+    "expectedResult": {
+      "fullUrl": "https://icx-proxy.origyn.ch/-/brain-matters/collection/library#/some-fragment",
+      "port": "",
+      "canisterUrl": "https://icx-proxy.origyn.ch/-/brain-matters",
+      "directCanisterUrl": "https://fghij-biaaa-aaaal-qbhwa-cai.raw.icp0.io",
+      "assetCanisterUrl": "https://icx-proxy.origyn.ch/-/brain-matters",
+      "canisterId": "fghij-biaaa-aaaal-qbhwa-cai",
+      "collectionId": "brain-matters",
+      "canisterRelativeUrl": "/collection/library#/some-fragment",
+      "canisterRelativePath": "/collection/library",
+      "queryStringParams": [],
+      "fragment": "/some-fragment",
+      "isLocal": false,
+      "isDevServer": false,
+      "isDirect": false,
+      "isRaw": true,
+      "resourceLevel": 1,
+      "resourceLevelText": "Collection",
+      "resourceType": 5,
+      "resourceTypeText": "Library",
+      "tokenId": "",
+      "libraryId": ""
+    }
+  },
+  {
+    "url": "https://icx-proxy.origyn.ch/-/brain-matters/-/some-token-id/library#/some-fragment",
+    "expectedResult": {
+      "fullUrl": "https://icx-proxy.origyn.ch/-/brain-matters/-/some-token-id/library#/some-fragment",
+      "port": "",
+      "canisterUrl": "https://icx-proxy.origyn.ch/-/brain-matters",
+      "directCanisterUrl": "https://fghij-biaaa-aaaal-qbhwa-cai.raw.icp0.io",
+      "assetCanisterUrl": "https://icx-proxy.origyn.ch/-/brain-matters",
       "canisterId": "fghij-biaaa-aaaal-qbhwa-cai",
       "collectionId": "brain-matters",
       "canisterRelativeUrl": "/-/some-token-id/library#/some-fragment",
@@ -10036,6 +11388,58 @@
     }
   },
   {
+    "url": "https://icx-proxy.origyn.ch/-/abcde-biaaa-aaaal-qbhwa-cai/collection/primary#/some-fragment",
+    "expectedResult": {
+      "fullUrl": "https://icx-proxy.origyn.ch/-/abcde-biaaa-aaaal-qbhwa-cai/collection/primary#/some-fragment",
+      "port": "",
+      "canisterUrl": "https://icx-proxy.origyn.ch/-/abcde-biaaa-aaaal-qbhwa-cai",
+      "directCanisterUrl": "https://abcde-biaaa-aaaal-qbhwa-cai.raw.icp0.io",
+      "assetCanisterUrl": "https://icx-proxy.origyn.ch/-/abcde-biaaa-aaaal-qbhwa-cai",
+      "canisterId": "abcde-biaaa-aaaal-qbhwa-cai",
+      "collectionId": "",
+      "canisterRelativeUrl": "/collection/primary#/some-fragment",
+      "canisterRelativePath": "/collection/primary",
+      "queryStringParams": [],
+      "fragment": "/some-fragment",
+      "isLocal": false,
+      "isDevServer": false,
+      "isDirect": false,
+      "isRaw": true,
+      "resourceLevel": 1,
+      "resourceLevelText": "Collection",
+      "resourceType": 6,
+      "resourceTypeText": "PrimaryAsset",
+      "tokenId": "",
+      "libraryId": ""
+    }
+  },
+  {
+    "url": "https://icx-proxy.origyn.ch/-/abcde-biaaa-aaaal-qbhwa-cai/-/some-token-id/primary#/some-fragment",
+    "expectedResult": {
+      "fullUrl": "https://icx-proxy.origyn.ch/-/abcde-biaaa-aaaal-qbhwa-cai/-/some-token-id/primary#/some-fragment",
+      "port": "",
+      "canisterUrl": "https://icx-proxy.origyn.ch/-/abcde-biaaa-aaaal-qbhwa-cai",
+      "directCanisterUrl": "https://abcde-biaaa-aaaal-qbhwa-cai.raw.icp0.io",
+      "assetCanisterUrl": "https://icx-proxy.origyn.ch/-/abcde-biaaa-aaaal-qbhwa-cai",
+      "canisterId": "abcde-biaaa-aaaal-qbhwa-cai",
+      "collectionId": "",
+      "canisterRelativeUrl": "/-/some-token-id/primary#/some-fragment",
+      "canisterRelativePath": "/-/some-token-id/primary",
+      "queryStringParams": [],
+      "fragment": "/some-fragment",
+      "isLocal": false,
+      "isDevServer": false,
+      "isDirect": false,
+      "isRaw": true,
+      "resourceLevel": 2,
+      "resourceLevelText": "Token",
+      "resourceType": 6,
+      "resourceTypeText": "PrimaryAsset",
+      "tokenId": "some-token-id",
+      "libraryId": ""
+    }
+  },
+  {
     "url": "http://localhost:3000/-/brain-matters/collection/primary#/some-fragment",
     "expectedResult": {
       "fullUrl": "http://localhost:3000/-/brain-matters/collection/primary#/some-fragment",
@@ -10173,6 +11577,58 @@
       "canisterUrl": "https://exos.origyn.network/-/brain-matters",
       "directCanisterUrl": "https://fghij-biaaa-aaaal-qbhwa-cai.raw.icp0.io",
       "assetCanisterUrl": "https://exos.origyn.network/-/brain-matters",
+      "canisterId": "fghij-biaaa-aaaal-qbhwa-cai",
+      "collectionId": "brain-matters",
+      "canisterRelativeUrl": "/-/some-token-id/primary#/some-fragment",
+      "canisterRelativePath": "/-/some-token-id/primary",
+      "queryStringParams": [],
+      "fragment": "/some-fragment",
+      "isLocal": false,
+      "isDevServer": false,
+      "isDirect": false,
+      "isRaw": true,
+      "resourceLevel": 2,
+      "resourceLevelText": "Token",
+      "resourceType": 6,
+      "resourceTypeText": "PrimaryAsset",
+      "tokenId": "some-token-id",
+      "libraryId": ""
+    }
+  },
+  {
+    "url": "https://icx-proxy.origyn.ch/-/brain-matters/collection/primary#/some-fragment",
+    "expectedResult": {
+      "fullUrl": "https://icx-proxy.origyn.ch/-/brain-matters/collection/primary#/some-fragment",
+      "port": "",
+      "canisterUrl": "https://icx-proxy.origyn.ch/-/brain-matters",
+      "directCanisterUrl": "https://fghij-biaaa-aaaal-qbhwa-cai.raw.icp0.io",
+      "assetCanisterUrl": "https://icx-proxy.origyn.ch/-/brain-matters",
+      "canisterId": "fghij-biaaa-aaaal-qbhwa-cai",
+      "collectionId": "brain-matters",
+      "canisterRelativeUrl": "/collection/primary#/some-fragment",
+      "canisterRelativePath": "/collection/primary",
+      "queryStringParams": [],
+      "fragment": "/some-fragment",
+      "isLocal": false,
+      "isDevServer": false,
+      "isDirect": false,
+      "isRaw": true,
+      "resourceLevel": 1,
+      "resourceLevelText": "Collection",
+      "resourceType": 6,
+      "resourceTypeText": "PrimaryAsset",
+      "tokenId": "",
+      "libraryId": ""
+    }
+  },
+  {
+    "url": "https://icx-proxy.origyn.ch/-/brain-matters/-/some-token-id/primary#/some-fragment",
+    "expectedResult": {
+      "fullUrl": "https://icx-proxy.origyn.ch/-/brain-matters/-/some-token-id/primary#/some-fragment",
+      "port": "",
+      "canisterUrl": "https://icx-proxy.origyn.ch/-/brain-matters",
+      "directCanisterUrl": "https://fghij-biaaa-aaaal-qbhwa-cai.raw.icp0.io",
+      "assetCanisterUrl": "https://icx-proxy.origyn.ch/-/brain-matters",
       "canisterId": "fghij-biaaa-aaaal-qbhwa-cai",
       "collectionId": "brain-matters",
       "canisterRelativeUrl": "/-/some-token-id/primary#/some-fragment",
@@ -10764,6 +12220,58 @@
     }
   },
   {
+    "url": "https://icx-proxy.origyn.ch/-/abcde-biaaa-aaaal-qbhwa-cai/collection/preview#/some-fragment",
+    "expectedResult": {
+      "fullUrl": "https://icx-proxy.origyn.ch/-/abcde-biaaa-aaaal-qbhwa-cai/collection/preview#/some-fragment",
+      "port": "",
+      "canisterUrl": "https://icx-proxy.origyn.ch/-/abcde-biaaa-aaaal-qbhwa-cai",
+      "directCanisterUrl": "https://abcde-biaaa-aaaal-qbhwa-cai.raw.icp0.io",
+      "assetCanisterUrl": "https://icx-proxy.origyn.ch/-/abcde-biaaa-aaaal-qbhwa-cai",
+      "canisterId": "abcde-biaaa-aaaal-qbhwa-cai",
+      "collectionId": "",
+      "canisterRelativeUrl": "/collection/preview#/some-fragment",
+      "canisterRelativePath": "/collection/preview",
+      "queryStringParams": [],
+      "fragment": "/some-fragment",
+      "isLocal": false,
+      "isDevServer": false,
+      "isDirect": false,
+      "isRaw": true,
+      "resourceLevel": 1,
+      "resourceLevelText": "Collection",
+      "resourceType": 7,
+      "resourceTypeText": "PreviewAsset",
+      "tokenId": "",
+      "libraryId": ""
+    }
+  },
+  {
+    "url": "https://icx-proxy.origyn.ch/-/abcde-biaaa-aaaal-qbhwa-cai/-/some-token-id/preview#/some-fragment",
+    "expectedResult": {
+      "fullUrl": "https://icx-proxy.origyn.ch/-/abcde-biaaa-aaaal-qbhwa-cai/-/some-token-id/preview#/some-fragment",
+      "port": "",
+      "canisterUrl": "https://icx-proxy.origyn.ch/-/abcde-biaaa-aaaal-qbhwa-cai",
+      "directCanisterUrl": "https://abcde-biaaa-aaaal-qbhwa-cai.raw.icp0.io",
+      "assetCanisterUrl": "https://icx-proxy.origyn.ch/-/abcde-biaaa-aaaal-qbhwa-cai",
+      "canisterId": "abcde-biaaa-aaaal-qbhwa-cai",
+      "collectionId": "",
+      "canisterRelativeUrl": "/-/some-token-id/preview#/some-fragment",
+      "canisterRelativePath": "/-/some-token-id/preview",
+      "queryStringParams": [],
+      "fragment": "/some-fragment",
+      "isLocal": false,
+      "isDevServer": false,
+      "isDirect": false,
+      "isRaw": true,
+      "resourceLevel": 2,
+      "resourceLevelText": "Token",
+      "resourceType": 7,
+      "resourceTypeText": "PreviewAsset",
+      "tokenId": "some-token-id",
+      "libraryId": ""
+    }
+  },
+  {
     "url": "http://localhost:3000/-/brain-matters/collection/preview#/some-fragment",
     "expectedResult": {
       "fullUrl": "http://localhost:3000/-/brain-matters/collection/preview#/some-fragment",
@@ -10901,6 +12409,58 @@
       "canisterUrl": "https://exos.origyn.network/-/brain-matters",
       "directCanisterUrl": "https://fghij-biaaa-aaaal-qbhwa-cai.raw.icp0.io",
       "assetCanisterUrl": "https://exos.origyn.network/-/brain-matters",
+      "canisterId": "fghij-biaaa-aaaal-qbhwa-cai",
+      "collectionId": "brain-matters",
+      "canisterRelativeUrl": "/-/some-token-id/preview#/some-fragment",
+      "canisterRelativePath": "/-/some-token-id/preview",
+      "queryStringParams": [],
+      "fragment": "/some-fragment",
+      "isLocal": false,
+      "isDevServer": false,
+      "isDirect": false,
+      "isRaw": true,
+      "resourceLevel": 2,
+      "resourceLevelText": "Token",
+      "resourceType": 7,
+      "resourceTypeText": "PreviewAsset",
+      "tokenId": "some-token-id",
+      "libraryId": ""
+    }
+  },
+  {
+    "url": "https://icx-proxy.origyn.ch/-/brain-matters/collection/preview#/some-fragment",
+    "expectedResult": {
+      "fullUrl": "https://icx-proxy.origyn.ch/-/brain-matters/collection/preview#/some-fragment",
+      "port": "",
+      "canisterUrl": "https://icx-proxy.origyn.ch/-/brain-matters",
+      "directCanisterUrl": "https://fghij-biaaa-aaaal-qbhwa-cai.raw.icp0.io",
+      "assetCanisterUrl": "https://icx-proxy.origyn.ch/-/brain-matters",
+      "canisterId": "fghij-biaaa-aaaal-qbhwa-cai",
+      "collectionId": "brain-matters",
+      "canisterRelativeUrl": "/collection/preview#/some-fragment",
+      "canisterRelativePath": "/collection/preview",
+      "queryStringParams": [],
+      "fragment": "/some-fragment",
+      "isLocal": false,
+      "isDevServer": false,
+      "isDirect": false,
+      "isRaw": true,
+      "resourceLevel": 1,
+      "resourceLevelText": "Collection",
+      "resourceType": 7,
+      "resourceTypeText": "PreviewAsset",
+      "tokenId": "",
+      "libraryId": ""
+    }
+  },
+  {
+    "url": "https://icx-proxy.origyn.ch/-/brain-matters/-/some-token-id/preview#/some-fragment",
+    "expectedResult": {
+      "fullUrl": "https://icx-proxy.origyn.ch/-/brain-matters/-/some-token-id/preview#/some-fragment",
+      "port": "",
+      "canisterUrl": "https://icx-proxy.origyn.ch/-/brain-matters",
+      "directCanisterUrl": "https://fghij-biaaa-aaaal-qbhwa-cai.raw.icp0.io",
+      "assetCanisterUrl": "https://icx-proxy.origyn.ch/-/brain-matters",
       "canisterId": "fghij-biaaa-aaaal-qbhwa-cai",
       "collectionId": "brain-matters",
       "canisterRelativeUrl": "/-/some-token-id/preview#/some-fragment",
@@ -11492,6 +13052,58 @@
     }
   },
   {
+    "url": "https://icx-proxy.origyn.ch/-/abcde-biaaa-aaaal-qbhwa-cai/collection/hidden#/some-fragment",
+    "expectedResult": {
+      "fullUrl": "https://icx-proxy.origyn.ch/-/abcde-biaaa-aaaal-qbhwa-cai/collection/hidden#/some-fragment",
+      "port": "",
+      "canisterUrl": "https://icx-proxy.origyn.ch/-/abcde-biaaa-aaaal-qbhwa-cai",
+      "directCanisterUrl": "https://abcde-biaaa-aaaal-qbhwa-cai.raw.icp0.io",
+      "assetCanisterUrl": "https://icx-proxy.origyn.ch/-/abcde-biaaa-aaaal-qbhwa-cai",
+      "canisterId": "abcde-biaaa-aaaal-qbhwa-cai",
+      "collectionId": "",
+      "canisterRelativeUrl": "/collection/hidden#/some-fragment",
+      "canisterRelativePath": "/collection/hidden",
+      "queryStringParams": [],
+      "fragment": "/some-fragment",
+      "isLocal": false,
+      "isDevServer": false,
+      "isDirect": false,
+      "isRaw": true,
+      "resourceLevel": 1,
+      "resourceLevelText": "Collection",
+      "resourceType": 8,
+      "resourceTypeText": "HiddenAsset",
+      "tokenId": "",
+      "libraryId": ""
+    }
+  },
+  {
+    "url": "https://icx-proxy.origyn.ch/-/abcde-biaaa-aaaal-qbhwa-cai/-/some-token-id/hidden#/some-fragment",
+    "expectedResult": {
+      "fullUrl": "https://icx-proxy.origyn.ch/-/abcde-biaaa-aaaal-qbhwa-cai/-/some-token-id/hidden#/some-fragment",
+      "port": "",
+      "canisterUrl": "https://icx-proxy.origyn.ch/-/abcde-biaaa-aaaal-qbhwa-cai",
+      "directCanisterUrl": "https://abcde-biaaa-aaaal-qbhwa-cai.raw.icp0.io",
+      "assetCanisterUrl": "https://icx-proxy.origyn.ch/-/abcde-biaaa-aaaal-qbhwa-cai",
+      "canisterId": "abcde-biaaa-aaaal-qbhwa-cai",
+      "collectionId": "",
+      "canisterRelativeUrl": "/-/some-token-id/hidden#/some-fragment",
+      "canisterRelativePath": "/-/some-token-id/hidden",
+      "queryStringParams": [],
+      "fragment": "/some-fragment",
+      "isLocal": false,
+      "isDevServer": false,
+      "isDirect": false,
+      "isRaw": true,
+      "resourceLevel": 2,
+      "resourceLevelText": "Token",
+      "resourceType": 8,
+      "resourceTypeText": "HiddenAsset",
+      "tokenId": "some-token-id",
+      "libraryId": ""
+    }
+  },
+  {
     "url": "http://localhost:3000/-/brain-matters/collection/hidden#/some-fragment",
     "expectedResult": {
       "fullUrl": "http://localhost:3000/-/brain-matters/collection/hidden#/some-fragment",
@@ -11629,6 +13241,58 @@
       "canisterUrl": "https://exos.origyn.network/-/brain-matters",
       "directCanisterUrl": "https://fghij-biaaa-aaaal-qbhwa-cai.raw.icp0.io",
       "assetCanisterUrl": "https://exos.origyn.network/-/brain-matters",
+      "canisterId": "fghij-biaaa-aaaal-qbhwa-cai",
+      "collectionId": "brain-matters",
+      "canisterRelativeUrl": "/-/some-token-id/hidden#/some-fragment",
+      "canisterRelativePath": "/-/some-token-id/hidden",
+      "queryStringParams": [],
+      "fragment": "/some-fragment",
+      "isLocal": false,
+      "isDevServer": false,
+      "isDirect": false,
+      "isRaw": true,
+      "resourceLevel": 2,
+      "resourceLevelText": "Token",
+      "resourceType": 8,
+      "resourceTypeText": "HiddenAsset",
+      "tokenId": "some-token-id",
+      "libraryId": ""
+    }
+  },
+  {
+    "url": "https://icx-proxy.origyn.ch/-/brain-matters/collection/hidden#/some-fragment",
+    "expectedResult": {
+      "fullUrl": "https://icx-proxy.origyn.ch/-/brain-matters/collection/hidden#/some-fragment",
+      "port": "",
+      "canisterUrl": "https://icx-proxy.origyn.ch/-/brain-matters",
+      "directCanisterUrl": "https://fghij-biaaa-aaaal-qbhwa-cai.raw.icp0.io",
+      "assetCanisterUrl": "https://icx-proxy.origyn.ch/-/brain-matters",
+      "canisterId": "fghij-biaaa-aaaal-qbhwa-cai",
+      "collectionId": "brain-matters",
+      "canisterRelativeUrl": "/collection/hidden#/some-fragment",
+      "canisterRelativePath": "/collection/hidden",
+      "queryStringParams": [],
+      "fragment": "/some-fragment",
+      "isLocal": false,
+      "isDevServer": false,
+      "isDirect": false,
+      "isRaw": true,
+      "resourceLevel": 1,
+      "resourceLevelText": "Collection",
+      "resourceType": 8,
+      "resourceTypeText": "HiddenAsset",
+      "tokenId": "",
+      "libraryId": ""
+    }
+  },
+  {
+    "url": "https://icx-proxy.origyn.ch/-/brain-matters/-/some-token-id/hidden#/some-fragment",
+    "expectedResult": {
+      "fullUrl": "https://icx-proxy.origyn.ch/-/brain-matters/-/some-token-id/hidden#/some-fragment",
+      "port": "",
+      "canisterUrl": "https://icx-proxy.origyn.ch/-/brain-matters",
+      "directCanisterUrl": "https://fghij-biaaa-aaaal-qbhwa-cai.raw.icp0.io",
+      "assetCanisterUrl": "https://icx-proxy.origyn.ch/-/brain-matters",
       "canisterId": "fghij-biaaa-aaaal-qbhwa-cai",
       "collectionId": "brain-matters",
       "canisterRelativeUrl": "/-/some-token-id/hidden#/some-fragment",
@@ -12220,6 +13884,58 @@
     }
   },
   {
+    "url": "https://icx-proxy.origyn.ch/-/abcde-biaaa-aaaal-qbhwa-cai/collection/ex#/some-fragment",
+    "expectedResult": {
+      "fullUrl": "https://icx-proxy.origyn.ch/-/abcde-biaaa-aaaal-qbhwa-cai/collection/ex#/some-fragment",
+      "port": "",
+      "canisterUrl": "https://icx-proxy.origyn.ch/-/abcde-biaaa-aaaal-qbhwa-cai",
+      "directCanisterUrl": "https://abcde-biaaa-aaaal-qbhwa-cai.raw.icp0.io",
+      "assetCanisterUrl": "https://icx-proxy.origyn.ch/-/abcde-biaaa-aaaal-qbhwa-cai",
+      "canisterId": "abcde-biaaa-aaaal-qbhwa-cai",
+      "collectionId": "",
+      "canisterRelativeUrl": "/collection/ex#/some-fragment",
+      "canisterRelativePath": "/collection/ex",
+      "queryStringParams": [],
+      "fragment": "/some-fragment",
+      "isLocal": false,
+      "isDevServer": false,
+      "isDirect": false,
+      "isRaw": true,
+      "resourceLevel": 1,
+      "resourceLevelText": "Collection",
+      "resourceType": 9,
+      "resourceTypeText": "ExperienceAsset",
+      "tokenId": "",
+      "libraryId": ""
+    }
+  },
+  {
+    "url": "https://icx-proxy.origyn.ch/-/abcde-biaaa-aaaal-qbhwa-cai/-/some-token-id/ex#/some-fragment",
+    "expectedResult": {
+      "fullUrl": "https://icx-proxy.origyn.ch/-/abcde-biaaa-aaaal-qbhwa-cai/-/some-token-id/ex#/some-fragment",
+      "port": "",
+      "canisterUrl": "https://icx-proxy.origyn.ch/-/abcde-biaaa-aaaal-qbhwa-cai",
+      "directCanisterUrl": "https://abcde-biaaa-aaaal-qbhwa-cai.raw.icp0.io",
+      "assetCanisterUrl": "https://icx-proxy.origyn.ch/-/abcde-biaaa-aaaal-qbhwa-cai",
+      "canisterId": "abcde-biaaa-aaaal-qbhwa-cai",
+      "collectionId": "",
+      "canisterRelativeUrl": "/-/some-token-id/ex#/some-fragment",
+      "canisterRelativePath": "/-/some-token-id/ex",
+      "queryStringParams": [],
+      "fragment": "/some-fragment",
+      "isLocal": false,
+      "isDevServer": false,
+      "isDirect": false,
+      "isRaw": true,
+      "resourceLevel": 2,
+      "resourceLevelText": "Token",
+      "resourceType": 9,
+      "resourceTypeText": "ExperienceAsset",
+      "tokenId": "some-token-id",
+      "libraryId": ""
+    }
+  },
+  {
     "url": "http://localhost:3000/-/brain-matters/collection/ex#/some-fragment",
     "expectedResult": {
       "fullUrl": "http://localhost:3000/-/brain-matters/collection/ex#/some-fragment",
@@ -12357,6 +14073,58 @@
       "canisterUrl": "https://exos.origyn.network/-/brain-matters",
       "directCanisterUrl": "https://fghij-biaaa-aaaal-qbhwa-cai.raw.icp0.io",
       "assetCanisterUrl": "https://exos.origyn.network/-/brain-matters",
+      "canisterId": "fghij-biaaa-aaaal-qbhwa-cai",
+      "collectionId": "brain-matters",
+      "canisterRelativeUrl": "/-/some-token-id/ex#/some-fragment",
+      "canisterRelativePath": "/-/some-token-id/ex",
+      "queryStringParams": [],
+      "fragment": "/some-fragment",
+      "isLocal": false,
+      "isDevServer": false,
+      "isDirect": false,
+      "isRaw": true,
+      "resourceLevel": 2,
+      "resourceLevelText": "Token",
+      "resourceType": 9,
+      "resourceTypeText": "ExperienceAsset",
+      "tokenId": "some-token-id",
+      "libraryId": ""
+    }
+  },
+  {
+    "url": "https://icx-proxy.origyn.ch/-/brain-matters/collection/ex#/some-fragment",
+    "expectedResult": {
+      "fullUrl": "https://icx-proxy.origyn.ch/-/brain-matters/collection/ex#/some-fragment",
+      "port": "",
+      "canisterUrl": "https://icx-proxy.origyn.ch/-/brain-matters",
+      "directCanisterUrl": "https://fghij-biaaa-aaaal-qbhwa-cai.raw.icp0.io",
+      "assetCanisterUrl": "https://icx-proxy.origyn.ch/-/brain-matters",
+      "canisterId": "fghij-biaaa-aaaal-qbhwa-cai",
+      "collectionId": "brain-matters",
+      "canisterRelativeUrl": "/collection/ex#/some-fragment",
+      "canisterRelativePath": "/collection/ex",
+      "queryStringParams": [],
+      "fragment": "/some-fragment",
+      "isLocal": false,
+      "isDevServer": false,
+      "isDirect": false,
+      "isRaw": true,
+      "resourceLevel": 1,
+      "resourceLevelText": "Collection",
+      "resourceType": 9,
+      "resourceTypeText": "ExperienceAsset",
+      "tokenId": "",
+      "libraryId": ""
+    }
+  },
+  {
+    "url": "https://icx-proxy.origyn.ch/-/brain-matters/-/some-token-id/ex#/some-fragment",
+    "expectedResult": {
+      "fullUrl": "https://icx-proxy.origyn.ch/-/brain-matters/-/some-token-id/ex#/some-fragment",
+      "port": "",
+      "canisterUrl": "https://icx-proxy.origyn.ch/-/brain-matters",
+      "directCanisterUrl": "https://fghij-biaaa-aaaal-qbhwa-cai.raw.icp0.io",
+      "assetCanisterUrl": "https://icx-proxy.origyn.ch/-/brain-matters",
       "canisterId": "fghij-biaaa-aaaal-qbhwa-cai",
       "collectionId": "brain-matters",
       "canisterRelativeUrl": "/-/some-token-id/ex#/some-fragment",
@@ -12948,6 +14716,58 @@
     }
   },
   {
+    "url": "https://icx-proxy.origyn.ch/-/abcde-biaaa-aaaal-qbhwa-cai/collection/-/file-name.png#/some-fragment",
+    "expectedResult": {
+      "fullUrl": "https://icx-proxy.origyn.ch/-/abcde-biaaa-aaaal-qbhwa-cai/collection/-/file-name.png#/some-fragment",
+      "port": "",
+      "canisterUrl": "https://icx-proxy.origyn.ch/-/abcde-biaaa-aaaal-qbhwa-cai",
+      "directCanisterUrl": "https://abcde-biaaa-aaaal-qbhwa-cai.raw.icp0.io",
+      "assetCanisterUrl": "https://icx-proxy.origyn.ch/-/abcde-biaaa-aaaal-qbhwa-cai",
+      "canisterId": "abcde-biaaa-aaaal-qbhwa-cai",
+      "collectionId": "",
+      "canisterRelativeUrl": "/collection/-/file-name.png#/some-fragment",
+      "canisterRelativePath": "/collection/-/file-name.png",
+      "queryStringParams": [],
+      "fragment": "/some-fragment",
+      "isLocal": false,
+      "isDevServer": false,
+      "isDirect": false,
+      "isRaw": true,
+      "resourceLevel": 1,
+      "resourceLevelText": "Collection",
+      "resourceType": 10,
+      "resourceTypeText": "LibraryAsset",
+      "tokenId": "",
+      "libraryId": "file-name.png"
+    }
+  },
+  {
+    "url": "https://icx-proxy.origyn.ch/-/abcde-biaaa-aaaal-qbhwa-cai/-/some-token-id/-/file-name.png#/some-fragment",
+    "expectedResult": {
+      "fullUrl": "https://icx-proxy.origyn.ch/-/abcde-biaaa-aaaal-qbhwa-cai/-/some-token-id/-/file-name.png#/some-fragment",
+      "port": "",
+      "canisterUrl": "https://icx-proxy.origyn.ch/-/abcde-biaaa-aaaal-qbhwa-cai",
+      "directCanisterUrl": "https://abcde-biaaa-aaaal-qbhwa-cai.raw.icp0.io",
+      "assetCanisterUrl": "https://icx-proxy.origyn.ch/-/abcde-biaaa-aaaal-qbhwa-cai",
+      "canisterId": "abcde-biaaa-aaaal-qbhwa-cai",
+      "collectionId": "",
+      "canisterRelativeUrl": "/-/some-token-id/-/file-name.png#/some-fragment",
+      "canisterRelativePath": "/-/some-token-id/-/file-name.png",
+      "queryStringParams": [],
+      "fragment": "/some-fragment",
+      "isLocal": false,
+      "isDevServer": false,
+      "isDirect": false,
+      "isRaw": true,
+      "resourceLevel": 2,
+      "resourceLevelText": "Token",
+      "resourceType": 10,
+      "resourceTypeText": "LibraryAsset",
+      "tokenId": "some-token-id",
+      "libraryId": "file-name.png"
+    }
+  },
+  {
     "url": "http://localhost:3000/-/brain-matters/collection/-/file-name.png#/some-fragment",
     "expectedResult": {
       "fullUrl": "http://localhost:3000/-/brain-matters/collection/-/file-name.png#/some-fragment",
@@ -13085,6 +14905,58 @@
       "canisterUrl": "https://exos.origyn.network/-/brain-matters",
       "directCanisterUrl": "https://fghij-biaaa-aaaal-qbhwa-cai.raw.icp0.io",
       "assetCanisterUrl": "https://exos.origyn.network/-/brain-matters",
+      "canisterId": "fghij-biaaa-aaaal-qbhwa-cai",
+      "collectionId": "brain-matters",
+      "canisterRelativeUrl": "/-/some-token-id/-/file-name.png#/some-fragment",
+      "canisterRelativePath": "/-/some-token-id/-/file-name.png",
+      "queryStringParams": [],
+      "fragment": "/some-fragment",
+      "isLocal": false,
+      "isDevServer": false,
+      "isDirect": false,
+      "isRaw": true,
+      "resourceLevel": 2,
+      "resourceLevelText": "Token",
+      "resourceType": 10,
+      "resourceTypeText": "LibraryAsset",
+      "tokenId": "some-token-id",
+      "libraryId": "file-name.png"
+    }
+  },
+  {
+    "url": "https://icx-proxy.origyn.ch/-/brain-matters/collection/-/file-name.png#/some-fragment",
+    "expectedResult": {
+      "fullUrl": "https://icx-proxy.origyn.ch/-/brain-matters/collection/-/file-name.png#/some-fragment",
+      "port": "",
+      "canisterUrl": "https://icx-proxy.origyn.ch/-/brain-matters",
+      "directCanisterUrl": "https://fghij-biaaa-aaaal-qbhwa-cai.raw.icp0.io",
+      "assetCanisterUrl": "https://icx-proxy.origyn.ch/-/brain-matters",
+      "canisterId": "fghij-biaaa-aaaal-qbhwa-cai",
+      "collectionId": "brain-matters",
+      "canisterRelativeUrl": "/collection/-/file-name.png#/some-fragment",
+      "canisterRelativePath": "/collection/-/file-name.png",
+      "queryStringParams": [],
+      "fragment": "/some-fragment",
+      "isLocal": false,
+      "isDevServer": false,
+      "isDirect": false,
+      "isRaw": true,
+      "resourceLevel": 1,
+      "resourceLevelText": "Collection",
+      "resourceType": 10,
+      "resourceTypeText": "LibraryAsset",
+      "tokenId": "",
+      "libraryId": "file-name.png"
+    }
+  },
+  {
+    "url": "https://icx-proxy.origyn.ch/-/brain-matters/-/some-token-id/-/file-name.png#/some-fragment",
+    "expectedResult": {
+      "fullUrl": "https://icx-proxy.origyn.ch/-/brain-matters/-/some-token-id/-/file-name.png#/some-fragment",
+      "port": "",
+      "canisterUrl": "https://icx-proxy.origyn.ch/-/brain-matters",
+      "directCanisterUrl": "https://fghij-biaaa-aaaal-qbhwa-cai.raw.icp0.io",
+      "assetCanisterUrl": "https://icx-proxy.origyn.ch/-/brain-matters",
       "canisterId": "fghij-biaaa-aaaal-qbhwa-cai",
       "collectionId": "brain-matters",
       "canisterRelativeUrl": "/-/some-token-id/-/file-name.png#/some-fragment",
@@ -13962,6 +15834,84 @@
     }
   },
   {
+    "url": "https://icx-proxy.origyn.ch/-/abcde-biaaa-aaaal-qbhwa-cai/collection/info?page=home&nav=3&connected=true",
+    "expectedResult": {
+      "fullUrl": "https://icx-proxy.origyn.ch/-/abcde-biaaa-aaaal-qbhwa-cai/collection/info?page=home&nav=3&connected=true",
+      "port": "",
+      "canisterUrl": "https://icx-proxy.origyn.ch/-/abcde-biaaa-aaaal-qbhwa-cai",
+      "directCanisterUrl": "https://abcde-biaaa-aaaal-qbhwa-cai.raw.icp0.io",
+      "assetCanisterUrl": "https://icx-proxy.origyn.ch/-/abcde-biaaa-aaaal-qbhwa-cai",
+      "canisterId": "abcde-biaaa-aaaal-qbhwa-cai",
+      "collectionId": "",
+      "canisterRelativeUrl": "/collection/info?page=home&nav=3&connected=true",
+      "canisterRelativePath": "/collection/info",
+      "queryStringParams": [
+        {
+          "name": "page",
+          "value": "home"
+        },
+        {
+          "name": "nav",
+          "value": "3"
+        },
+        {
+          "name": "connected",
+          "value": "true"
+        }
+      ],
+      "fragment": "",
+      "isLocal": false,
+      "isDevServer": false,
+      "isDirect": false,
+      "isRaw": true,
+      "resourceLevel": 1,
+      "resourceLevelText": "Collection",
+      "resourceType": 2,
+      "resourceTypeText": "Info",
+      "tokenId": "",
+      "libraryId": ""
+    }
+  },
+  {
+    "url": "https://icx-proxy.origyn.ch/-/abcde-biaaa-aaaal-qbhwa-cai/-/some-token-id/info?page=home&nav=3&connected=true",
+    "expectedResult": {
+      "fullUrl": "https://icx-proxy.origyn.ch/-/abcde-biaaa-aaaal-qbhwa-cai/-/some-token-id/info?page=home&nav=3&connected=true",
+      "port": "",
+      "canisterUrl": "https://icx-proxy.origyn.ch/-/abcde-biaaa-aaaal-qbhwa-cai",
+      "directCanisterUrl": "https://abcde-biaaa-aaaal-qbhwa-cai.raw.icp0.io",
+      "assetCanisterUrl": "https://icx-proxy.origyn.ch/-/abcde-biaaa-aaaal-qbhwa-cai",
+      "canisterId": "abcde-biaaa-aaaal-qbhwa-cai",
+      "collectionId": "",
+      "canisterRelativeUrl": "/-/some-token-id/info?page=home&nav=3&connected=true",
+      "canisterRelativePath": "/-/some-token-id/info",
+      "queryStringParams": [
+        {
+          "name": "page",
+          "value": "home"
+        },
+        {
+          "name": "nav",
+          "value": "3"
+        },
+        {
+          "name": "connected",
+          "value": "true"
+        }
+      ],
+      "fragment": "",
+      "isLocal": false,
+      "isDevServer": false,
+      "isDirect": false,
+      "isRaw": true,
+      "resourceLevel": 2,
+      "resourceLevelText": "Token",
+      "resourceType": 2,
+      "resourceTypeText": "Info",
+      "tokenId": "some-token-id",
+      "libraryId": ""
+    }
+  },
+  {
     "url": "http://localhost:3000/-/brain-matters/collection/info?page=home&nav=3&connected=true",
     "expectedResult": {
       "fullUrl": "http://localhost:3000/-/brain-matters/collection/info?page=home&nav=3&connected=true",
@@ -14164,6 +16114,84 @@
       "canisterUrl": "https://exos.origyn.network/-/brain-matters",
       "directCanisterUrl": "https://fghij-biaaa-aaaal-qbhwa-cai.raw.icp0.io",
       "assetCanisterUrl": "https://exos.origyn.network/-/brain-matters",
+      "canisterId": "fghij-biaaa-aaaal-qbhwa-cai",
+      "collectionId": "brain-matters",
+      "canisterRelativeUrl": "/-/some-token-id/info?page=home&nav=3&connected=true",
+      "canisterRelativePath": "/-/some-token-id/info",
+      "queryStringParams": [
+        {
+          "name": "page",
+          "value": "home"
+        },
+        {
+          "name": "nav",
+          "value": "3"
+        },
+        {
+          "name": "connected",
+          "value": "true"
+        }
+      ],
+      "fragment": "",
+      "isLocal": false,
+      "isDevServer": false,
+      "isDirect": false,
+      "isRaw": true,
+      "resourceLevel": 2,
+      "resourceLevelText": "Token",
+      "resourceType": 2,
+      "resourceTypeText": "Info",
+      "tokenId": "some-token-id",
+      "libraryId": ""
+    }
+  },
+  {
+    "url": "https://icx-proxy.origyn.ch/-/brain-matters/collection/info?page=home&nav=3&connected=true",
+    "expectedResult": {
+      "fullUrl": "https://icx-proxy.origyn.ch/-/brain-matters/collection/info?page=home&nav=3&connected=true",
+      "port": "",
+      "canisterUrl": "https://icx-proxy.origyn.ch/-/brain-matters",
+      "directCanisterUrl": "https://fghij-biaaa-aaaal-qbhwa-cai.raw.icp0.io",
+      "assetCanisterUrl": "https://icx-proxy.origyn.ch/-/brain-matters",
+      "canisterId": "fghij-biaaa-aaaal-qbhwa-cai",
+      "collectionId": "brain-matters",
+      "canisterRelativeUrl": "/collection/info?page=home&nav=3&connected=true",
+      "canisterRelativePath": "/collection/info",
+      "queryStringParams": [
+        {
+          "name": "page",
+          "value": "home"
+        },
+        {
+          "name": "nav",
+          "value": "3"
+        },
+        {
+          "name": "connected",
+          "value": "true"
+        }
+      ],
+      "fragment": "",
+      "isLocal": false,
+      "isDevServer": false,
+      "isDirect": false,
+      "isRaw": true,
+      "resourceLevel": 1,
+      "resourceLevelText": "Collection",
+      "resourceType": 2,
+      "resourceTypeText": "Info",
+      "tokenId": "",
+      "libraryId": ""
+    }
+  },
+  {
+    "url": "https://icx-proxy.origyn.ch/-/brain-matters/-/some-token-id/info?page=home&nav=3&connected=true",
+    "expectedResult": {
+      "fullUrl": "https://icx-proxy.origyn.ch/-/brain-matters/-/some-token-id/info?page=home&nav=3&connected=true",
+      "port": "",
+      "canisterUrl": "https://icx-proxy.origyn.ch/-/brain-matters",
+      "directCanisterUrl": "https://fghij-biaaa-aaaal-qbhwa-cai.raw.icp0.io",
+      "assetCanisterUrl": "https://icx-proxy.origyn.ch/-/brain-matters",
       "canisterId": "fghij-biaaa-aaaal-qbhwa-cai",
       "collectionId": "brain-matters",
       "canisterRelativeUrl": "/-/some-token-id/info?page=home&nav=3&connected=true",
@@ -15054,6 +17082,84 @@
     }
   },
   {
+    "url": "https://icx-proxy.origyn.ch/-/abcde-biaaa-aaaal-qbhwa-cai/collection/ledger_info?page=home&nav=3&connected=true",
+    "expectedResult": {
+      "fullUrl": "https://icx-proxy.origyn.ch/-/abcde-biaaa-aaaal-qbhwa-cai/collection/ledger_info?page=home&nav=3&connected=true",
+      "port": "",
+      "canisterUrl": "https://icx-proxy.origyn.ch/-/abcde-biaaa-aaaal-qbhwa-cai",
+      "directCanisterUrl": "https://abcde-biaaa-aaaal-qbhwa-cai.raw.icp0.io",
+      "assetCanisterUrl": "https://icx-proxy.origyn.ch/-/abcde-biaaa-aaaal-qbhwa-cai",
+      "canisterId": "abcde-biaaa-aaaal-qbhwa-cai",
+      "collectionId": "",
+      "canisterRelativeUrl": "/collection/ledger_info?page=home&nav=3&connected=true",
+      "canisterRelativePath": "/collection/ledger_info",
+      "queryStringParams": [
+        {
+          "name": "page",
+          "value": "home"
+        },
+        {
+          "name": "nav",
+          "value": "3"
+        },
+        {
+          "name": "connected",
+          "value": "true"
+        }
+      ],
+      "fragment": "",
+      "isLocal": false,
+      "isDevServer": false,
+      "isDirect": false,
+      "isRaw": true,
+      "resourceLevel": 1,
+      "resourceLevelText": "Collection",
+      "resourceType": 3,
+      "resourceTypeText": "LedgerInfo",
+      "tokenId": "",
+      "libraryId": ""
+    }
+  },
+  {
+    "url": "https://icx-proxy.origyn.ch/-/abcde-biaaa-aaaal-qbhwa-cai/-/some-token-id/ledger_info?page=home&nav=3&connected=true",
+    "expectedResult": {
+      "fullUrl": "https://icx-proxy.origyn.ch/-/abcde-biaaa-aaaal-qbhwa-cai/-/some-token-id/ledger_info?page=home&nav=3&connected=true",
+      "port": "",
+      "canisterUrl": "https://icx-proxy.origyn.ch/-/abcde-biaaa-aaaal-qbhwa-cai",
+      "directCanisterUrl": "https://abcde-biaaa-aaaal-qbhwa-cai.raw.icp0.io",
+      "assetCanisterUrl": "https://icx-proxy.origyn.ch/-/abcde-biaaa-aaaal-qbhwa-cai",
+      "canisterId": "abcde-biaaa-aaaal-qbhwa-cai",
+      "collectionId": "",
+      "canisterRelativeUrl": "/-/some-token-id/ledger_info?page=home&nav=3&connected=true",
+      "canisterRelativePath": "/-/some-token-id/ledger_info",
+      "queryStringParams": [
+        {
+          "name": "page",
+          "value": "home"
+        },
+        {
+          "name": "nav",
+          "value": "3"
+        },
+        {
+          "name": "connected",
+          "value": "true"
+        }
+      ],
+      "fragment": "",
+      "isLocal": false,
+      "isDevServer": false,
+      "isDirect": false,
+      "isRaw": true,
+      "resourceLevel": 2,
+      "resourceLevelText": "Token",
+      "resourceType": 3,
+      "resourceTypeText": "LedgerInfo",
+      "tokenId": "some-token-id",
+      "libraryId": ""
+    }
+  },
+  {
     "url": "http://localhost:3000/-/brain-matters/collection/ledger_info?page=home&nav=3&connected=true",
     "expectedResult": {
       "fullUrl": "http://localhost:3000/-/brain-matters/collection/ledger_info?page=home&nav=3&connected=true",
@@ -15256,6 +17362,84 @@
       "canisterUrl": "https://exos.origyn.network/-/brain-matters",
       "directCanisterUrl": "https://fghij-biaaa-aaaal-qbhwa-cai.raw.icp0.io",
       "assetCanisterUrl": "https://exos.origyn.network/-/brain-matters",
+      "canisterId": "fghij-biaaa-aaaal-qbhwa-cai",
+      "collectionId": "brain-matters",
+      "canisterRelativeUrl": "/-/some-token-id/ledger_info?page=home&nav=3&connected=true",
+      "canisterRelativePath": "/-/some-token-id/ledger_info",
+      "queryStringParams": [
+        {
+          "name": "page",
+          "value": "home"
+        },
+        {
+          "name": "nav",
+          "value": "3"
+        },
+        {
+          "name": "connected",
+          "value": "true"
+        }
+      ],
+      "fragment": "",
+      "isLocal": false,
+      "isDevServer": false,
+      "isDirect": false,
+      "isRaw": true,
+      "resourceLevel": 2,
+      "resourceLevelText": "Token",
+      "resourceType": 3,
+      "resourceTypeText": "LedgerInfo",
+      "tokenId": "some-token-id",
+      "libraryId": ""
+    }
+  },
+  {
+    "url": "https://icx-proxy.origyn.ch/-/brain-matters/collection/ledger_info?page=home&nav=3&connected=true",
+    "expectedResult": {
+      "fullUrl": "https://icx-proxy.origyn.ch/-/brain-matters/collection/ledger_info?page=home&nav=3&connected=true",
+      "port": "",
+      "canisterUrl": "https://icx-proxy.origyn.ch/-/brain-matters",
+      "directCanisterUrl": "https://fghij-biaaa-aaaal-qbhwa-cai.raw.icp0.io",
+      "assetCanisterUrl": "https://icx-proxy.origyn.ch/-/brain-matters",
+      "canisterId": "fghij-biaaa-aaaal-qbhwa-cai",
+      "collectionId": "brain-matters",
+      "canisterRelativeUrl": "/collection/ledger_info?page=home&nav=3&connected=true",
+      "canisterRelativePath": "/collection/ledger_info",
+      "queryStringParams": [
+        {
+          "name": "page",
+          "value": "home"
+        },
+        {
+          "name": "nav",
+          "value": "3"
+        },
+        {
+          "name": "connected",
+          "value": "true"
+        }
+      ],
+      "fragment": "",
+      "isLocal": false,
+      "isDevServer": false,
+      "isDirect": false,
+      "isRaw": true,
+      "resourceLevel": 1,
+      "resourceLevelText": "Collection",
+      "resourceType": 3,
+      "resourceTypeText": "LedgerInfo",
+      "tokenId": "",
+      "libraryId": ""
+    }
+  },
+  {
+    "url": "https://icx-proxy.origyn.ch/-/brain-matters/-/some-token-id/ledger_info?page=home&nav=3&connected=true",
+    "expectedResult": {
+      "fullUrl": "https://icx-proxy.origyn.ch/-/brain-matters/-/some-token-id/ledger_info?page=home&nav=3&connected=true",
+      "port": "",
+      "canisterUrl": "https://icx-proxy.origyn.ch/-/brain-matters",
+      "directCanisterUrl": "https://fghij-biaaa-aaaal-qbhwa-cai.raw.icp0.io",
+      "assetCanisterUrl": "https://icx-proxy.origyn.ch/-/brain-matters",
       "canisterId": "fghij-biaaa-aaaal-qbhwa-cai",
       "collectionId": "brain-matters",
       "canisterRelativeUrl": "/-/some-token-id/ledger_info?page=home&nav=3&connected=true",
@@ -16146,6 +18330,84 @@
     }
   },
   {
+    "url": "https://icx-proxy.origyn.ch/-/abcde-biaaa-aaaal-qbhwa-cai/collection/translate?page=home&nav=3&connected=true",
+    "expectedResult": {
+      "fullUrl": "https://icx-proxy.origyn.ch/-/abcde-biaaa-aaaal-qbhwa-cai/collection/translate?page=home&nav=3&connected=true",
+      "port": "",
+      "canisterUrl": "https://icx-proxy.origyn.ch/-/abcde-biaaa-aaaal-qbhwa-cai",
+      "directCanisterUrl": "https://abcde-biaaa-aaaal-qbhwa-cai.raw.icp0.io",
+      "assetCanisterUrl": "https://icx-proxy.origyn.ch/-/abcde-biaaa-aaaal-qbhwa-cai",
+      "canisterId": "abcde-biaaa-aaaal-qbhwa-cai",
+      "collectionId": "",
+      "canisterRelativeUrl": "/collection/translate?page=home&nav=3&connected=true",
+      "canisterRelativePath": "/collection/translate",
+      "queryStringParams": [
+        {
+          "name": "page",
+          "value": "home"
+        },
+        {
+          "name": "nav",
+          "value": "3"
+        },
+        {
+          "name": "connected",
+          "value": "true"
+        }
+      ],
+      "fragment": "",
+      "isLocal": false,
+      "isDevServer": false,
+      "isDirect": false,
+      "isRaw": true,
+      "resourceLevel": 1,
+      "resourceLevelText": "Collection",
+      "resourceType": 4,
+      "resourceTypeText": "Translate",
+      "tokenId": "",
+      "libraryId": ""
+    }
+  },
+  {
+    "url": "https://icx-proxy.origyn.ch/-/abcde-biaaa-aaaal-qbhwa-cai/-/some-token-id/translate?page=home&nav=3&connected=true",
+    "expectedResult": {
+      "fullUrl": "https://icx-proxy.origyn.ch/-/abcde-biaaa-aaaal-qbhwa-cai/-/some-token-id/translate?page=home&nav=3&connected=true",
+      "port": "",
+      "canisterUrl": "https://icx-proxy.origyn.ch/-/abcde-biaaa-aaaal-qbhwa-cai",
+      "directCanisterUrl": "https://abcde-biaaa-aaaal-qbhwa-cai.raw.icp0.io",
+      "assetCanisterUrl": "https://icx-proxy.origyn.ch/-/abcde-biaaa-aaaal-qbhwa-cai",
+      "canisterId": "abcde-biaaa-aaaal-qbhwa-cai",
+      "collectionId": "",
+      "canisterRelativeUrl": "/-/some-token-id/translate?page=home&nav=3&connected=true",
+      "canisterRelativePath": "/-/some-token-id/translate",
+      "queryStringParams": [
+        {
+          "name": "page",
+          "value": "home"
+        },
+        {
+          "name": "nav",
+          "value": "3"
+        },
+        {
+          "name": "connected",
+          "value": "true"
+        }
+      ],
+      "fragment": "",
+      "isLocal": false,
+      "isDevServer": false,
+      "isDirect": false,
+      "isRaw": true,
+      "resourceLevel": 2,
+      "resourceLevelText": "Token",
+      "resourceType": 4,
+      "resourceTypeText": "Translate",
+      "tokenId": "some-token-id",
+      "libraryId": ""
+    }
+  },
+  {
     "url": "http://localhost:3000/-/brain-matters/collection/translate?page=home&nav=3&connected=true",
     "expectedResult": {
       "fullUrl": "http://localhost:3000/-/brain-matters/collection/translate?page=home&nav=3&connected=true",
@@ -16348,6 +18610,84 @@
       "canisterUrl": "https://exos.origyn.network/-/brain-matters",
       "directCanisterUrl": "https://fghij-biaaa-aaaal-qbhwa-cai.raw.icp0.io",
       "assetCanisterUrl": "https://exos.origyn.network/-/brain-matters",
+      "canisterId": "fghij-biaaa-aaaal-qbhwa-cai",
+      "collectionId": "brain-matters",
+      "canisterRelativeUrl": "/-/some-token-id/translate?page=home&nav=3&connected=true",
+      "canisterRelativePath": "/-/some-token-id/translate",
+      "queryStringParams": [
+        {
+          "name": "page",
+          "value": "home"
+        },
+        {
+          "name": "nav",
+          "value": "3"
+        },
+        {
+          "name": "connected",
+          "value": "true"
+        }
+      ],
+      "fragment": "",
+      "isLocal": false,
+      "isDevServer": false,
+      "isDirect": false,
+      "isRaw": true,
+      "resourceLevel": 2,
+      "resourceLevelText": "Token",
+      "resourceType": 4,
+      "resourceTypeText": "Translate",
+      "tokenId": "some-token-id",
+      "libraryId": ""
+    }
+  },
+  {
+    "url": "https://icx-proxy.origyn.ch/-/brain-matters/collection/translate?page=home&nav=3&connected=true",
+    "expectedResult": {
+      "fullUrl": "https://icx-proxy.origyn.ch/-/brain-matters/collection/translate?page=home&nav=3&connected=true",
+      "port": "",
+      "canisterUrl": "https://icx-proxy.origyn.ch/-/brain-matters",
+      "directCanisterUrl": "https://fghij-biaaa-aaaal-qbhwa-cai.raw.icp0.io",
+      "assetCanisterUrl": "https://icx-proxy.origyn.ch/-/brain-matters",
+      "canisterId": "fghij-biaaa-aaaal-qbhwa-cai",
+      "collectionId": "brain-matters",
+      "canisterRelativeUrl": "/collection/translate?page=home&nav=3&connected=true",
+      "canisterRelativePath": "/collection/translate",
+      "queryStringParams": [
+        {
+          "name": "page",
+          "value": "home"
+        },
+        {
+          "name": "nav",
+          "value": "3"
+        },
+        {
+          "name": "connected",
+          "value": "true"
+        }
+      ],
+      "fragment": "",
+      "isLocal": false,
+      "isDevServer": false,
+      "isDirect": false,
+      "isRaw": true,
+      "resourceLevel": 1,
+      "resourceLevelText": "Collection",
+      "resourceType": 4,
+      "resourceTypeText": "Translate",
+      "tokenId": "",
+      "libraryId": ""
+    }
+  },
+  {
+    "url": "https://icx-proxy.origyn.ch/-/brain-matters/-/some-token-id/translate?page=home&nav=3&connected=true",
+    "expectedResult": {
+      "fullUrl": "https://icx-proxy.origyn.ch/-/brain-matters/-/some-token-id/translate?page=home&nav=3&connected=true",
+      "port": "",
+      "canisterUrl": "https://icx-proxy.origyn.ch/-/brain-matters",
+      "directCanisterUrl": "https://fghij-biaaa-aaaal-qbhwa-cai.raw.icp0.io",
+      "assetCanisterUrl": "https://icx-proxy.origyn.ch/-/brain-matters",
       "canisterId": "fghij-biaaa-aaaal-qbhwa-cai",
       "collectionId": "brain-matters",
       "canisterRelativeUrl": "/-/some-token-id/translate?page=home&nav=3&connected=true",
@@ -17238,6 +19578,84 @@
     }
   },
   {
+    "url": "https://icx-proxy.origyn.ch/-/abcde-biaaa-aaaal-qbhwa-cai/collection/library?page=home&nav=3&connected=true",
+    "expectedResult": {
+      "fullUrl": "https://icx-proxy.origyn.ch/-/abcde-biaaa-aaaal-qbhwa-cai/collection/library?page=home&nav=3&connected=true",
+      "port": "",
+      "canisterUrl": "https://icx-proxy.origyn.ch/-/abcde-biaaa-aaaal-qbhwa-cai",
+      "directCanisterUrl": "https://abcde-biaaa-aaaal-qbhwa-cai.raw.icp0.io",
+      "assetCanisterUrl": "https://icx-proxy.origyn.ch/-/abcde-biaaa-aaaal-qbhwa-cai",
+      "canisterId": "abcde-biaaa-aaaal-qbhwa-cai",
+      "collectionId": "",
+      "canisterRelativeUrl": "/collection/library?page=home&nav=3&connected=true",
+      "canisterRelativePath": "/collection/library",
+      "queryStringParams": [
+        {
+          "name": "page",
+          "value": "home"
+        },
+        {
+          "name": "nav",
+          "value": "3"
+        },
+        {
+          "name": "connected",
+          "value": "true"
+        }
+      ],
+      "fragment": "",
+      "isLocal": false,
+      "isDevServer": false,
+      "isDirect": false,
+      "isRaw": true,
+      "resourceLevel": 1,
+      "resourceLevelText": "Collection",
+      "resourceType": 5,
+      "resourceTypeText": "Library",
+      "tokenId": "",
+      "libraryId": ""
+    }
+  },
+  {
+    "url": "https://icx-proxy.origyn.ch/-/abcde-biaaa-aaaal-qbhwa-cai/-/some-token-id/library?page=home&nav=3&connected=true",
+    "expectedResult": {
+      "fullUrl": "https://icx-proxy.origyn.ch/-/abcde-biaaa-aaaal-qbhwa-cai/-/some-token-id/library?page=home&nav=3&connected=true",
+      "port": "",
+      "canisterUrl": "https://icx-proxy.origyn.ch/-/abcde-biaaa-aaaal-qbhwa-cai",
+      "directCanisterUrl": "https://abcde-biaaa-aaaal-qbhwa-cai.raw.icp0.io",
+      "assetCanisterUrl": "https://icx-proxy.origyn.ch/-/abcde-biaaa-aaaal-qbhwa-cai",
+      "canisterId": "abcde-biaaa-aaaal-qbhwa-cai",
+      "collectionId": "",
+      "canisterRelativeUrl": "/-/some-token-id/library?page=home&nav=3&connected=true",
+      "canisterRelativePath": "/-/some-token-id/library",
+      "queryStringParams": [
+        {
+          "name": "page",
+          "value": "home"
+        },
+        {
+          "name": "nav",
+          "value": "3"
+        },
+        {
+          "name": "connected",
+          "value": "true"
+        }
+      ],
+      "fragment": "",
+      "isLocal": false,
+      "isDevServer": false,
+      "isDirect": false,
+      "isRaw": true,
+      "resourceLevel": 2,
+      "resourceLevelText": "Token",
+      "resourceType": 5,
+      "resourceTypeText": "Library",
+      "tokenId": "some-token-id",
+      "libraryId": ""
+    }
+  },
+  {
     "url": "http://localhost:3000/-/brain-matters/collection/library?page=home&nav=3&connected=true",
     "expectedResult": {
       "fullUrl": "http://localhost:3000/-/brain-matters/collection/library?page=home&nav=3&connected=true",
@@ -17440,6 +19858,84 @@
       "canisterUrl": "https://exos.origyn.network/-/brain-matters",
       "directCanisterUrl": "https://fghij-biaaa-aaaal-qbhwa-cai.raw.icp0.io",
       "assetCanisterUrl": "https://exos.origyn.network/-/brain-matters",
+      "canisterId": "fghij-biaaa-aaaal-qbhwa-cai",
+      "collectionId": "brain-matters",
+      "canisterRelativeUrl": "/-/some-token-id/library?page=home&nav=3&connected=true",
+      "canisterRelativePath": "/-/some-token-id/library",
+      "queryStringParams": [
+        {
+          "name": "page",
+          "value": "home"
+        },
+        {
+          "name": "nav",
+          "value": "3"
+        },
+        {
+          "name": "connected",
+          "value": "true"
+        }
+      ],
+      "fragment": "",
+      "isLocal": false,
+      "isDevServer": false,
+      "isDirect": false,
+      "isRaw": true,
+      "resourceLevel": 2,
+      "resourceLevelText": "Token",
+      "resourceType": 5,
+      "resourceTypeText": "Library",
+      "tokenId": "some-token-id",
+      "libraryId": ""
+    }
+  },
+  {
+    "url": "https://icx-proxy.origyn.ch/-/brain-matters/collection/library?page=home&nav=3&connected=true",
+    "expectedResult": {
+      "fullUrl": "https://icx-proxy.origyn.ch/-/brain-matters/collection/library?page=home&nav=3&connected=true",
+      "port": "",
+      "canisterUrl": "https://icx-proxy.origyn.ch/-/brain-matters",
+      "directCanisterUrl": "https://fghij-biaaa-aaaal-qbhwa-cai.raw.icp0.io",
+      "assetCanisterUrl": "https://icx-proxy.origyn.ch/-/brain-matters",
+      "canisterId": "fghij-biaaa-aaaal-qbhwa-cai",
+      "collectionId": "brain-matters",
+      "canisterRelativeUrl": "/collection/library?page=home&nav=3&connected=true",
+      "canisterRelativePath": "/collection/library",
+      "queryStringParams": [
+        {
+          "name": "page",
+          "value": "home"
+        },
+        {
+          "name": "nav",
+          "value": "3"
+        },
+        {
+          "name": "connected",
+          "value": "true"
+        }
+      ],
+      "fragment": "",
+      "isLocal": false,
+      "isDevServer": false,
+      "isDirect": false,
+      "isRaw": true,
+      "resourceLevel": 1,
+      "resourceLevelText": "Collection",
+      "resourceType": 5,
+      "resourceTypeText": "Library",
+      "tokenId": "",
+      "libraryId": ""
+    }
+  },
+  {
+    "url": "https://icx-proxy.origyn.ch/-/brain-matters/-/some-token-id/library?page=home&nav=3&connected=true",
+    "expectedResult": {
+      "fullUrl": "https://icx-proxy.origyn.ch/-/brain-matters/-/some-token-id/library?page=home&nav=3&connected=true",
+      "port": "",
+      "canisterUrl": "https://icx-proxy.origyn.ch/-/brain-matters",
+      "directCanisterUrl": "https://fghij-biaaa-aaaal-qbhwa-cai.raw.icp0.io",
+      "assetCanisterUrl": "https://icx-proxy.origyn.ch/-/brain-matters",
       "canisterId": "fghij-biaaa-aaaal-qbhwa-cai",
       "collectionId": "brain-matters",
       "canisterRelativeUrl": "/-/some-token-id/library?page=home&nav=3&connected=true",
@@ -18330,6 +20826,84 @@
     }
   },
   {
+    "url": "https://icx-proxy.origyn.ch/-/abcde-biaaa-aaaal-qbhwa-cai/collection/primary?page=home&nav=3&connected=true",
+    "expectedResult": {
+      "fullUrl": "https://icx-proxy.origyn.ch/-/abcde-biaaa-aaaal-qbhwa-cai/collection/primary?page=home&nav=3&connected=true",
+      "port": "",
+      "canisterUrl": "https://icx-proxy.origyn.ch/-/abcde-biaaa-aaaal-qbhwa-cai",
+      "directCanisterUrl": "https://abcde-biaaa-aaaal-qbhwa-cai.raw.icp0.io",
+      "assetCanisterUrl": "https://icx-proxy.origyn.ch/-/abcde-biaaa-aaaal-qbhwa-cai",
+      "canisterId": "abcde-biaaa-aaaal-qbhwa-cai",
+      "collectionId": "",
+      "canisterRelativeUrl": "/collection/primary?page=home&nav=3&connected=true",
+      "canisterRelativePath": "/collection/primary",
+      "queryStringParams": [
+        {
+          "name": "page",
+          "value": "home"
+        },
+        {
+          "name": "nav",
+          "value": "3"
+        },
+        {
+          "name": "connected",
+          "value": "true"
+        }
+      ],
+      "fragment": "",
+      "isLocal": false,
+      "isDevServer": false,
+      "isDirect": false,
+      "isRaw": true,
+      "resourceLevel": 1,
+      "resourceLevelText": "Collection",
+      "resourceType": 6,
+      "resourceTypeText": "PrimaryAsset",
+      "tokenId": "",
+      "libraryId": ""
+    }
+  },
+  {
+    "url": "https://icx-proxy.origyn.ch/-/abcde-biaaa-aaaal-qbhwa-cai/-/some-token-id/primary?page=home&nav=3&connected=true",
+    "expectedResult": {
+      "fullUrl": "https://icx-proxy.origyn.ch/-/abcde-biaaa-aaaal-qbhwa-cai/-/some-token-id/primary?page=home&nav=3&connected=true",
+      "port": "",
+      "canisterUrl": "https://icx-proxy.origyn.ch/-/abcde-biaaa-aaaal-qbhwa-cai",
+      "directCanisterUrl": "https://abcde-biaaa-aaaal-qbhwa-cai.raw.icp0.io",
+      "assetCanisterUrl": "https://icx-proxy.origyn.ch/-/abcde-biaaa-aaaal-qbhwa-cai",
+      "canisterId": "abcde-biaaa-aaaal-qbhwa-cai",
+      "collectionId": "",
+      "canisterRelativeUrl": "/-/some-token-id/primary?page=home&nav=3&connected=true",
+      "canisterRelativePath": "/-/some-token-id/primary",
+      "queryStringParams": [
+        {
+          "name": "page",
+          "value": "home"
+        },
+        {
+          "name": "nav",
+          "value": "3"
+        },
+        {
+          "name": "connected",
+          "value": "true"
+        }
+      ],
+      "fragment": "",
+      "isLocal": false,
+      "isDevServer": false,
+      "isDirect": false,
+      "isRaw": true,
+      "resourceLevel": 2,
+      "resourceLevelText": "Token",
+      "resourceType": 6,
+      "resourceTypeText": "PrimaryAsset",
+      "tokenId": "some-token-id",
+      "libraryId": ""
+    }
+  },
+  {
     "url": "http://localhost:3000/-/brain-matters/collection/primary?page=home&nav=3&connected=true",
     "expectedResult": {
       "fullUrl": "http://localhost:3000/-/brain-matters/collection/primary?page=home&nav=3&connected=true",
@@ -18532,6 +21106,84 @@
       "canisterUrl": "https://exos.origyn.network/-/brain-matters",
       "directCanisterUrl": "https://fghij-biaaa-aaaal-qbhwa-cai.raw.icp0.io",
       "assetCanisterUrl": "https://exos.origyn.network/-/brain-matters",
+      "canisterId": "fghij-biaaa-aaaal-qbhwa-cai",
+      "collectionId": "brain-matters",
+      "canisterRelativeUrl": "/-/some-token-id/primary?page=home&nav=3&connected=true",
+      "canisterRelativePath": "/-/some-token-id/primary",
+      "queryStringParams": [
+        {
+          "name": "page",
+          "value": "home"
+        },
+        {
+          "name": "nav",
+          "value": "3"
+        },
+        {
+          "name": "connected",
+          "value": "true"
+        }
+      ],
+      "fragment": "",
+      "isLocal": false,
+      "isDevServer": false,
+      "isDirect": false,
+      "isRaw": true,
+      "resourceLevel": 2,
+      "resourceLevelText": "Token",
+      "resourceType": 6,
+      "resourceTypeText": "PrimaryAsset",
+      "tokenId": "some-token-id",
+      "libraryId": ""
+    }
+  },
+  {
+    "url": "https://icx-proxy.origyn.ch/-/brain-matters/collection/primary?page=home&nav=3&connected=true",
+    "expectedResult": {
+      "fullUrl": "https://icx-proxy.origyn.ch/-/brain-matters/collection/primary?page=home&nav=3&connected=true",
+      "port": "",
+      "canisterUrl": "https://icx-proxy.origyn.ch/-/brain-matters",
+      "directCanisterUrl": "https://fghij-biaaa-aaaal-qbhwa-cai.raw.icp0.io",
+      "assetCanisterUrl": "https://icx-proxy.origyn.ch/-/brain-matters",
+      "canisterId": "fghij-biaaa-aaaal-qbhwa-cai",
+      "collectionId": "brain-matters",
+      "canisterRelativeUrl": "/collection/primary?page=home&nav=3&connected=true",
+      "canisterRelativePath": "/collection/primary",
+      "queryStringParams": [
+        {
+          "name": "page",
+          "value": "home"
+        },
+        {
+          "name": "nav",
+          "value": "3"
+        },
+        {
+          "name": "connected",
+          "value": "true"
+        }
+      ],
+      "fragment": "",
+      "isLocal": false,
+      "isDevServer": false,
+      "isDirect": false,
+      "isRaw": true,
+      "resourceLevel": 1,
+      "resourceLevelText": "Collection",
+      "resourceType": 6,
+      "resourceTypeText": "PrimaryAsset",
+      "tokenId": "",
+      "libraryId": ""
+    }
+  },
+  {
+    "url": "https://icx-proxy.origyn.ch/-/brain-matters/-/some-token-id/primary?page=home&nav=3&connected=true",
+    "expectedResult": {
+      "fullUrl": "https://icx-proxy.origyn.ch/-/brain-matters/-/some-token-id/primary?page=home&nav=3&connected=true",
+      "port": "",
+      "canisterUrl": "https://icx-proxy.origyn.ch/-/brain-matters",
+      "directCanisterUrl": "https://fghij-biaaa-aaaal-qbhwa-cai.raw.icp0.io",
+      "assetCanisterUrl": "https://icx-proxy.origyn.ch/-/brain-matters",
       "canisterId": "fghij-biaaa-aaaal-qbhwa-cai",
       "collectionId": "brain-matters",
       "canisterRelativeUrl": "/-/some-token-id/primary?page=home&nav=3&connected=true",
@@ -19422,6 +22074,84 @@
     }
   },
   {
+    "url": "https://icx-proxy.origyn.ch/-/abcde-biaaa-aaaal-qbhwa-cai/collection/preview?page=home&nav=3&connected=true",
+    "expectedResult": {
+      "fullUrl": "https://icx-proxy.origyn.ch/-/abcde-biaaa-aaaal-qbhwa-cai/collection/preview?page=home&nav=3&connected=true",
+      "port": "",
+      "canisterUrl": "https://icx-proxy.origyn.ch/-/abcde-biaaa-aaaal-qbhwa-cai",
+      "directCanisterUrl": "https://abcde-biaaa-aaaal-qbhwa-cai.raw.icp0.io",
+      "assetCanisterUrl": "https://icx-proxy.origyn.ch/-/abcde-biaaa-aaaal-qbhwa-cai",
+      "canisterId": "abcde-biaaa-aaaal-qbhwa-cai",
+      "collectionId": "",
+      "canisterRelativeUrl": "/collection/preview?page=home&nav=3&connected=true",
+      "canisterRelativePath": "/collection/preview",
+      "queryStringParams": [
+        {
+          "name": "page",
+          "value": "home"
+        },
+        {
+          "name": "nav",
+          "value": "3"
+        },
+        {
+          "name": "connected",
+          "value": "true"
+        }
+      ],
+      "fragment": "",
+      "isLocal": false,
+      "isDevServer": false,
+      "isDirect": false,
+      "isRaw": true,
+      "resourceLevel": 1,
+      "resourceLevelText": "Collection",
+      "resourceType": 7,
+      "resourceTypeText": "PreviewAsset",
+      "tokenId": "",
+      "libraryId": ""
+    }
+  },
+  {
+    "url": "https://icx-proxy.origyn.ch/-/abcde-biaaa-aaaal-qbhwa-cai/-/some-token-id/preview?page=home&nav=3&connected=true",
+    "expectedResult": {
+      "fullUrl": "https://icx-proxy.origyn.ch/-/abcde-biaaa-aaaal-qbhwa-cai/-/some-token-id/preview?page=home&nav=3&connected=true",
+      "port": "",
+      "canisterUrl": "https://icx-proxy.origyn.ch/-/abcde-biaaa-aaaal-qbhwa-cai",
+      "directCanisterUrl": "https://abcde-biaaa-aaaal-qbhwa-cai.raw.icp0.io",
+      "assetCanisterUrl": "https://icx-proxy.origyn.ch/-/abcde-biaaa-aaaal-qbhwa-cai",
+      "canisterId": "abcde-biaaa-aaaal-qbhwa-cai",
+      "collectionId": "",
+      "canisterRelativeUrl": "/-/some-token-id/preview?page=home&nav=3&connected=true",
+      "canisterRelativePath": "/-/some-token-id/preview",
+      "queryStringParams": [
+        {
+          "name": "page",
+          "value": "home"
+        },
+        {
+          "name": "nav",
+          "value": "3"
+        },
+        {
+          "name": "connected",
+          "value": "true"
+        }
+      ],
+      "fragment": "",
+      "isLocal": false,
+      "isDevServer": false,
+      "isDirect": false,
+      "isRaw": true,
+      "resourceLevel": 2,
+      "resourceLevelText": "Token",
+      "resourceType": 7,
+      "resourceTypeText": "PreviewAsset",
+      "tokenId": "some-token-id",
+      "libraryId": ""
+    }
+  },
+  {
     "url": "http://localhost:3000/-/brain-matters/collection/preview?page=home&nav=3&connected=true",
     "expectedResult": {
       "fullUrl": "http://localhost:3000/-/brain-matters/collection/preview?page=home&nav=3&connected=true",
@@ -19624,6 +22354,84 @@
       "canisterUrl": "https://exos.origyn.network/-/brain-matters",
       "directCanisterUrl": "https://fghij-biaaa-aaaal-qbhwa-cai.raw.icp0.io",
       "assetCanisterUrl": "https://exos.origyn.network/-/brain-matters",
+      "canisterId": "fghij-biaaa-aaaal-qbhwa-cai",
+      "collectionId": "brain-matters",
+      "canisterRelativeUrl": "/-/some-token-id/preview?page=home&nav=3&connected=true",
+      "canisterRelativePath": "/-/some-token-id/preview",
+      "queryStringParams": [
+        {
+          "name": "page",
+          "value": "home"
+        },
+        {
+          "name": "nav",
+          "value": "3"
+        },
+        {
+          "name": "connected",
+          "value": "true"
+        }
+      ],
+      "fragment": "",
+      "isLocal": false,
+      "isDevServer": false,
+      "isDirect": false,
+      "isRaw": true,
+      "resourceLevel": 2,
+      "resourceLevelText": "Token",
+      "resourceType": 7,
+      "resourceTypeText": "PreviewAsset",
+      "tokenId": "some-token-id",
+      "libraryId": ""
+    }
+  },
+  {
+    "url": "https://icx-proxy.origyn.ch/-/brain-matters/collection/preview?page=home&nav=3&connected=true",
+    "expectedResult": {
+      "fullUrl": "https://icx-proxy.origyn.ch/-/brain-matters/collection/preview?page=home&nav=3&connected=true",
+      "port": "",
+      "canisterUrl": "https://icx-proxy.origyn.ch/-/brain-matters",
+      "directCanisterUrl": "https://fghij-biaaa-aaaal-qbhwa-cai.raw.icp0.io",
+      "assetCanisterUrl": "https://icx-proxy.origyn.ch/-/brain-matters",
+      "canisterId": "fghij-biaaa-aaaal-qbhwa-cai",
+      "collectionId": "brain-matters",
+      "canisterRelativeUrl": "/collection/preview?page=home&nav=3&connected=true",
+      "canisterRelativePath": "/collection/preview",
+      "queryStringParams": [
+        {
+          "name": "page",
+          "value": "home"
+        },
+        {
+          "name": "nav",
+          "value": "3"
+        },
+        {
+          "name": "connected",
+          "value": "true"
+        }
+      ],
+      "fragment": "",
+      "isLocal": false,
+      "isDevServer": false,
+      "isDirect": false,
+      "isRaw": true,
+      "resourceLevel": 1,
+      "resourceLevelText": "Collection",
+      "resourceType": 7,
+      "resourceTypeText": "PreviewAsset",
+      "tokenId": "",
+      "libraryId": ""
+    }
+  },
+  {
+    "url": "https://icx-proxy.origyn.ch/-/brain-matters/-/some-token-id/preview?page=home&nav=3&connected=true",
+    "expectedResult": {
+      "fullUrl": "https://icx-proxy.origyn.ch/-/brain-matters/-/some-token-id/preview?page=home&nav=3&connected=true",
+      "port": "",
+      "canisterUrl": "https://icx-proxy.origyn.ch/-/brain-matters",
+      "directCanisterUrl": "https://fghij-biaaa-aaaal-qbhwa-cai.raw.icp0.io",
+      "assetCanisterUrl": "https://icx-proxy.origyn.ch/-/brain-matters",
       "canisterId": "fghij-biaaa-aaaal-qbhwa-cai",
       "collectionId": "brain-matters",
       "canisterRelativeUrl": "/-/some-token-id/preview?page=home&nav=3&connected=true",
@@ -20514,6 +23322,84 @@
     }
   },
   {
+    "url": "https://icx-proxy.origyn.ch/-/abcde-biaaa-aaaal-qbhwa-cai/collection/hidden?page=home&nav=3&connected=true",
+    "expectedResult": {
+      "fullUrl": "https://icx-proxy.origyn.ch/-/abcde-biaaa-aaaal-qbhwa-cai/collection/hidden?page=home&nav=3&connected=true",
+      "port": "",
+      "canisterUrl": "https://icx-proxy.origyn.ch/-/abcde-biaaa-aaaal-qbhwa-cai",
+      "directCanisterUrl": "https://abcde-biaaa-aaaal-qbhwa-cai.raw.icp0.io",
+      "assetCanisterUrl": "https://icx-proxy.origyn.ch/-/abcde-biaaa-aaaal-qbhwa-cai",
+      "canisterId": "abcde-biaaa-aaaal-qbhwa-cai",
+      "collectionId": "",
+      "canisterRelativeUrl": "/collection/hidden?page=home&nav=3&connected=true",
+      "canisterRelativePath": "/collection/hidden",
+      "queryStringParams": [
+        {
+          "name": "page",
+          "value": "home"
+        },
+        {
+          "name": "nav",
+          "value": "3"
+        },
+        {
+          "name": "connected",
+          "value": "true"
+        }
+      ],
+      "fragment": "",
+      "isLocal": false,
+      "isDevServer": false,
+      "isDirect": false,
+      "isRaw": true,
+      "resourceLevel": 1,
+      "resourceLevelText": "Collection",
+      "resourceType": 8,
+      "resourceTypeText": "HiddenAsset",
+      "tokenId": "",
+      "libraryId": ""
+    }
+  },
+  {
+    "url": "https://icx-proxy.origyn.ch/-/abcde-biaaa-aaaal-qbhwa-cai/-/some-token-id/hidden?page=home&nav=3&connected=true",
+    "expectedResult": {
+      "fullUrl": "https://icx-proxy.origyn.ch/-/abcde-biaaa-aaaal-qbhwa-cai/-/some-token-id/hidden?page=home&nav=3&connected=true",
+      "port": "",
+      "canisterUrl": "https://icx-proxy.origyn.ch/-/abcde-biaaa-aaaal-qbhwa-cai",
+      "directCanisterUrl": "https://abcde-biaaa-aaaal-qbhwa-cai.raw.icp0.io",
+      "assetCanisterUrl": "https://icx-proxy.origyn.ch/-/abcde-biaaa-aaaal-qbhwa-cai",
+      "canisterId": "abcde-biaaa-aaaal-qbhwa-cai",
+      "collectionId": "",
+      "canisterRelativeUrl": "/-/some-token-id/hidden?page=home&nav=3&connected=true",
+      "canisterRelativePath": "/-/some-token-id/hidden",
+      "queryStringParams": [
+        {
+          "name": "page",
+          "value": "home"
+        },
+        {
+          "name": "nav",
+          "value": "3"
+        },
+        {
+          "name": "connected",
+          "value": "true"
+        }
+      ],
+      "fragment": "",
+      "isLocal": false,
+      "isDevServer": false,
+      "isDirect": false,
+      "isRaw": true,
+      "resourceLevel": 2,
+      "resourceLevelText": "Token",
+      "resourceType": 8,
+      "resourceTypeText": "HiddenAsset",
+      "tokenId": "some-token-id",
+      "libraryId": ""
+    }
+  },
+  {
     "url": "http://localhost:3000/-/brain-matters/collection/hidden?page=home&nav=3&connected=true",
     "expectedResult": {
       "fullUrl": "http://localhost:3000/-/brain-matters/collection/hidden?page=home&nav=3&connected=true",
@@ -20716,6 +23602,84 @@
       "canisterUrl": "https://exos.origyn.network/-/brain-matters",
       "directCanisterUrl": "https://fghij-biaaa-aaaal-qbhwa-cai.raw.icp0.io",
       "assetCanisterUrl": "https://exos.origyn.network/-/brain-matters",
+      "canisterId": "fghij-biaaa-aaaal-qbhwa-cai",
+      "collectionId": "brain-matters",
+      "canisterRelativeUrl": "/-/some-token-id/hidden?page=home&nav=3&connected=true",
+      "canisterRelativePath": "/-/some-token-id/hidden",
+      "queryStringParams": [
+        {
+          "name": "page",
+          "value": "home"
+        },
+        {
+          "name": "nav",
+          "value": "3"
+        },
+        {
+          "name": "connected",
+          "value": "true"
+        }
+      ],
+      "fragment": "",
+      "isLocal": false,
+      "isDevServer": false,
+      "isDirect": false,
+      "isRaw": true,
+      "resourceLevel": 2,
+      "resourceLevelText": "Token",
+      "resourceType": 8,
+      "resourceTypeText": "HiddenAsset",
+      "tokenId": "some-token-id",
+      "libraryId": ""
+    }
+  },
+  {
+    "url": "https://icx-proxy.origyn.ch/-/brain-matters/collection/hidden?page=home&nav=3&connected=true",
+    "expectedResult": {
+      "fullUrl": "https://icx-proxy.origyn.ch/-/brain-matters/collection/hidden?page=home&nav=3&connected=true",
+      "port": "",
+      "canisterUrl": "https://icx-proxy.origyn.ch/-/brain-matters",
+      "directCanisterUrl": "https://fghij-biaaa-aaaal-qbhwa-cai.raw.icp0.io",
+      "assetCanisterUrl": "https://icx-proxy.origyn.ch/-/brain-matters",
+      "canisterId": "fghij-biaaa-aaaal-qbhwa-cai",
+      "collectionId": "brain-matters",
+      "canisterRelativeUrl": "/collection/hidden?page=home&nav=3&connected=true",
+      "canisterRelativePath": "/collection/hidden",
+      "queryStringParams": [
+        {
+          "name": "page",
+          "value": "home"
+        },
+        {
+          "name": "nav",
+          "value": "3"
+        },
+        {
+          "name": "connected",
+          "value": "true"
+        }
+      ],
+      "fragment": "",
+      "isLocal": false,
+      "isDevServer": false,
+      "isDirect": false,
+      "isRaw": true,
+      "resourceLevel": 1,
+      "resourceLevelText": "Collection",
+      "resourceType": 8,
+      "resourceTypeText": "HiddenAsset",
+      "tokenId": "",
+      "libraryId": ""
+    }
+  },
+  {
+    "url": "https://icx-proxy.origyn.ch/-/brain-matters/-/some-token-id/hidden?page=home&nav=3&connected=true",
+    "expectedResult": {
+      "fullUrl": "https://icx-proxy.origyn.ch/-/brain-matters/-/some-token-id/hidden?page=home&nav=3&connected=true",
+      "port": "",
+      "canisterUrl": "https://icx-proxy.origyn.ch/-/brain-matters",
+      "directCanisterUrl": "https://fghij-biaaa-aaaal-qbhwa-cai.raw.icp0.io",
+      "assetCanisterUrl": "https://icx-proxy.origyn.ch/-/brain-matters",
       "canisterId": "fghij-biaaa-aaaal-qbhwa-cai",
       "collectionId": "brain-matters",
       "canisterRelativeUrl": "/-/some-token-id/hidden?page=home&nav=3&connected=true",
@@ -21606,6 +24570,84 @@
     }
   },
   {
+    "url": "https://icx-proxy.origyn.ch/-/abcde-biaaa-aaaal-qbhwa-cai/collection/ex?page=home&nav=3&connected=true",
+    "expectedResult": {
+      "fullUrl": "https://icx-proxy.origyn.ch/-/abcde-biaaa-aaaal-qbhwa-cai/collection/ex?page=home&nav=3&connected=true",
+      "port": "",
+      "canisterUrl": "https://icx-proxy.origyn.ch/-/abcde-biaaa-aaaal-qbhwa-cai",
+      "directCanisterUrl": "https://abcde-biaaa-aaaal-qbhwa-cai.raw.icp0.io",
+      "assetCanisterUrl": "https://icx-proxy.origyn.ch/-/abcde-biaaa-aaaal-qbhwa-cai",
+      "canisterId": "abcde-biaaa-aaaal-qbhwa-cai",
+      "collectionId": "",
+      "canisterRelativeUrl": "/collection/ex?page=home&nav=3&connected=true",
+      "canisterRelativePath": "/collection/ex",
+      "queryStringParams": [
+        {
+          "name": "page",
+          "value": "home"
+        },
+        {
+          "name": "nav",
+          "value": "3"
+        },
+        {
+          "name": "connected",
+          "value": "true"
+        }
+      ],
+      "fragment": "",
+      "isLocal": false,
+      "isDevServer": false,
+      "isDirect": false,
+      "isRaw": true,
+      "resourceLevel": 1,
+      "resourceLevelText": "Collection",
+      "resourceType": 9,
+      "resourceTypeText": "ExperienceAsset",
+      "tokenId": "",
+      "libraryId": ""
+    }
+  },
+  {
+    "url": "https://icx-proxy.origyn.ch/-/abcde-biaaa-aaaal-qbhwa-cai/-/some-token-id/ex?page=home&nav=3&connected=true",
+    "expectedResult": {
+      "fullUrl": "https://icx-proxy.origyn.ch/-/abcde-biaaa-aaaal-qbhwa-cai/-/some-token-id/ex?page=home&nav=3&connected=true",
+      "port": "",
+      "canisterUrl": "https://icx-proxy.origyn.ch/-/abcde-biaaa-aaaal-qbhwa-cai",
+      "directCanisterUrl": "https://abcde-biaaa-aaaal-qbhwa-cai.raw.icp0.io",
+      "assetCanisterUrl": "https://icx-proxy.origyn.ch/-/abcde-biaaa-aaaal-qbhwa-cai",
+      "canisterId": "abcde-biaaa-aaaal-qbhwa-cai",
+      "collectionId": "",
+      "canisterRelativeUrl": "/-/some-token-id/ex?page=home&nav=3&connected=true",
+      "canisterRelativePath": "/-/some-token-id/ex",
+      "queryStringParams": [
+        {
+          "name": "page",
+          "value": "home"
+        },
+        {
+          "name": "nav",
+          "value": "3"
+        },
+        {
+          "name": "connected",
+          "value": "true"
+        }
+      ],
+      "fragment": "",
+      "isLocal": false,
+      "isDevServer": false,
+      "isDirect": false,
+      "isRaw": true,
+      "resourceLevel": 2,
+      "resourceLevelText": "Token",
+      "resourceType": 9,
+      "resourceTypeText": "ExperienceAsset",
+      "tokenId": "some-token-id",
+      "libraryId": ""
+    }
+  },
+  {
     "url": "http://localhost:3000/-/brain-matters/collection/ex?page=home&nav=3&connected=true",
     "expectedResult": {
       "fullUrl": "http://localhost:3000/-/brain-matters/collection/ex?page=home&nav=3&connected=true",
@@ -21808,6 +24850,84 @@
       "canisterUrl": "https://exos.origyn.network/-/brain-matters",
       "directCanisterUrl": "https://fghij-biaaa-aaaal-qbhwa-cai.raw.icp0.io",
       "assetCanisterUrl": "https://exos.origyn.network/-/brain-matters",
+      "canisterId": "fghij-biaaa-aaaal-qbhwa-cai",
+      "collectionId": "brain-matters",
+      "canisterRelativeUrl": "/-/some-token-id/ex?page=home&nav=3&connected=true",
+      "canisterRelativePath": "/-/some-token-id/ex",
+      "queryStringParams": [
+        {
+          "name": "page",
+          "value": "home"
+        },
+        {
+          "name": "nav",
+          "value": "3"
+        },
+        {
+          "name": "connected",
+          "value": "true"
+        }
+      ],
+      "fragment": "",
+      "isLocal": false,
+      "isDevServer": false,
+      "isDirect": false,
+      "isRaw": true,
+      "resourceLevel": 2,
+      "resourceLevelText": "Token",
+      "resourceType": 9,
+      "resourceTypeText": "ExperienceAsset",
+      "tokenId": "some-token-id",
+      "libraryId": ""
+    }
+  },
+  {
+    "url": "https://icx-proxy.origyn.ch/-/brain-matters/collection/ex?page=home&nav=3&connected=true",
+    "expectedResult": {
+      "fullUrl": "https://icx-proxy.origyn.ch/-/brain-matters/collection/ex?page=home&nav=3&connected=true",
+      "port": "",
+      "canisterUrl": "https://icx-proxy.origyn.ch/-/brain-matters",
+      "directCanisterUrl": "https://fghij-biaaa-aaaal-qbhwa-cai.raw.icp0.io",
+      "assetCanisterUrl": "https://icx-proxy.origyn.ch/-/brain-matters",
+      "canisterId": "fghij-biaaa-aaaal-qbhwa-cai",
+      "collectionId": "brain-matters",
+      "canisterRelativeUrl": "/collection/ex?page=home&nav=3&connected=true",
+      "canisterRelativePath": "/collection/ex",
+      "queryStringParams": [
+        {
+          "name": "page",
+          "value": "home"
+        },
+        {
+          "name": "nav",
+          "value": "3"
+        },
+        {
+          "name": "connected",
+          "value": "true"
+        }
+      ],
+      "fragment": "",
+      "isLocal": false,
+      "isDevServer": false,
+      "isDirect": false,
+      "isRaw": true,
+      "resourceLevel": 1,
+      "resourceLevelText": "Collection",
+      "resourceType": 9,
+      "resourceTypeText": "ExperienceAsset",
+      "tokenId": "",
+      "libraryId": ""
+    }
+  },
+  {
+    "url": "https://icx-proxy.origyn.ch/-/brain-matters/-/some-token-id/ex?page=home&nav=3&connected=true",
+    "expectedResult": {
+      "fullUrl": "https://icx-proxy.origyn.ch/-/brain-matters/-/some-token-id/ex?page=home&nav=3&connected=true",
+      "port": "",
+      "canisterUrl": "https://icx-proxy.origyn.ch/-/brain-matters",
+      "directCanisterUrl": "https://fghij-biaaa-aaaal-qbhwa-cai.raw.icp0.io",
+      "assetCanisterUrl": "https://icx-proxy.origyn.ch/-/brain-matters",
       "canisterId": "fghij-biaaa-aaaal-qbhwa-cai",
       "collectionId": "brain-matters",
       "canisterRelativeUrl": "/-/some-token-id/ex?page=home&nav=3&connected=true",
@@ -22698,6 +25818,84 @@
     }
   },
   {
+    "url": "https://icx-proxy.origyn.ch/-/abcde-biaaa-aaaal-qbhwa-cai/collection/-/file-name.png?page=home&nav=3&connected=true",
+    "expectedResult": {
+      "fullUrl": "https://icx-proxy.origyn.ch/-/abcde-biaaa-aaaal-qbhwa-cai/collection/-/file-name.png?page=home&nav=3&connected=true",
+      "port": "",
+      "canisterUrl": "https://icx-proxy.origyn.ch/-/abcde-biaaa-aaaal-qbhwa-cai",
+      "directCanisterUrl": "https://abcde-biaaa-aaaal-qbhwa-cai.raw.icp0.io",
+      "assetCanisterUrl": "https://icx-proxy.origyn.ch/-/abcde-biaaa-aaaal-qbhwa-cai",
+      "canisterId": "abcde-biaaa-aaaal-qbhwa-cai",
+      "collectionId": "",
+      "canisterRelativeUrl": "/collection/-/file-name.png?page=home&nav=3&connected=true",
+      "canisterRelativePath": "/collection/-/file-name.png",
+      "queryStringParams": [
+        {
+          "name": "page",
+          "value": "home"
+        },
+        {
+          "name": "nav",
+          "value": "3"
+        },
+        {
+          "name": "connected",
+          "value": "true"
+        }
+      ],
+      "fragment": "",
+      "isLocal": false,
+      "isDevServer": false,
+      "isDirect": false,
+      "isRaw": true,
+      "resourceLevel": 1,
+      "resourceLevelText": "Collection",
+      "resourceType": 10,
+      "resourceTypeText": "LibraryAsset",
+      "tokenId": "",
+      "libraryId": "file-name.png"
+    }
+  },
+  {
+    "url": "https://icx-proxy.origyn.ch/-/abcde-biaaa-aaaal-qbhwa-cai/-/some-token-id/-/file-name.png?page=home&nav=3&connected=true",
+    "expectedResult": {
+      "fullUrl": "https://icx-proxy.origyn.ch/-/abcde-biaaa-aaaal-qbhwa-cai/-/some-token-id/-/file-name.png?page=home&nav=3&connected=true",
+      "port": "",
+      "canisterUrl": "https://icx-proxy.origyn.ch/-/abcde-biaaa-aaaal-qbhwa-cai",
+      "directCanisterUrl": "https://abcde-biaaa-aaaal-qbhwa-cai.raw.icp0.io",
+      "assetCanisterUrl": "https://icx-proxy.origyn.ch/-/abcde-biaaa-aaaal-qbhwa-cai",
+      "canisterId": "abcde-biaaa-aaaal-qbhwa-cai",
+      "collectionId": "",
+      "canisterRelativeUrl": "/-/some-token-id/-/file-name.png?page=home&nav=3&connected=true",
+      "canisterRelativePath": "/-/some-token-id/-/file-name.png",
+      "queryStringParams": [
+        {
+          "name": "page",
+          "value": "home"
+        },
+        {
+          "name": "nav",
+          "value": "3"
+        },
+        {
+          "name": "connected",
+          "value": "true"
+        }
+      ],
+      "fragment": "",
+      "isLocal": false,
+      "isDevServer": false,
+      "isDirect": false,
+      "isRaw": true,
+      "resourceLevel": 2,
+      "resourceLevelText": "Token",
+      "resourceType": 10,
+      "resourceTypeText": "LibraryAsset",
+      "tokenId": "some-token-id",
+      "libraryId": "file-name.png"
+    }
+  },
+  {
     "url": "http://localhost:3000/-/brain-matters/collection/-/file-name.png?page=home&nav=3&connected=true",
     "expectedResult": {
       "fullUrl": "http://localhost:3000/-/brain-matters/collection/-/file-name.png?page=home&nav=3&connected=true",
@@ -22900,6 +26098,84 @@
       "canisterUrl": "https://exos.origyn.network/-/brain-matters",
       "directCanisterUrl": "https://fghij-biaaa-aaaal-qbhwa-cai.raw.icp0.io",
       "assetCanisterUrl": "https://exos.origyn.network/-/brain-matters",
+      "canisterId": "fghij-biaaa-aaaal-qbhwa-cai",
+      "collectionId": "brain-matters",
+      "canisterRelativeUrl": "/-/some-token-id/-/file-name.png?page=home&nav=3&connected=true",
+      "canisterRelativePath": "/-/some-token-id/-/file-name.png",
+      "queryStringParams": [
+        {
+          "name": "page",
+          "value": "home"
+        },
+        {
+          "name": "nav",
+          "value": "3"
+        },
+        {
+          "name": "connected",
+          "value": "true"
+        }
+      ],
+      "fragment": "",
+      "isLocal": false,
+      "isDevServer": false,
+      "isDirect": false,
+      "isRaw": true,
+      "resourceLevel": 2,
+      "resourceLevelText": "Token",
+      "resourceType": 10,
+      "resourceTypeText": "LibraryAsset",
+      "tokenId": "some-token-id",
+      "libraryId": "file-name.png"
+    }
+  },
+  {
+    "url": "https://icx-proxy.origyn.ch/-/brain-matters/collection/-/file-name.png?page=home&nav=3&connected=true",
+    "expectedResult": {
+      "fullUrl": "https://icx-proxy.origyn.ch/-/brain-matters/collection/-/file-name.png?page=home&nav=3&connected=true",
+      "port": "",
+      "canisterUrl": "https://icx-proxy.origyn.ch/-/brain-matters",
+      "directCanisterUrl": "https://fghij-biaaa-aaaal-qbhwa-cai.raw.icp0.io",
+      "assetCanisterUrl": "https://icx-proxy.origyn.ch/-/brain-matters",
+      "canisterId": "fghij-biaaa-aaaal-qbhwa-cai",
+      "collectionId": "brain-matters",
+      "canisterRelativeUrl": "/collection/-/file-name.png?page=home&nav=3&connected=true",
+      "canisterRelativePath": "/collection/-/file-name.png",
+      "queryStringParams": [
+        {
+          "name": "page",
+          "value": "home"
+        },
+        {
+          "name": "nav",
+          "value": "3"
+        },
+        {
+          "name": "connected",
+          "value": "true"
+        }
+      ],
+      "fragment": "",
+      "isLocal": false,
+      "isDevServer": false,
+      "isDirect": false,
+      "isRaw": true,
+      "resourceLevel": 1,
+      "resourceLevelText": "Collection",
+      "resourceType": 10,
+      "resourceTypeText": "LibraryAsset",
+      "tokenId": "",
+      "libraryId": "file-name.png"
+    }
+  },
+  {
+    "url": "https://icx-proxy.origyn.ch/-/brain-matters/-/some-token-id/-/file-name.png?page=home&nav=3&connected=true",
+    "expectedResult": {
+      "fullUrl": "https://icx-proxy.origyn.ch/-/brain-matters/-/some-token-id/-/file-name.png?page=home&nav=3&connected=true",
+      "port": "",
+      "canisterUrl": "https://icx-proxy.origyn.ch/-/brain-matters",
+      "directCanisterUrl": "https://fghij-biaaa-aaaal-qbhwa-cai.raw.icp0.io",
+      "assetCanisterUrl": "https://icx-proxy.origyn.ch/-/brain-matters",
       "canisterId": "fghij-biaaa-aaaal-qbhwa-cai",
       "collectionId": "brain-matters",
       "canisterRelativeUrl": "/-/some-token-id/-/file-name.png?page=home&nav=3&connected=true",
