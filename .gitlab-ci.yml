@@ -1,0 +1,14 @@
+stages:
+  - build
+  - test
+
+build-job:
+  stage: build
+  script:
+    - npm install
+    - npm run build
+
+unit-test-job:
+  stage: test
+  script:
+    - npm run test
