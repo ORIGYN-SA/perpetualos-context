@@ -33,13 +33,16 @@ export interface PhoneBook {
 }
 
 const getPhoneBookActor = async (
-  canisterId: string = MAINNET_PHONE_BOOK_CANISTER_ID,
+  canisterId: string,
+  isLocal: boolean,
 ): Promise<ActorSubclass<PhoneBook>> => {
   return await getActor<PhoneBook>({
     canisterId,
     idlFactory: phoneBookIdl,
+    isLocal: isLocal,
   });
 };
+
 /**
  * Queries the ORIGYN `Phone Book` canister to get the canister ID that corresponds to
  * the provided collection ID.
@@ -53,13 +56,16 @@ const getPhoneBookActor = async (
  *   - The canister ID may be `abcde-biaaa-aaaal-qbhwa-cai`
  *
  * @param collectionId - a user friendly like `my-cool-collection`
+ * @param phoneBookCanisterId - override the default phone book canister ID for mainnet
+ * @param isLocal - true if the phone book canister is running on localhost
  * @returns the corresponding canister ID principal as a string
  */
 export const lookupCanisterId = async (
   collectionId: string,
-  phoneBookCanisterId?: string,
+  phoneBookCanisterId: string = MAINNET_PHONE_BOOK_CANISTER_ID,
+  isLocal: boolean = false,
 ): Promise<string> => {
-  const actor = await getPhoneBookActor(phoneBookCanisterId);
+  const actor = await getPhoneBookActor(phoneBookCanisterId, isLocal);
   const res = await actor.lookup(collectionId);
   return res?.[0]?.[0]?.toText() || '';
 };
@@ -77,13 +83,16 @@ export const lookupCanisterId = async (
  *   - The collection ID may be `my-cool-collection
  *
  * @param canisterId - a valid Internet Computer canister ID `like abcde-biaaa-aaaal-qbhwa-cai`
+ * @param phoneBookCanisterId - override the default phone book canister ID for mainnet
+ * @param isLocal - true if the phone book canister is running on localhost
  * @returns the corresponding collection ID
  */
 export const lookupCollectionId = async (
   canisterId: string,
-  phoneBookCanisterId?: string,
+  phoneBookCanisterId: string = MAINNET_PHONE_BOOK_CANISTER_ID,
+  isLocal: boolean = false,
 ): Promise<string> => {
-  const actor = await getPhoneBookActor(phoneBookCanisterId);
+  const actor = await getPhoneBookActor(phoneBookCanisterId, isLocal);
   const collectionId = await actor.reverse_lookup(Principal.fromText(canisterId));
   return collectionId;
 };

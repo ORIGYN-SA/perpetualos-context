@@ -10,12 +10,67 @@ For an overview of the PerpetualOS see [Welcome to the PerpetualOS](https://medi
 npm install @origyn/perpetualos-context
 ```
 
+### Get a PerpetualOS Context Object from a URL
+
 ```
 import { getPerpetualOSContext } from '@origyn/perpetualos-context';
 
 const context = getPerpetualOSContext('https://abcde-biaaa-aaaal-qbhwa-cai.raw.ic0.app/-/epithalamus-amygdala-diencephalon/primary');
 
 console.log('context', context);
+```
+
+### Build a PerpetualOS Direct Canister URL
+
+When you need to build a valid PerpetualOS URL in HTML rendering logic, you can use the following functions:
+
+```
+// returns: https://fghij-biaaa-aaaal-qbhwa-cai.raw.icp0.io
+const directCanisterUrl = getDirectCanisterUrl('fghij-biaaa-aaaal-qbhwa-cai', true, false);
+
+// returns: https://prptl.io/-/fghij-biaaa-aaaal-qbhwa-cai
+const proxyCanisterUrl = getProxyCanisterUrl('fghij-biaaa-aaaal-qbhwa-cai', false);
+```
+
+You can also set the last parameter to true to build local URLs:
+
+```
+// returns: http://fghij-biaaa-aaaal-qbhwa-cai.localhost:8080
+const localDirectCanisterUrl = getDirectCanisterUrl('fghij-biaaa-aaaal-qbhwa-cai', false, true);
+
+// returns: http://localhost:3000/-/fghij-biaaa-aaaal-qbhwa-cai
+const localProxyCanisterUrl = getProxyCanisterUrl('fghij-biaaa-aaaal-qbhwa-cai', true);
+```
+
+### Lookup a Canister ID or Collection ID in the Origyn Phone Book
+
+You can get the canister ID from a collection ID (the name of your NFT collection that can be used in a PerpetualOS URL in place of a canister ID).
+
+The Origyn Phone Book canister provides a mapping between the canister IDs of deploy Origyn NFT canisters and their collection IDs
+(user friendly name of a collection).
+
+By default, this library will query the mainnet Phone Book canister. This behavior can be overridden by providing another Phone Book canister ID, such as one running locally.
+
+To deploy a full local network including Dfinity nns canisters and Origyn system canisters, see https://github.com/ORIGYN-SA/minting-starter.
+
+Use mainnet Phone Book:
+
+```
+const nftCanisterId = await lookupCanisterId('my-cool-collection');
+console.log(nftCanisterId);
+
+const nftCollectionId = await lookupCollectionId('abcde-biaaa-aaaal-qbhwa-cai');
+console.log(nftCollectionId);
+```
+
+Use an environment specific Phone Book canister (local or mainnet depending on environment variables):
+
+```
+const nftCanisterId = await lookupCanisterId('my-cool-collection', process.env.PHONE_BOOK_CANISTER_ID, process.env.IS_LOCAL);
+console.log(nftCanisterId);
+
+const nftCollectionId = await lookupCollectionId('abcde-biaaa-aaaal-qbhwa-cai', process.env.PHONE_BOOK_CANISTER_ID, process.env.IS_LOCAL);
+console.log(nftCollectionId);
 ```
 
 ## Build
