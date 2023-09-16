@@ -8,7 +8,7 @@
  * @returns A properly formatted Canister URL. This should be treated as a root URL and will need
  * to be appended with a canister-relative URL.
  */
-export const getDirectCanisterUrl = (
+export const buildDirectCanisterUrl = (
   canisterId: string,
   isRaw: boolean = true,
   isLocal: boolean = false,
@@ -38,7 +38,7 @@ export const getDirectCanisterUrl = (
  * @returns A properly formatted Canister URL. This should be treated as a root URL and will need
  * to be appended with a canister-relative URL.
  */
-export const getProxyCanisterUrl = (
+export const buildProxyCanisterUrl = (
   canisterOrCollectionId: string,
   isLocal: boolean = false,
   localProxyPort: number = 3000,
